@@ -34,7 +34,7 @@
 
 <footer class="footer">
   <div class="footer-inner">
-    <span>350 sentences across 4 stages</span>
+    <span id="footer-count"></span>
     <span>Bangalore Kannada</span>
   </div>
 </footer>
@@ -97,6 +97,10 @@
   }
 
   renderStages();
+
+  const totalSentences = data.stages.reduce((s, st) => s + st.sentences.length, 0);
+  document.getElementById('footer-count').textContent =
+    `${totalSentences} sentences across 4 stages`;
 </script>
 </body>
 </html>
