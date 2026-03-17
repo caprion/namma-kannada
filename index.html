@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Namma Kannada — Learn Bangalore Kannada</title>
+  <meta name="description" content="Learn Bangalore Kannada the way it is actually spoken. Four stages from grammar shapes to naturalistic speech.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">Namma <span>Kannada</span></a>
+    <span class="nav-back" id="progress-summary"></span>
+  </div>
+</nav>
+
+<main>
+  <div class="container">
+
+    <div class="hero">
+      <h1>Learn <span>Bangalore</span> Kannada</h1>
+      <p>Not textbook Kannada. The kind spoken on the metro, at the darshini, in the office. Four stages from zero to naturalistic.</p>
+      <div class="hero-kannada">ನಮ್ಮ ಕನ್ನಡ — namma kannada</div>
+    </div>
+
+    <div class="stages" id="stages-list">
+      <!-- Rendered by JS -->
+    </div>
+
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <span>350 sentences across 4 stages</span>
+    <span>Bangalore Kannada</span>
+  </div>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/progress.js"></script>
+<script>
+
+  function renderStages() {
+    const container = document.getElementById('stages-list');
+    const data = window.NAMMA_DATA;
+
+    container.innerHTML = data.stages.map((stage, idx) => {
+      const progress = Progress.getStageProgress(stage.id);
+      const total = stage.sentences.length;
+      const done = progress.completed;
+      const pct = total > 0 ? Math.round((done / total) * 100) : 0;
+      const isLocked = idx > 0 && !Progress.isStageUnlocked(stage.id, data.stages);
+      const isComplete = done >= total && total > 0;
+      const hasContent = total > 0;
+
+      let actionHtml;
+      if (!hasContent) {
+        actionHtml = `<div class="coming-soon">Sentences coming soon — being written and reviewed</div>`;
+      } else if (isLocked) {
+        actionHtml = `<span class="locked-badge">Complete Stage ${idx} to unlock</span>`;
+      } else if (isComplete) {
+        actionHtml = `<a href="learn.html?stage=${stage.id}" class="btn btn-ghost">Review</a>`;
+      } else if (done === 0) {
+        actionHtml = `<a href="learn.html?stage=${stage.id}" class="btn btn-primary">Start Stage ${stage.id}</a>`;
+      } else {
+        actionHtml = `<a href="learn.html?stage=${stage.id}&sentence=${done}" class="btn btn-primary">Continue — ${done}/${total}</a>`;
+      }
+
+      return `
+        <div class="stage-card" data-stage="${stage.id}">
+          <div>
+            <div class="stage-badge">Stage ${stage.id}</div>
+            <h2>${stage.name}</h2>
+            <div class="stage-tagline">${stage.tagline}</div>
+            <p class="stage-desc">${stage.description}</p>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: ${pct}%"></div>
+            </div>
+            <div class="stage-action">${actionHtml}</div>
+          </div>
+          <div class="stage-meta">
+            <div class="stage-count">${hasContent ? total + ' sentences' : 'Coming soon'}</div>
+          </div>
+        </div>
+      `;
+    }).join('');
+
+    // Progress summary in nav
+    const totalDone = data.stages.reduce((sum, s) => sum + Progress.getStageProgress(s.id).completed, 0);
+    const totalAll = data.stages.reduce((sum, s) => sum + s.sentences.length, 0);
+    if (totalDone > 0) {
+      document.getElementById('progress-summary').textContent = `${totalDone} / ${totalAll} done`;
+    }
+  }
+
+  renderStages();
+</script>
+</body>
+</html>

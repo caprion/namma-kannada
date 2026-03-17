@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Namma Kannada — Learn</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">Namma <span>Kannada</span></a>
+    <a href="index.html" class="nav-back">
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+        <path d="M9 2L4 7l5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      All stages
+    </a>
+  </div>
+</nav>
+
+<main>
+  <div class="container">
+
+    <!-- Progress header -->
+    <div class="learn-header">
+      <div class="learn-progress">
+        <div class="learn-progress-track">
+          <div class="learn-progress-fill" id="progress-fill" style="width: 0%"></div>
+        </div>
+        <span class="learn-progress-label" id="progress-label">0 / 0</span>
+      </div>
+      <div class="stage-label" id="stage-label"></div>
+    </div>
+
+    <!-- Sentence card area -->
+    <div class="card-area" id="card-area">
+      <div class="sentence-card" id="sentence-card">
+
+        <!-- English gloss — always visible -->
+        <div class="card-gloss" id="card-gloss"></div>
+
+        <!-- Reveal section -->
+        <div class="card-reveal" id="card-reveal">
+          <div class="card-kannada" id="card-kannada"></div>
+          <div class="card-divider"></div>
+          <div class="card-roman" id="card-roman"></div>
+          <div id="new-word-area"></div>
+          <div class="grammar-note" id="grammar-note"></div>
+        </div>
+
+      </div>
+
+      <!-- Show answer button -->
+      <div class="show-btn-area" id="show-btn-area">
+        <button class="btn btn-primary btn-large" id="show-btn" onclick="showAnswer()">
+          Show Kannada
+        </button>
+      </div>
+
+      <!-- Navigation -->
+      <div class="card-nav" id="card-nav" style="display: none;">
+        <button class="btn btn-ghost" id="prev-btn" onclick="prevSentence()">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+            <path d="M9 2L4 7l5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          Previous
+        </button>
+        <button class="btn btn-primary" id="next-btn" onclick="nextSentence()">
+          Next
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+            <path d="M5 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Stage complete screen -->
+    <div class="stage-complete" id="stage-complete">
+      <div class="complete-icon">
+        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+          <circle cx="24" cy="24" r="22" stroke="#1a5c4c" stroke-width="2"/>
+          <path d="M14 24l7 7 13-14" stroke="#1a5c4c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <h2 id="complete-title">Stage complete</h2>
+      <p id="complete-message"></p>
+      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+        <button class="btn btn-ghost" onclick="restartStage()">Review this stage</button>
+        <a href="index.html" class="btn btn-primary" id="next-stage-btn">Back to program</a>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <span id="footer-stage"></span>
+    <button onclick="resetProgress()" style="background:none;border:none;cursor:pointer;font-size:0.75rem;color:var(--text-muted);font-family:var(--font-mono);">Reset progress</button>
+  </div>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/progress.js"></script>
+<script>
+
+  // ── State ───────────────────────────────────────────────
+  const params   = new URLSearchParams(location.search);
+  const stageId  = parseInt(params.get('stage') || '1', 10);
+  let   current  = parseInt(params.get('sentence') || '0', 10);
+  let   revealed = false;
+
+  const data     = window.NAMMA_DATA;
+  const stage    = data.stages.find(s => s.id === stageId);
+  const sentences = stage ? stage.sentences : [];
+
+  // ── Init ────────────────────────────────────────────────
+  function init() {
+    if (!stage || sentences.length === 0) {
+      document.getElementById('card-area').innerHTML =
+        '<p style="color:var(--text-muted);padding:2rem 0;">This stage has no sentences yet.</p>';
+      return;
+    }
+    document.getElementById('stage-label').textContent =
+      `Stage ${stageId} — ${stage.name}`;
+    document.getElementById('footer-stage').textContent =
+      `${stage.name} — ${stage.tagline}`;
+
+    if (current >= sentences.length) current = sentences.length - 1;
+    renderSentence();
+  }
+
+  // ── Render ──────────────────────────────────────────────
+  function renderSentence() {
+    revealed = false;
+    const s = sentences[current];
+
+    document.getElementById('card-gloss').textContent = s.gloss;
+    document.getElementById('card-kannada').textContent = s.kannada;
+    document.getElementById('card-roman').textContent = s.roman;
+    document.getElementById('grammar-note').textContent = s.grammar_note;
+
+    // New word tag
+    const nwArea = document.getElementById('new-word-area');
+    if (s.new_word) {
+      nwArea.innerHTML = `<div class="new-word-tag">
+        new: <strong>${s.new_word}</strong> — ${s.new_word_meaning}
+      </div>`;
+    } else {
+      nwArea.innerHTML = '';
+    }
+
+    // Hide reveal
+    document.getElementById('card-reveal').classList.remove('visible');
+    document.getElementById('show-btn-area').style.display = 'flex';
+    document.getElementById('card-nav').style.display = 'none';
+
+    // Progress
+    const pct = Math.round((current / sentences.length) * 100);
+    document.getElementById('progress-fill').style.width = pct + '%';
+    document.getElementById('progress-label').textContent =
+      `${current + 1} / ${sentences.length}`;
+
+    // Prev button state
+    document.getElementById('prev-btn').disabled = current === 0;
+
+    // Update next button label for last sentence
+    const nextBtn = document.getElementById('next-btn');
+    if (current === sentences.length - 1) {
+      nextBtn.innerHTML = 'Complete stage <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M5 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+    } else {
+      nextBtn.innerHTML = 'Next <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M5 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+    }
+
+    // Update URL without reload
+    history.replaceState(null, '', `learn.html?stage=${stageId}&sentence=${current}`);
+  }
+
+  function showAnswer() {
+    revealed = true;
+    document.getElementById('card-reveal').classList.add('visible');
+    document.getElementById('show-btn-area').style.display = 'none';
+    document.getElementById('card-nav').style.display = 'flex';
+  }
+
+  function nextSentence() {
+    if (current < sentences.length - 1) {
+      current++;
+      Progress.setStageProgress(stageId, current);
+      renderSentence();
+    } else {
+      // Complete
+      Progress.setStageProgress(stageId, sentences.length);
+      showComplete();
+    }
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  function prevSentence() {
+    if (current > 0) {
+      current--;
+      renderSentence();
+    }
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  function showComplete() {
+    document.getElementById('card-area').style.display = 'none';
+    const el = document.getElementById('stage-complete');
+    el.classList.add('visible');
+
+    document.getElementById('complete-title').textContent = `Stage ${stageId} complete`;
+    document.getElementById('progress-fill').style.width = '100%';
+    document.getElementById('progress-label').textContent = `${sentences.length} / ${sentences.length}`;
+
+    // Find next stage with content
+    const nextStage = data.stages.find(s => s.id === stageId + 1);
+    const nextBtn = document.getElementById('next-stage-btn');
+    if (nextStage && nextStage.sentences.length > 0) {
+      document.getElementById('complete-message').textContent =
+        `You have learned the ${stage.name} patterns. Stage ${nextStage.id} — ${nextStage.name} — is now unlocked.`;
+      nextBtn.href = `learn.html?stage=${nextStage.id}`;
+      nextBtn.textContent = `Start Stage ${nextStage.id}`;
+    } else {
+      document.getElementById('complete-message').textContent =
+        `You have completed Stage ${stageId}. More stages are being written.`;
+      nextBtn.href = 'index.html';
+      nextBtn.textContent = 'Back to program';
+    }
+  }
+
+  function restartStage() {
+    current = 0;
+    Progress.setStageProgress(stageId, 0);
+    document.getElementById('card-area').style.display = 'flex';
+    document.getElementById('stage-complete').classList.remove('visible');
+    renderSentence();
+  }
+
+  function resetProgress() {
+    if (confirm('Reset all progress for this stage?')) {
+      Progress.setStageProgress(stageId, 0);
+      current = 0;
+      document.getElementById('card-area').style.display = 'flex';
+      document.getElementById('stage-complete').classList.remove('visible');
+      renderSentence();
+    }
+  }
+
+  // ── Keyboard shortcuts ──────────────────────────────────
+  document.addEventListener('keydown', (e) => {
+    if (e.key === ' ' || e.key === 'Enter') {
+      e.preventDefault();
+      if (!revealed) showAnswer();
+      else nextSentence();
+    }
+    if (e.key === 'ArrowRight' && revealed) nextSentence();
+    if (e.key === 'ArrowLeft') prevSentence();
+  });
+
+  init();
+</script>
+</body>
+</html>

@@ -1,0 +1,312 @@
+{
+  "program": {
+    "title": "Namma Kannada",
+    "subtitle": "Learn Bangalore Kannada the way it is actually spoken",
+    "total_sentences": 350
+  },
+  "stages": [
+    {
+      "id": 1,
+      "name": "Grammar Shapes",
+      "tagline": "Kannada structure, English words",
+      "description": "Before learning vocabulary, learn how Kannada sentences are built. Word order is reversed from English. Yes and no work differently. Every pattern here will carry you through the next three stages.",
+      "color": "stage-1",
+      "sentences": [
+        {
+          "id": "s1_001",
+          "kannada": "ಕಾಫಿ ಬೇಕು",
+          "roman": "coffee beku",
+          "gloss": "Want coffee",
+          "new_word": "beku",
+          "new_word_meaning": "want / need",
+          "grammar_note": "beku ends the sentence. Always. Kannada is verb-final — the action comes last."
+        },
+        {
+          "id": "s1_002",
+          "kannada": "ಕಾಫಿ ಬೇಡ",
+          "roman": "coffee beda",
+          "gloss": "Don't want coffee",
+          "new_word": "beda",
+          "new_word_meaning": "don't want / no thanks",
+          "grammar_note": "beku and beda are a pair. beku = yes I want. beda = no I don't."
+        },
+        {
+          "id": "s1_003",
+          "kannada": "ಕಾಫಿ ಇದೆ",
+          "roman": "coffee ide",
+          "gloss": "Coffee is there",
+          "new_word": "ide",
+          "new_word_meaning": "is / exists / there is",
+          "grammar_note": "ide means something exists. Not 'is' as in identity — as in presence. Coffee ide = coffee is available."
+        },
+        {
+          "id": "s1_004",
+          "kannada": "ಕಾಫಿ ಇಲ್ಲ",
+          "roman": "coffee illa",
+          "gloss": "Coffee is not there",
+          "new_word": "illa",
+          "new_word_meaning": "is not / doesn't exist / no",
+          "grammar_note": "ide and illa are the most useful pair in Kannada. Learn them as one unit."
+        },
+        {
+          "id": "s1_005",
+          "kannada": "ಹೌದು",
+          "roman": "haudu",
+          "gloss": "Yes",
+          "new_word": "haudu",
+          "new_word_meaning": "yes",
+          "grammar_note": "haudu is a full sentence. You don't need anything else to say yes."
+        },
+        {
+          "id": "s1_006",
+          "kannada": "ಸರಿ",
+          "roman": "sari",
+          "gloss": "Ok / alright",
+          "new_word": "sari",
+          "new_word_meaning": "ok / alright / fine",
+          "grammar_note": "sari is the most common word in Bangalore Kannada. Agreement, acknowledgement, moving on — all covered."
+        },
+        {
+          "id": "s1_007",
+          "kannada": "ಆಯ್ತು",
+          "roman": "aaytu",
+          "gloss": "Done / ok it happened",
+          "new_word": "aaytu",
+          "new_word_meaning": "done / it happened / got it",
+          "grammar_note": "aaytu closes things. Meeting over: aaytu. Food ordered: aaytu. Understood: aaytu."
+        },
+        {
+          "id": "s1_008",
+          "kannada": "ಅಲ್ವಾ",
+          "roman": "alvaa",
+          "gloss": "Right? / isn't it?",
+          "new_word": "alvaa",
+          "new_word_meaning": "right? / isn't it? (tag question)",
+          "grammar_note": "Stick alvaa at the end of anything to make it a tag question. Like 'innit' in British English."
+        },
+        {
+          "id": "s1_009",
+          "kannada": "ನಾನು ಕಾಫಿ ಬೇಕು",
+          "roman": "naanu coffee beku",
+          "gloss": "I want coffee",
+          "new_word": "naanu",
+          "new_word_meaning": "I",
+          "grammar_note": "Subject goes first. Then object. Then verb. Naanu coffee beku = I coffee want."
+        },
+        {
+          "id": "s1_010",
+          "kannada": "ನೀವು ಕಾಫಿ ಬೇಕಾ?",
+          "roman": "neevu coffee bekaa?",
+          "gloss": "Do you want coffee?",
+          "new_word": "neevu",
+          "new_word_meaning": "you (formal / polite)",
+          "grammar_note": "Rising intonation makes it a question. neevu is polite you — use with strangers, elders, anyone you'd call sir or ma'am."
+        },
+        {
+          "id": "s1_011",
+          "kannada": "ಅದು ಏನು?",
+          "roman": "adu enu?",
+          "gloss": "What is that?",
+          "new_word": "enu",
+          "new_word_meaning": "what",
+          "grammar_note": "enu is what. adu is that. Adu enu = that what = what is that. Question word comes at the end."
+        },
+        {
+          "id": "s1_012",
+          "kannada": "ಇದು ಏನು?",
+          "roman": "idu enu?",
+          "gloss": "What is this?",
+          "new_word": "idu",
+          "new_word_meaning": "this",
+          "grammar_note": "idu = this. adu = that. idu enu? = what is this?"
+        },
+        {
+          "id": "s1_013",
+          "kannada": "ಎಲ್ಲಿ ಇದೆ?",
+          "roman": "elli ide?",
+          "gloss": "Where is it?",
+          "new_word": "elli",
+          "new_word_meaning": "where",
+          "grammar_note": "elli = where. Combine with ide or illa: elli ide? = where is it? elli illa? = where is it not? (it's gone)"
+        },
+        {
+          "id": "s1_014",
+          "kannada": "ಎಷ್ಟು?",
+          "roman": "eshtu?",
+          "gloss": "How much?",
+          "new_word": "eshtu",
+          "new_word_meaning": "how much / how many",
+          "grammar_note": "eshtu alone is a complete question. Price, quantity, distance, time — it covers all of them."
+        },
+        {
+          "id": "s1_015",
+          "kannada": "ಕಾಫಿ ಎಷ್ಟು?",
+          "roman": "coffee eshtu?",
+          "gloss": "How much is coffee?",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "No verb needed for a price question. Coffee eshtu? = Coffee how much?"
+        },
+        {
+          "id": "s1_016",
+          "kannada": "ಗೊತ್ತಿಲ್ಲ",
+          "roman": "gottilla",
+          "gloss": "I don't know",
+          "new_word": "gottilla",
+          "new_word_meaning": "don't know / no idea",
+          "grammar_note": "gottilla is your most useful escape hatch. Also: gottu = I know / understood."
+        },
+        {
+          "id": "s1_017",
+          "kannada": "ಆಫೀಸ್ ಎಲ್ಲಿ ಇದೆ?",
+          "roman": "aaphees elli ide?",
+          "gloss": "Where is the office?",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "Swap any noun: mane elli ide? = where is home? darshini elli ide? = where is the restaurant?"
+        },
+        {
+          "id": "s1_018",
+          "kannada": "ನಾನು ಆಫೀಸ್-ಗೆ ಹೋಗ್ತೀನಿ",
+          "roman": "naanu aaphees-ge hogteeni",
+          "gloss": "I am going to office",
+          "new_word": "-ge",
+          "new_word_meaning": "-ge = to / towards (attached to destination)",
+          "grammar_note": "-ge attaches to the destination. mane-ge = to home. market-ge = to market. No space before it."
+        },
+        {
+          "id": "s1_019",
+          "kannada": "ಮನೆ-ಗೆ ಬನ್ನಿ",
+          "roman": "mane-ge banni",
+          "gloss": "Come home",
+          "new_word": "banni",
+          "new_word_meaning": "come (polite command)",
+          "grammar_note": "banni is come (polite). baa is come (casual/intimate). Use banni with anyone you don't know well."
+        },
+        {
+          "id": "s1_020",
+          "kannada": "ಆಫೀಸ್-ಅಲ್ಲಿ ಏನು ಇದೆ?",
+          "roman": "aaphees-alli enu ide?",
+          "gloss": "What is there at the office?",
+          "new_word": "-alli",
+          "new_word_meaning": "-alli = in / at (attached to location)",
+          "grammar_note": "-alli means in or at. mane-alli = at home. bus-alli = in the bus. -ge is movement, -alli is location."
+        },
+        {
+          "id": "s1_021",
+          "kannada": "ಟ್ರಾಫಿಕ್ ತುಂಬಾ ಇದೆ",
+          "roman": "traaphik tumbaa ide",
+          "gloss": "There is a lot of traffic",
+          "new_word": "tumbaa",
+          "new_word_meaning": "very / a lot / too much",
+          "grammar_note": "tumbaa is your intensity word. tumbaa ide = a lot is there. tumbaa beda = way too much, don't want."
+        },
+        {
+          "id": "s1_022",
+          "kannada": "ಸ್ವಲ್ಪ ಬೇಕು",
+          "roman": "svalpa beku",
+          "gloss": "Need a little",
+          "new_word": "svalpa",
+          "new_word_meaning": "a little / slightly / just a bit",
+          "grammar_note": "svalpa and tumbaa are your quantity pair. svalpa beku = just a little. tumbaa beda = not so much."
+        },
+        {
+          "id": "s1_023",
+          "kannada": "ಇವತ್ತು meeting ಇದೆ",
+          "roman": "ivattu meeting ide",
+          "gloss": "There is a meeting today",
+          "new_word": "ivattu",
+          "new_word_meaning": "today",
+          "grammar_note": "Time words go first, before the subject. Ivattu naale eega — today tomorrow now — always at the front."
+        },
+        {
+          "id": "s1_024",
+          "kannada": "ನಾಳೆ ಬರ್ತೀನಿ",
+          "roman": "naale barteeni",
+          "gloss": "I will come tomorrow",
+          "new_word": "naale",
+          "new_word_meaning": "tomorrow",
+          "grammar_note": "barteeni = I will come / I am coming. The -teeni ending means I (first person, future/present continuous)."
+        },
+        {
+          "id": "s1_025",
+          "kannada": "ಈಗ ಏನು ಮಾಡ್ತೀರಿ?",
+          "roman": "eega enu maadteeri?",
+          "gloss": "What are you doing now?",
+          "new_word": "eega",
+          "new_word_meaning": "now",
+          "grammar_note": "maadteeri = you are doing (polite). maadteeni = I am doing. Swap -teeni (I) / -teeri (you polite)."
+        },
+        {
+          "id": "s1_026",
+          "kannada": "ಅದು ಸರಿ ಅಲ್ಲ",
+          "roman": "adu sari alla",
+          "gloss": "That is not right",
+          "new_word": "alla",
+          "new_word_meaning": "not (emphatic negation)",
+          "grammar_note": "alla is emphatic not. illa = does not exist. alla = is not the case. adu sari alla = that is not correct."
+        },
+        {
+          "id": "s1_027",
+          "kannada": "ಆದ್ರೆ ಏನು ಮಾಡೋದು?",
+          "roman": "aadre enu maadodu?",
+          "gloss": "But what to do?",
+          "new_word": "aadre",
+          "new_word_meaning": "but / if / then",
+          "grammar_note": "aadre is the pivot word. Adu sari alla — aadre enu maadodu? = That is not right — but what to do?"
+        },
+        {
+          "id": "s1_028",
+          "kannada": "phone-ಗೆ call ಬೇಕು",
+          "roman": "phone-ge call beku",
+          "gloss": "Need to make a call",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "English nouns slot straight in. phone-ge call beku = phone-to call want. The Kannada grammar holds, English words fill the slots."
+        },
+        {
+          "id": "s1_029",
+          "kannada": "ಅಲ್ವಾ, ತುಂಬಾ ಆಯ್ತು",
+          "roman": "alvaa, tumbaa aaytu",
+          "gloss": "Right, it has been a long time",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "tumbaa aaytu = a lot has happened / it's been a while. Literally: a lot has become."
+        },
+        {
+          "id": "s1_030",
+          "kannada": "ಸರಿ, ನಾಳೆ ಮಾತಾಡೋಣ",
+          "roman": "sari, naale maataadona",
+          "gloss": "Ok, let us talk tomorrow",
+          "new_word": "maataadona",
+          "new_word_meaning": "let us talk",
+          "grammar_note": "The -ona ending means let us. hogona = let us go. maataadona = let us talk. A gentle way to close a conversation."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Daily Survival",
+      "tagline": "English nouns, Kannada verbs",
+      "description": "The language of Bangalore daily life — commute, food, office, phone. Most nouns are still English but the grammar and verbs are Kannada. This is how newcomers to the city actually speak.",
+      "color": "stage-2",
+      "sentences": []
+    },
+    {
+      "id": 3,
+      "name": "Social Fluency",
+      "tagline": "Mostly Kannada, English where Kannada has no word",
+      "description": "Family, health, market, emotions. The conversations that matter beyond navigation. Bangalore-specific words start appearing here — mast, full, scene.",
+      "color": "stage-3",
+      "sentences": []
+    },
+    {
+      "id": 4,
+      "name": "Naturalistic Bangalore",
+      "tagline": "Real speech, deliberate code-switching",
+      "description": "How fluent Bangalore speakers actually talk. Code-switching is intentional here, not a gap. You know when to use the English word for effect and when the Kannada word lands better.",
+      "color": "stage-4",
+      "sentences": []
+    }
+  ]
+}
