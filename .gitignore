@@ -1,3 +1,5 @@
-audio/
+# audio WAVs are committed (pre-generated, static assets)
 .DS_Store
 Thumbs.db
+.env
+__pycache__/

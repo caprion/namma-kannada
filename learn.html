@@ -59,6 +59,22 @@
         </button>
       </div>
 
+      <!-- Audio -->
+      <div class="audio-area" id="audio-area" style="display:none; justify-content:center; margin-top:0.75rem;">
+        <button class="btn-audio" id="audio-btn" onclick="playAudio()" title="Hear pronunciation">
+          <svg id="audio-icon-play" width="18" height="18" viewBox="0 0 18 18" fill="none">
+            <circle cx="9" cy="9" r="8" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M7 6l5 3-5 3V6z" fill="currentColor"/>
+          </svg>
+          <svg id="audio-icon-loading" width="18" height="18" viewBox="0 0 18 18" fill="none" style="display:none">
+            <circle cx="9" cy="9" r="7" stroke="currentColor" stroke-width="1.5" stroke-dasharray="22 22" stroke-linecap="round">
+              <animateTransform attributeName="transform" type="rotate" from="0 9 9" to="360 9 9" dur="0.8s" repeatCount="indefinite"/>
+            </circle>
+          </svg>
+          Hear it
+        </button>
+      </div>
+
       <!-- Navigation -->
       <div class="card-nav" id="card-nav" style="display: none;">
         <button class="btn btn-ghost" id="prev-btn" onclick="prevSentence()">
@@ -178,14 +194,74 @@
     history.replaceState(null, '', `learn.html?stage=${stageId}&sentence=${current}`);
   }
 
+  // ── Audio ───────────────────────────────────────────────
+  let currentAudio = null;
+
   function showAnswer() {
     revealed = true;
     document.getElementById('card-reveal').classList.add('visible');
     document.getElementById('show-btn-area').style.display = 'none';
     document.getElementById('card-nav').style.display = 'flex';
+
+    // Show audio button — check if file exists
+    const s = sentences[current];
+    const audioArea = document.getElementById('audio-area');
+    audioArea.style.display = 'flex';
+
+    // Pre-check audio exists (HEAD request) — hide if not yet generated
+    const audioSrc = `audio/${s.id}.wav`;
+    fetch(audioSrc, { method: 'HEAD' })
+      .then(r => { if (!r.ok) audioArea.style.display = 'none'; })
+      .catch(() => { audioArea.style.display = 'none'; });
+  }
+
+  function playAudio() {
+    const s = sentences[current];
+    const btn = document.getElementById('audio-btn');
+    const iconPlay = document.getElementById('audio-icon-play');
+    const iconLoading = document.getElementById('audio-icon-loading');
+
+    // Stop current if playing
+    if (currentAudio && !currentAudio.paused) {
+      currentAudio.pause();
+      currentAudio.currentTime = 0;
+      btn.classList.remove('playing');
+      iconPlay.style.display = '';
+      iconLoading.style.display = 'none';
+      return;
+    }
+
+    iconPlay.style.display = 'none';
+    iconLoading.style.display = '';
+    btn.classList.add('playing');
+
+    currentAudio = new Audio(`audio/${s.id}.wav`);
+    currentAudio.playbackRate = 1.0;
+    currentAudio.oncanplay = () => {
+      iconLoading.style.display = 'none';
+      iconPlay.style.display = '';
+    };
+    currentAudio.onended = () => {
+      btn.classList.remove('playing');
+      iconPlay.style.display = '';
+    };
+    currentAudio.onerror = () => {
+      btn.classList.remove('playing');
+      iconPlay.style.display = '';
+      iconLoading.style.display = 'none';
+      document.getElementById('audio-area').style.display = 'none';
+    };
+    currentAudio.play();
+  }
+
+  function stopAudio() {
+    if (currentAudio) { currentAudio.pause(); currentAudio = null; }
+    const audioArea = document.getElementById('audio-area');
+    if (audioArea) audioArea.style.display = 'none';
   }
 
   function nextSentence() {
+    stopAudio();
     if (current < sentences.length - 1) {
       current++;
       Progress.setStageProgress(stageId, current);
@@ -199,6 +275,7 @@
   }
 
   function prevSentence() {
+    stopAudio();
     if (current > 0) {
       current--;
       renderSentence();

@@ -337,6 +337,25 @@ h1, h2, h3 { font-family: var(--font-heading); font-weight: 400; line-height: 1.
   gap: 1rem;
 }
 
+/* ── Audio button ──────────────────────────────────────── */
+.btn-audio {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: none;
+  border: 1.5px solid var(--action);
+  border-radius: 2rem;
+  color: var(--action);
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 0.4rem 1rem;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+.btn-audio:hover { background: var(--action); color: #fff; }
+.btn-audio.playing { background: var(--action); color: #fff; }
+
 /* ── Stage complete ────────────────────────────────────── */
 .stage-complete {
   text-align: center;
