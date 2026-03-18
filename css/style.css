@@ -207,6 +207,44 @@ h1, h2, h3 { font-family: var(--font-heading); font-weight: 400; line-height: 1.
   cursor: not-allowed;
 }
 
+/* ── Stage breadcrumb ──────────────────────────────────── */
+.stage-breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  margin-bottom: 0.75rem;
+  flex-wrap: wrap;
+}
+.crumb-item {
+  font-size: 0.75rem;
+  font-family: var(--font-mono);
+  font-weight: 500;
+  padding: 0.2rem 0.5rem;
+  border-radius: var(--radius-sm);
+  text-decoration: none;
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+  transition: color 0.15s, border-color 0.15s;
+}
+.crumb-item:not(.crumb-empty):not(.crumb-current):hover {
+  color: var(--text);
+  border-color: var(--text-muted);
+}
+.crumb-current {
+  color: var(--surface);
+  background: var(--action);
+  border-color: var(--action);
+}
+.crumb-empty {
+  opacity: 0.4;
+  cursor: default;
+}
+.crumb-sep {
+  font-size: 0.7rem;
+  color: var(--border);
+  user-select: none;
+}
+
 /* ── Learn page ────────────────────────────────────────── */
 .learn-header {
   padding: 1.25rem 0;

@@ -25,6 +25,7 @@
 
     <!-- Progress header -->
     <div class="learn-header">
+      <div class="stage-breadcrumb" id="stage-breadcrumb"></div>
       <div class="learn-progress">
         <div class="learn-progress-track">
           <div class="learn-progress-fill" id="progress-fill" style="width: 0%"></div>
@@ -139,10 +140,19 @@
         '<p style="color:var(--text-muted);padding:2rem 0;">This stage has no sentences yet.</p>';
       return;
     }
-    document.getElementById('stage-label').textContent =
-      `Stage ${stageId} — ${stage.name}`;
+    document.getElementById('stage-label').textContent = stage.tagline;
     document.getElementById('footer-stage').textContent =
       `${stage.name} — ${stage.tagline}`;
+
+    // Stage breadcrumb — all 4 stages, current highlighted
+    const crumb = document.getElementById('stage-breadcrumb');
+    crumb.innerHTML = data.stages.map(s => {
+      const isCurrent = s.id === stageId;
+      const hasContent = s.sentences.length > 0;
+      const cls = isCurrent ? 'crumb-item crumb-current' : 'crumb-item';
+      if (!hasContent) return `<span class="${cls} crumb-empty">S${s.id}</span>`;
+      return `<a href="learn.html?stage=${s.id}" class="${cls}">S${s.id}</a>`;
+    }).join('<span class="crumb-sep">›</span>');
 
     if (current >= sentences.length) current = sentences.length - 1;
     renderSentence();
