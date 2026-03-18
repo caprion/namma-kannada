@@ -12,7 +12,13 @@
 <nav class="nav">
   <div class="nav-inner">
     <a href="index.html" class="nav-logo">Namma <span>Kannada</span></a>
-    <span class="nav-back" id="progress-summary"></span>
+    <div class="nav-right">
+      <span class="nav-back" id="progress-summary"></span>
+      <select class="lang-select" id="lang-select" onchange="switchLang(this.value)">
+        <option value="en">English</option>
+        <option value="hi">Hindi</option>
+      </select>
+    </div>
   </div>
 </nav>
 
@@ -43,9 +49,22 @@
 <script src="js/progress.js"></script>
 <script>
 
+  const LANG = window.NAMMA_LANG || 'en';
+  const langParam = LANG !== 'en' ? '&lang=' + LANG : '';
+  const data = window.NAMMA_DATA || { program: {}, stages: [] };
+
+  document.getElementById('lang-select').value = LANG;
+
+  function switchLang(lang) {
+    const params = new URLSearchParams(location.search);
+    if (lang === 'en') params.delete('lang');
+    else params.set('lang', lang);
+    const qs = params.toString();
+    location.href = location.pathname + (qs ? '?' + qs : '');
+  }
+
   function renderStages() {
     const container = document.getElementById('stages-list');
-    const data = window.NAMMA_DATA;
 
     container.innerHTML = data.stages.map((stage, idx) => {
       const progress = Progress.getStageProgress(stage.id);
@@ -62,11 +81,11 @@
       } else if (isLocked) {
         actionHtml = `<span class="locked-badge">Complete Stage ${idx} to unlock</span>`;
       } else if (isComplete) {
-        actionHtml = `<a href="learn.html?stage=${stage.id}" class="btn btn-ghost">Review</a>`;
+        actionHtml = `<a href="learn.html?stage=${stage.id}${langParam}" class="btn btn-ghost">Review</a>`;
       } else if (done === 0) {
-        actionHtml = `<a href="learn.html?stage=${stage.id}" class="btn btn-primary">Start Stage ${stage.id}</a>`;
+        actionHtml = `<a href="learn.html?stage=${stage.id}${langParam}" class="btn btn-primary">Start Stage ${stage.id}</a>`;
       } else {
-        actionHtml = `<a href="learn.html?stage=${stage.id}&sentence=${done}" class="btn btn-primary">Continue — ${done}/${total}</a>`;
+        actionHtml = `<a href="learn.html?stage=${stage.id}&sentence=${done}${langParam}" class="btn btn-primary">Continue — ${done}/${total}</a>`;
       }
 
       return `

@@ -1,0 +1,2745 @@
+{
+  "program": {
+    "title": "Namma Kannada",
+    "subtitle": "Learn Bangalore Kannada the way it is actually spoken",
+    "total_sentences": 200
+  },
+  "stages": [
+    {
+      "id": 1,
+      "name": "Grammar Shapes",
+      "tagline": "Kannada structure, Hindi patterns",
+      "description": "शब्दों से पहले, सीखें कन्नड़ वाक्य कैसे बनते हैं। Word order Hindi जैसा ही है — SOV। हाँ और ना अलग तरह से काम करते हैं। यहाँ के हर pattern अगले तीन stages में काम आएंगे।",
+      "color": "stage-1",
+      "sentences": [
+        {
+          "id": "s1_001",
+          "kannada": "ಕಾಫಿ ಬೇಕು",
+          "roman": "coffee beku",
+          "gloss": "कॉफी चाहिए",
+          "new_word": "beku",
+          "new_word_meaning": "चाहिए / ज़रूरत है",
+          "grammar_note": "Hindi की तरह ही — 'कॉफी चाहिए' में verb आखिर में आता है। beku = चाहिए, हमेशा वाक्य के अंत में।"
+        },
+        {
+          "id": "s1_002",
+          "kannada": "ಕಾಫಿ ಬೇಡ",
+          "roman": "coffee beda",
+          "gloss": "कॉफी नहीं चाहिए",
+          "new_word": "beda",
+          "new_word_meaning": "नहीं चाहिए / नहीं",
+          "grammar_note": "beku और beda एक जोड़ी हैं — जैसे Hindi में चाहिए / नहीं चाहिए। beku = हाँ चाहिए, beda = नहीं चाहिए।"
+        },
+        {
+          "id": "s1_003",
+          "kannada": "ಕಾಫಿ ಇದೆ",
+          "roman": "coffee ide",
+          "gloss": "कॉफी है",
+          "new_word": "ide",
+          "new_word_meaning": "है / मौजूद है / उपलब्ध है",
+          "grammar_note": "ide का मतलब है 'मौजूद है' — Hindi के 'है' जैसा, पर existence के लिए। coffee ide = कॉफी available है।"
+        },
+        {
+          "id": "s1_004",
+          "kannada": "ಕಾಫಿ ಇಲ್ಲ",
+          "roman": "coffee illa",
+          "gloss": "कॉफी नहीं है",
+          "new_word": "illa",
+          "new_word_meaning": "नहीं है / नहीं मिलेगा",
+          "grammar_note": "ide और illa Kannada की सबसे ज़रूरी जोड़ी है — 'है' और 'नहीं है'। इन्हें एक साथ सीखें।"
+        },
+        {
+          "id": "s1_005",
+          "kannada": "ಹೌದು",
+          "roman": "haudu",
+          "gloss": "हाँ",
+          "new_word": "haudu",
+          "new_word_meaning": "हाँ",
+          "grammar_note": "haudu अपने आप में पूरा वाक्य है — Hindi के 'हाँ' की तरह, कुछ और जोड़ने की ज़रूरत नहीं।"
+        },
+        {
+          "id": "s1_006",
+          "kannada": "ಸರಿ",
+          "roman": "sari",
+          "gloss": "ठीक है / अच्छा",
+          "new_word": "sari",
+          "new_word_meaning": "ठीक है / अच्छा / सहमत",
+          "grammar_note": "sari Bangalore Kannada का सबसे आम शब्द है — Hindi के 'ठीक है' जैसा। सहमति, acknowledgement, बात आगे बढ़ाना — सब एक शब्द में।"
+        },
+        {
+          "id": "s1_007",
+          "kannada": "ಆಯ್ತು",
+          "roman": "aaytu",
+          "gloss": "हो गया / ठीक है",
+          "new_word": "aaytu",
+          "new_word_meaning": "हो गया / काम हुआ / समझ गया",
+          "grammar_note": "aaytu मतलब 'हो गया' — Hindi के 'हो गया' जैसा ही। meeting खत्म: aaytu। खाना order हुआ: aaytu। बात समझी: aaytu।"
+        },
+        {
+          "id": "s1_008",
+          "kannada": "ಅಲ್ವಾ",
+          "roman": "alvaa",
+          "gloss": "है ना? / सही है ना?",
+          "new_word": "alvaa",
+          "new_word_meaning": "है ना? / सही है ना? (tag question)",
+          "grammar_note": "alvaa को किसी भी बात के अंत में लगाएं — Hindi के 'है ना?' या 'न?' की तरह। यह tag question बनाता है।"
+        },
+        {
+          "id": "s1_009",
+          "kannada": "ನಾನು ಕಾಫಿ ಬೇಕು",
+          "roman": "naanu coffee beku",
+          "gloss": "मुझे कॉफी चाहिए",
+          "new_word": "naanu",
+          "new_word_meaning": "मैं",
+          "grammar_note": "Hindi जैसा ही SOV order — 'मैं कॉफी चाहिए'। naanu = मैं, पहले। फिर object। फिर verb।"
+        },
+        {
+          "id": "s1_010",
+          "kannada": "ನೀವು ಕಾಫಿ ಬೇಕಾ?",
+          "roman": "neevu coffee bekaa?",
+          "gloss": "क्या आपको कॉफी चाहिए?",
+          "new_word": "neevu",
+          "new_word_meaning": "आप (formal / विनम्र)",
+          "grammar_note": "Rising intonation से question बनता है — Hindi की तरह। neevu = आप (विनम्र), अजनबी, बड़े, या जिन्हें आप 'sir/ma'am' कहें उनके लिए।"
+        },
+        {
+          "id": "s1_011",
+          "kannada": "ಅದು ಏನು?",
+          "roman": "adu enu?",
+          "gloss": "वो क्या है?",
+          "new_word": "enu",
+          "new_word_meaning": "क्या",
+          "grammar_note": "enu = क्या, adu = वो। adu enu = वो क्या — 'वो क्या है?' Hindi SOV जैसा ही, question word अंत में आता है।"
+        },
+        {
+          "id": "s1_012",
+          "kannada": "ಇದು ಏನು?",
+          "roman": "idu enu?",
+          "gloss": "यह क्या है?",
+          "new_word": "idu",
+          "new_word_meaning": "यह",
+          "grammar_note": "idu = यह, adu = वो। Hindi की तरह ही — 'यह क्या है?' = idu enu?"
+        },
+        {
+          "id": "s1_013",
+          "kannada": "ಎಲ್ಲಿ ಇದೆ?",
+          "roman": "elli ide?",
+          "gloss": "कहाँ है?",
+          "new_word": "elli",
+          "new_word_meaning": "कहाँ",
+          "grammar_note": "elli = कहाँ। ide या illa के साथ जोड़ें — elli ide? = कहाँ है? elli illa? = कहाँ नहीं है? (यानी गायब हो गया)।"
+        },
+        {
+          "id": "s1_014",
+          "kannada": "ಎಷ್ಟು?",
+          "roman": "eshtu?",
+          "gloss": "कितना?",
+          "new_word": "eshtu",
+          "new_word_meaning": "कितना / कितने",
+          "grammar_note": "eshtu अकेले पूरा सवाल है — Hindi के 'कितना?' जैसा। दाम, मात्रा, दूरी, समय — सब के लिए।"
+        },
+        {
+          "id": "s1_015",
+          "kannada": "ಕಾಫಿ ಎಷ್ಟು?",
+          "roman": "coffee eshtu?",
+          "gloss": "कॉफी कितने की?",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "दाम पूछने के लिए verb की ज़रूरत नहीं — Hindi में भी 'कॉफी कितने?' कह देते हैं। coffee eshtu? = कॉफी कितना?"
+        },
+        {
+          "id": "s1_016",
+          "kannada": "ಗೊತ್ತಿಲ್ಲ",
+          "roman": "gottilla",
+          "gloss": "पता नहीं",
+          "new_word": "gottilla",
+          "new_word_meaning": "पता नहीं / नहीं जानता",
+          "grammar_note": "gottilla = पता नहीं — सबसे ज़रूरी escape phrase। gottu = पता है / समझ गया।"
+        },
+        {
+          "id": "s1_017",
+          "kannada": "ಆಫೀಸ್ ಎಲ್ಲಿ ಇದೆ?",
+          "roman": "aaphees elli ide?",
+          "gloss": "ऑफिस कहाँ है?",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "किसी भी noun को बदल सकते हैं: mane elli ide? = घर कहाँ है? darshini elli ide? = रेस्टोरेंट कहाँ है?"
+        },
+        {
+          "id": "s1_018",
+          "kannada": "ನಾನು ಆಫೀಸ್-ಗೆ ಹೋಗ್ತೀನಿ",
+          "roman": "naanu aaphees-ge hogteeni",
+          "gloss": "मैं ऑफिस जा रहा हूँ",
+          "new_word": "-ge",
+          "new_word_meaning": "-ge = को / की तरफ (destination से जोड़ता है)",
+          "grammar_note": "-ge Kannada का 'को' है — destination पर लगता है। mane-ge = घर को। market-ge = market को। Hindi के 'को' जैसा ही, बस noun से चिपका देते हैं।"
+        },
+        {
+          "id": "s1_019",
+          "kannada": "ಮನೆ-ಗೆ ಬನ್ನಿ",
+          "roman": "mane-ge banni",
+          "gloss": "घर आइए",
+          "new_word": "banni",
+          "new_word_meaning": "आइए (विनम्र आदेश)",
+          "grammar_note": "banni = आइए (विनम्र)। baa = आ (casual/अंतरंग)। जिन्हें नहीं जानते उनके साथ banni इस्तेमाल करें।"
+        },
+        {
+          "id": "s1_020",
+          "kannada": "ಆಫೀಸ್-ಅಲ್ಲಿ ಏನು ಇದೆ?",
+          "roman": "aaphees-alli enu ide?",
+          "gloss": "ऑफिस में क्या है?",
+          "new_word": "-alli",
+          "new_word_meaning": "-alli = में / पर (location से जोड़ता है)",
+          "grammar_note": "-alli = में या पर — Hindi के 'में' जैसा। mane-alli = घर में। bus-alli = bus में। -ge movement के लिए, -alli location के लिए।"
+        },
+        {
+          "id": "s1_021",
+          "kannada": "ಟ್ರಾಫಿಕ್ ತುಂಬಾ ಇದೆ",
+          "roman": "traaphik tumbaa ide",
+          "gloss": "ट्रैफिक बहुत है",
+          "new_word": "tumbaa",
+          "new_word_meaning": "बहुत / बहुत ज़्यादा",
+          "grammar_note": "tumbaa = बहुत — Hindi के 'बहुत' जैसा। tumbaa ide = बहुत है। tumbaa beda = बहुत ज़्यादा नहीं चाहिए।"
+        },
+        {
+          "id": "s1_022",
+          "kannada": "ಸ್ವಲ್ಪ ಬೇಕು",
+          "roman": "svalpa beku",
+          "gloss": "थोड़ा चाहिए",
+          "new_word": "svalpa",
+          "new_word_meaning": "थोड़ा / थोड़ी सी",
+          "grammar_note": "svalpa = थोड़ा, tumbaa = बहुत — Hindi की तरह quantity की जोड़ी। svalpa beku = थोड़ा चाहिए। tumbaa beda = बहुत ज़्यादा नहीं।"
+        },
+        {
+          "id": "s1_023",
+          "kannada": "ಇವತ್ತು meeting ಇದೆ",
+          "roman": "ivattu meeting ide",
+          "gloss": "आज meeting है",
+          "new_word": "ivattu",
+          "new_word_meaning": "आज",
+          "grammar_note": "Time words पहले आते हैं — Hindi जैसा ही। ivattu naale eega — आज, कल, अभी — हमेशा वाक्य की शुरुआत में।"
+        },
+        {
+          "id": "s1_024",
+          "kannada": "ನಾಳೆ ಬರ್ತೀನಿ",
+          "roman": "naale barteeni",
+          "gloss": "कल आऊँगा",
+          "new_word": "naale",
+          "new_word_meaning": "कल",
+          "grammar_note": "barteeni = मैं आऊँगा / आ रहा हूँ। -teeni ending का मतलब 'मैं' (first person, future/present continuous)।"
+        },
+        {
+          "id": "s1_025",
+          "kannada": "ಈಗ ಏನು ಮಾಡ್ತೀರಿ?",
+          "roman": "eega enu maadteeri?",
+          "gloss": "अभी क्या कर रहे हैं?",
+          "new_word": "eega",
+          "new_word_meaning": "अभी",
+          "grammar_note": "maadteeri = आप कर रहे हैं (विनम्र)। maadteeni = मैं कर रहा हूँ। -teeni (मैं) / -teeri (आप, विनम्र) — ending बदलो, person बदलो।"
+        },
+        {
+          "id": "s1_026",
+          "kannada": "ಅದು ಸರಿ ಅಲ್ಲ",
+          "roman": "adu sari alla",
+          "gloss": "वो ठीक नहीं है",
+          "new_word": "alla",
+          "new_word_meaning": "नहीं (emphatic negation)",
+          "grammar_note": "alla = emphatic 'नहीं' — Hindi के 'बिल्कुल नहीं' जैसा। illa = मौजूद नहीं है। alla = ऐसा नहीं है। adu sari alla = वो ठीक नहीं है।"
+        },
+        {
+          "id": "s1_027",
+          "kannada": "ಆದ್ರೆ ಏನು ಮಾಡೋದು?",
+          "roman": "aadre enu maadodu?",
+          "gloss": "लेकिन क्या करें?",
+          "new_word": "aadre",
+          "new_word_meaning": "लेकिन / अगर / तो",
+          "grammar_note": "aadre = लेकिन / तो — Hindi के 'लेकिन' या 'तो' जैसा pivot word। adu sari alla — aadre enu maadodu? = वो ठीक नहीं — लेकिन क्या करें?"
+        },
+        {
+          "id": "s1_028",
+          "kannada": "phone-ಗೆ call ಬೇಕು",
+          "roman": "phone-ge call beku",
+          "gloss": "फोन पर call करना है",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "English nouns सीधे Kannada grammar में fit हो जाते हैं। phone-ge call beku = phone-को call चाहिए। Kannada का structure वही रहता है, English words slot में आ जाते हैं।"
+        },
+        {
+          "id": "s1_029",
+          "kannada": "ಅಲ್ವಾ, ತುಂಬಾ ಆಯ್ತು",
+          "roman": "alvaa, tumbaa aaytu",
+          "gloss": "है ना, बहुत समय हो गया",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "tumbaa aaytu = बहुत हो गया / बहुत समय बीत गया। literally: 'बहुत हो गया' — Hindi में भी यही कहते हैं।"
+        },
+        {
+          "id": "s1_030",
+          "kannada": "ಸರಿ, ನಾಳೆ ಮಾತಾಡೋಣ",
+          "roman": "sari, naale maataadona",
+          "gloss": "ठीक है, कल बात करते हैं",
+          "new_word": "maataadona",
+          "new_word_meaning": "बात करते हैं / बात करें",
+          "grammar_note": "-ona ending का मतलब 'चलो ... करते हैं' — Hindi के 'चलो' जैसा। hogona = चलो चलते हैं। maataadona = चलो बात करते हैं। बातचीत बंद करने का gentle तरीका।"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Daily Survival",
+      "tagline": "Hindi nouns slot in, Kannada verbs carry the sentence",
+      "description": "बैंगलोर की रोज़मर्रा की भाषा — आना-जाना, खाना, ऑफिस, फ़ोन। ज़्यादातर संज्ञाएँ अंग्रेज़ी या हिंदी हैं, लेकिन व्याकरण और क्रियाएँ कन्नड़ हैं। यही वो तरीका है जिसमें हिंदी भाषी बैंगलोर में बोलते हैं।",
+      "color": "stage-2",
+      "sentences": [
+        {
+          "id": "s2_001",
+          "kannada": "ನಾನು ಆಫೀಸ್-ಗೆ ಹೋಗ್ತೀನಿ",
+          "roman": "naanu aaphees-ge hogteeni",
+          "gloss": "मैं ऑफिस जा रहा हूँ",
+          "new_word": "hogteeni",
+          "new_word_meaning": "मैं जा रहा हूँ / मैं जाता हूँ",
+          "grammar_note": "-teeni = मैं + रहा हूँ। hogteeni = जा रहा हूँ। barteeni = आ रहा हूँ। maadteeni = कर रहा हूँ। बिल्कुल हिंदी की तरह — क्रिया के अंत में subject छुपा है।"
+        },
+        {
+          "id": "s2_002",
+          "kannada": "ನೀವು ಎಲ್ಲಿ ಹೋಗ್ತೀರಿ?",
+          "roman": "neevu elli hogteeri?",
+          "gloss": "आप कहाँ जा रहे हैं?",
+          "new_word": "hogteeri",
+          "new_word_meaning": "आप जा रहे हैं (आदरपूर्वक)",
+          "grammar_note": "-teeri = आप + रहे हैं (आदरपूर्वक)। hogteeni = मैं जा रहा हूँ। hogteeri = आप जा रहे हैं। सिर्फ अंत बदलो — जैसे हिंदी में 'जा रहा हूँ' और 'जा रहे हैं' का फ़र्क़।"
+        },
+        {
+          "id": "s2_003",
+          "kannada": "ನಾನು ಮನೆ-ಗೆ ಬರ್ತೀನಿ",
+          "roman": "naanu mane-ge barteeni",
+          "gloss": "मैं घर आ रहा हूँ",
+          "new_word": "barteeni",
+          "new_word_meaning": "मैं आ रहा हूँ",
+          "grammar_note": "baa = आओ (आदेश)। barteeni = मैं आ रहा हूँ। barteeri = आप आ रहे हैं। verb की जड़ bar- में meaning है, अंत में subject — बिल्कुल हिंदी की क्रिया-रचना जैसा।"
+        },
+        {
+          "id": "s2_004",
+          "kannada": "ನೀವು ಯಾವಾಗ ಬರ್ತೀರಿ?",
+          "roman": "neevu yaavaaga barteeri?",
+          "gloss": "आप कब आ रहे हैं?",
+          "new_word": "yaavaaga",
+          "new_word_meaning": "कब",
+          "grammar_note": "yaavaaga = कब। यह वाक्य के शुरू में आता है — जैसे हिंदी में 'कब आ रहे हैं?' yaavaaga barteeri = कब आ रहे हैं? yaavaaga hogteeri = कब जा रहे हैं?"
+        },
+        {
+          "id": "s2_005",
+          "kannada": "ನಾನು bus-ಅಲ್ಲಿ ಹೋಗ್ತೀನಿ",
+          "roman": "naanu bus-alli hogteeni",
+          "gloss": "मैं बस से जा रहा हूँ",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "वाहन के साथ -alli = 'से' (साधन)। bus-alli = बस से। metro-alli = मेट्रो से। auto-alli = ऑटो से। हिंदी में जहाँ 'से' लगाते हैं, वहाँ -alli जोड़ो।"
+        },
+        {
+          "id": "s2_006",
+          "kannada": "Metro-ಅಲ್ಲಿ ಹೋಗೋಣ",
+          "roman": "metro-alli hogona",
+          "gloss": "मेट्रो से चलते हैं",
+          "new_word": "hogona",
+          "new_word_meaning": "चलो जाते हैं",
+          "grammar_note": "-ona = चलो + verb (हिंदी 'चलें' जैसा)। hogona = चलो जाते हैं। kudiyona = चलो पीते हैं। maataadona = चलो बात करते हैं। किसी भी क्रिया पर लगाओ।"
+        },
+        {
+          "id": "s2_007",
+          "kannada": "Auto ಸಿಗತ್ತೆ",
+          "roman": "auto sigatte",
+          "gloss": "ऑटो मिल जाएगा",
+          "new_word": "sigatte",
+          "new_word_meaning": "मिल जाएगा / उपलब्ध होगा",
+          "grammar_note": "sigatte = मिल जाएगा (हिंदी 'मिल जाएगा' जैसा)। auto sigatte = ऑटो मिलेगा। room sigatte = कमरा मिलेगा। signal sigatte = सिग्नल आ जाएगा।"
+        },
+        {
+          "id": "s2_008",
+          "kannada": "Auto ಸಿಗಲ್ಲ",
+          "roman": "auto sigalla",
+          "gloss": "ऑटो नहीं मिलेगा",
+          "new_word": "sigalla",
+          "new_word_meaning": "नहीं मिलेगा / उपलब्ध नहीं होगा",
+          "grammar_note": "sigatte और sigalla उपलब्धता की जोड़ी है। sigatte = मिल जाएगा। sigalla = नहीं मिलेगा। जो भी ढूंढ रहे हों, यही दोनों शब्द काम आएँगे।"
+        },
+        {
+          "id": "s2_009",
+          "kannada": "Traffic ತುಂಬಾ ಇದೆ, late ಆಗತ್ತೆ",
+          "roman": "traaphik tumbaa ide, late aagatte",
+          "gloss": "बहुत ट्राफ़िक है, देर हो जाएगी",
+          "new_word": "aagatte",
+          "new_word_meaning": "हो जाएगा / हो जाएगी",
+          "grammar_note": "aagatte = हो जाएगा (हिंदी 'हो जाएगा' जैसा)। late aagatte = देर हो जाएगी। ready aagatte = तैयार हो जाएगा। यह कन्नड़ का सामान्य भविष्यकाल शब्द है।"
+        },
+        {
+          "id": "s2_010",
+          "kannada": "ಸ್ವಲ್ಪ time ಇದೆ, ಬೇಗ ಬನ್ನಿ",
+          "roman": "svalpa time ide, bega banni",
+          "gloss": "थोड़ा समय है, जल्दी आइए",
+          "new_word": "bega",
+          "new_word_meaning": "जल्दी / तेज़ / शीघ्र",
+          "grammar_note": "bega = जल्दी (हिंदी 'जल्दी' जैसा ही)। bega banni = जल्दी आइए। bega hogteeni = जल्दी जा रहा हूँ। bega aagatte = जल्दी हो जाएगा।"
+        },
+        {
+          "id": "s2_011",
+          "kannada": "ಊಟ ಆಯ್ತಾ?",
+          "roman": "oota aaytuaa?",
+          "gloss": "खाना हो गया? / खाना खाया?",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "aaytu = हो गया। oota aaytu = खाना हो गया। अंत में -aa जोड़ने से सवाल बनता है — जैसे हिंदी में 'हो गया?' बोलते हैं। छोटा और पूरी तरह स्वाभाविक।"
+        },
+        {
+          "id": "s2_012",
+          "kannada": "ನಾನು ಊಟ ಮಾಡ್ತೀನಿ",
+          "roman": "naanu oota maadteeni",
+          "gloss": "मैं खाना खा रहा हूँ",
+          "new_word": "maadteeni",
+          "new_word_meaning": "मैं कर रहा हूँ / बना रहा हूँ",
+          "grammar_note": "maadu = करना। maadteeni = मैं कर रहा हूँ। oota maadteeni = खाना खा रहा हूँ (शाब्दिक: खाना कर रहा हूँ)। kelasa maadteeni = काम कर रहा हूँ।"
+        },
+        {
+          "id": "s2_013",
+          "kannada": "Idli ಎರಡು ಬೇಕು",
+          "roman": "idli eradu beku",
+          "gloss": "दो इडली चाहिए",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "खाने के ऑर्डर में नंबर item के बाद आता है। idli eradu = दो इडली। coffee ondu = एक कॉफ़ी। dosa mooru = तीन डोसा। फिर अंत में beku (चाहिए)।"
+        },
+        {
+          "id": "s2_014",
+          "kannada": "ಖಾರ ಕಮ್ಮಿ ಮಾಡಿ",
+          "roman": "khaara kammi maadi",
+          "gloss": "कम मसालेदार बनाइए",
+          "new_word": "khaara",
+          "new_word_meaning": "तीखा / मिर्च का तीखापन",
+          "grammar_note": "maadi = करिए (विनम्र आदेश)। kammi maadi = कम करिए। jaasti maadi = ज़्यादा करिए। हिंदी में जहाँ 'कम/ज़्यादा करना' कहते हैं, वहाँ kammi/jaasti + maadi काम करता है।"
+        },
+        {
+          "id": "s2_015",
+          "kannada": "ಬಿಸಿ ಬಿಸಿ coffee ಬೇಕು",
+          "roman": "bisi bisi coffee beku",
+          "gloss": "बहुत गरम कॉफ़ी चाहिए",
+          "new_word": "bisi",
+          "new_word_meaning": "गरम (तापमान)",
+          "grammar_note": "विशेषण दोहराने से तीव्रता बढ़ती है — जैसे हिंदी में 'गरम-गरम चाय'। bisi = गरम। bisi bisi = बहुत गरम। tumbaa tumbaa = बेहद ज़्यादा।"
+        },
+        {
+          "id": "s2_016",
+          "kannada": "Bill ಎಷ್ಟು ಆಯ್ತು?",
+          "roman": "bill eshtu aaytu?",
+          "gloss": "बिल कितना हुआ?",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "eshtu aaytu = कितना हो गया। दाम, समय, मात्रा — सबके लिए। eshtu aaytu = कुल कितना। eshtu gamte aaytu = कितने घंटे हो गए।"
+        },
+        {
+          "id": "s2_017",
+          "kannada": "ಸ್ವಲ್ಪ ನೀರು ಬೇಕು",
+          "roman": "svalpa neeru beku",
+          "gloss": "थोड़ा पानी चाहिए",
+          "new_word": "neeru",
+          "new_word_meaning": "पानी",
+          "grammar_note": "neeru = पानी। svalpa neeru beku = थोड़ा पानी चाहिए। cold water beku = ठंडा पानी चाहिए। सीधा और पर्याप्त।"
+        },
+        {
+          "id": "s2_018",
+          "kannada": "Darshini ಎಲ್ಲಿ ಇದೆ?",
+          "roman": "darshini elli ide?",
+          "gloss": "दर्शिनी कहाँ है?",
+          "new_word": "darshini",
+          "new_word_meaning": "साउथ इंडियन फ़ास्ट-फ़ूड रेस्टोरेंट (बैंगलोर शब्द)",
+          "grammar_note": "darshini बैंगलोर का शब्द है — सरल, स्वच्छ शाकाहारी रेस्टोरेंट के लिए। hotel नहीं (जो किसी भी रेस्टोरेंट के लिए है)। darshini माँगना बताता है कि आप शहर जानते हैं।"
+        },
+        {
+          "id": "s2_019",
+          "kannada": "Coffee ready ಆಯ್ತಾ?",
+          "roman": "coffee ready aaytuaa?",
+          "gloss": "कॉफ़ी तैयार हो गई?",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "अंग्रेज़ी विशेषण + aaytu बिल्कुल स्वाभाविक है। ready aaytu = तैयार हो गया। full aaytu = भर गया। late aaytu = देर हो गई। aaytu बहुत काम का शब्द है।"
+        },
+        {
+          "id": "s2_020",
+          "kannada": "ಊಟ ಚೆನ್ನಾಗಿತ್ತು",
+          "roman": "oota chennaagittu",
+          "gloss": "खाना अच्छा था",
+          "new_word": "chennaagittu",
+          "new_word_meaning": "अच्छा था / बढ़िया था (भूतकाल)",
+          "grammar_note": "chennaagide = अच्छा है (वर्तमान)। chennaagittu = अच्छा था (भूतकाल)। -ide को -ittu में बदलो — जैसे हिंदी में 'है' को 'था' में बदलते हैं।"
+        },
+        {
+          "id": "s2_021",
+          "kannada": "Meeting ಎಲ್ಲಿ ಇದೆ?",
+          "roman": "meeting elli ide?",
+          "gloss": "मीटिंग कहाँ है?",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "elli ide = कहाँ है — सार्वभौमिक location सवाल। किसी भी noun से बदलो: auto elli ide? wifi elli ide? washroom elli ide? हमेशा काम करता है।"
+        },
+        {
+          "id": "s2_022",
+          "kannada": "Meeting ಯಾವಾಗ ಇದೆ?",
+          "roman": "meeting yaavaaga ide?",
+          "gloss": "मीटिंग कब है?",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "वही pattern, elli की जगह yaavaaga। elli = कहाँ। yaavaaga = कब। elli ide = कहाँ है। yaavaaga ide = कब है।"
+        },
+        {
+          "id": "s2_023",
+          "kannada": "ನಾನು ಆಫೀಸ್-ಅಲ್ಲಿ ಇದ್ದೀನಿ",
+          "roman": "naanu aaphees-alli iddini",
+          "gloss": "मैं ऑफिस में हूँ",
+          "new_word": "iddini",
+          "new_word_meaning": "मैं हूँ (किसी जगह पर)",
+          "grammar_note": "iddini = मैं यहाँ हूँ / मैं मौजूद हूँ। ide से अलग (जो चीज़ के होने के लिए है)। aaphees-alli iddini = ऑफिस में हूँ। mane-alli iddini = घर पर हूँ।"
+        },
+        {
+          "id": "s2_024",
+          "kannada": "ನಾನು call ಮಾಡ್ತೀನಿ",
+          "roman": "naanu call maadteeni",
+          "gloss": "मैं कॉल करता हूँ / करूँगा",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "अंग्रेज़ी noun + maadteeni = वो काम कर रहा हूँ। call maadteeni = कॉल कर रहा हूँ। work maadteeni = काम कर रहा हूँ। PR maadteeni = PR उठा रहा हूँ। बहुत उपयोगी pattern।"
+        },
+        {
+          "id": "s2_025",
+          "kannada": "Phone ಮಾಡಬಹುದಾ?",
+          "roman": "phone maadabohuduaa?",
+          "gloss": "फ़ोन कर सकता हूँ? / फ़ोन करना ठीक है?",
+          "new_word": "maadabohudu",
+          "new_word_meaning": "कर सकते हैं / करना संभव है",
+          "grammar_note": "maadabohudu = किया जा सकता है। hogubohuduaa? = जा सकता हूँ? koorabohuduaa? = बैठ सकता हूँ? -aa जोड़ने से विनम्र अनुरोध बनता है — जैसे हिंदी में 'सकते हैं क्या?'"
+        },
+        {
+          "id": "s2_026",
+          "kannada": "Lunch-ಗೆ ಹೋಗೋಣ",
+          "roman": "lunch-ge hogona",
+          "gloss": "लंच के लिए चलते हैं",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "कोई भी destination + -ge hogona = वहाँ चलते हैं। market-ge hogona। mane-ge hogona। coffee-ge hogona (कॉफ़ी पीने चलते हैं)।"
+        },
+        {
+          "id": "s2_027",
+          "kannada": "Meeting ಆಯ್ತು, ಮನೆ-ಗೆ ಹೋಗ್ತೀನಿ",
+          "roman": "meeting aaytu, mane-ge hogteeni",
+          "gloss": "मीटिंग हो गई, घर जा रहा हूँ",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "दो clauses एक pause से जुड़ते हैं, conjunction की ज़रूरत नहीं। X aaytu, Y hogteeni = X हो गया, Y जा रहा हूँ। हिंदी की बोलचाल जैसा ही।"
+        },
+        {
+          "id": "s2_028",
+          "kannada": "Deadline ನಾಳೆ ಇದೆ",
+          "roman": "deadline naale ide",
+          "gloss": "डेडलाइन कल है",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "समय-शब्द + ide = schedule बताने का सबसे आसान तरीका। meeting naale ide। holiday ivattu ide। delivery aamele ide। बिल्कुल हिंदी जैसा।"
+        },
+        {
+          "id": "s2_029",
+          "kannada": "ನಾನು WFH ಮಾಡ್ತೀನಿ",
+          "roman": "naanu WFH maadteeni",
+          "gloss": "मैं घर से काम कर रहा हूँ",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "कोई भी अंग्रेज़ी abbreviation maadteeni में फ़िट हो जाती है। WFH maadteeni। OT maadteeni (ओवरटाइम कर रहा हूँ)। PR maadteeni। हिंदी abbreviations भी चलेंगी।"
+        },
+        {
+          "id": "s2_030",
+          "kannada": "ಸ್ವಲ್ಪ busy ಇದ್ದೀನಿ",
+          "roman": "svalpa busy iddini",
+          "gloss": "थोड़ा व्यस्त हूँ",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "अंग्रेज़ी/हिंदी विशेषण + iddini = मैं उस तरह हूँ। busy iddini। tired iddini। free iddini (मैं फ़्री हूँ)। tumbaa busy iddini = बहुत व्यस्त हूँ।"
+        },
+        {
+          "id": "s2_031",
+          "kannada": "ಈಗ ಎಷ್ಟು ಗಂಟೆ?",
+          "roman": "eega eshtu gamte?",
+          "gloss": "अभी कितने बजे हैं?",
+          "new_word": "gamte",
+          "new_word_meaning": "घंटा / बजे",
+          "grammar_note": "eshtu gamte = कितने घंटे = कितने बजे। eega eshtu gamte = अभी कितने बजे हैं? mooru gamte aaytu = तीन बज गए। हिंदी के 'बजे' की तरह।"
+        },
+        {
+          "id": "s2_032",
+          "kannada": "ಹತ್ತು ನಿಮಿಷ ಆಗತ್ತೆ",
+          "roman": "hattu nimisha aagatte",
+          "gloss": "दस मिनट लगेंगे",
+          "new_word": "nimisha",
+          "new_word_meaning": "मिनट",
+          "grammar_note": "number + nimisha aagatte = उतने मिनट लगेंगे। eshtu nimisha aagatte? = कितने मिनट लगेंगे? eradu gamte aagatte = दो घंटे लगेंगे।"
+        },
+        {
+          "id": "s2_033",
+          "kannada": "ಬೆಳಿಗ್ಗೆ ಯಾವಾಗ ಬರ್ತೀರಿ?",
+          "roman": "beligge yaavaaga barteeri?",
+          "gloss": "सुबह कब आएँगे?",
+          "new_word": "beligge",
+          "new_word_meaning": "सुबह",
+          "grammar_note": "beligge = सुबह। samje = शाम। raatri = रात। ivattu beligge = आज सुबह। naale samje = कल शाम।"
+        },
+        {
+          "id": "s2_034",
+          "kannada": "ಸಂಜೆ meeting ಇದೆ",
+          "roman": "samje meeting ide",
+          "gloss": "शाम को मीटिंग है",
+          "new_word": "samje",
+          "new_word_meaning": "शाम",
+          "grammar_note": "दिन का समय वाक्य के शुरू में आता है — जैसे हिंदी में 'शाम को मीटिंग है'। samje meeting ide। beligge coffee ide। raatri oota ide।"
+        },
+        {
+          "id": "s2_035",
+          "kannada": "ಆಮೇಲೆ ಮಾತಾಡೋಣ",
+          "roman": "aamele maataadona",
+          "gloss": "बाद में बात करते हैं",
+          "new_word": "aamele",
+          "new_word_meaning": "बाद में / बाद",
+          "grammar_note": "aamele = बाद में। aamele maataadona = बाद में बात करते हैं। aamele hogona = बाद में चलते हैं। बातचीत विनम्रता से बंद करने का बढ़िया तरीका।"
+        },
+        {
+          "id": "s2_036",
+          "kannada": "ಇವತ್ತು late ಆಯ್ತು",
+          "roman": "ivattu late aaytu",
+          "gloss": "आज देर हो गई",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "विशेषण + aaytu = वो हो गया। late aaytu = देर हो गई। full aaytu = भर गया। dark aaytu = अँधेरा हो गया। यह हिंदी के 'हो गया' जैसा ही है।"
+        },
+        {
+          "id": "s2_037",
+          "kannada": "ನಿಮ್ಮ ಹತ್ರ time ಇದ್ಯಾ?",
+          "roman": "nimma hatra time iddyaa?",
+          "gloss": "आपके पास समय है?",
+          "new_word": "hatra",
+          "new_word_meaning": "पास / साथ में / के पास",
+          "grammar_note": "hatra कन्नड़ का possession idiom है — nimma hatra ide = आपके पास है (शाब्दिक: आपके पास मौजूद है)। बिल्कुल हिंदी 'के पास है' जैसा। nanna hatra illa = मेरे पास नहीं है।"
+        },
+        {
+          "id": "s2_038",
+          "kannada": "ಈಗ lunch time",
+          "roman": "eega lunch time",
+          "gloss": "अभी लंच का समय है",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "वर्तमान संदर्भ में fact बताने के लिए verb की ज़रूरत नहीं। eega lunch time। naale holiday। ivattu Friday। noun काफ़ी है — हिंदी बोलचाल जैसा।"
+        },
+        {
+          "id": "s2_039",
+          "kannada": "ನಾಳೆ ಬೆಳಿಗ್ಗೆ ಬನ್ನಿ",
+          "roman": "naale beligge banni",
+          "gloss": "कल सुबह आइए",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "naale beligge = कल सुबह। समय के expressions स्वतंत्र रूप से stack होते हैं। naale samje = कल शाम। ninne raatri = कल रात (बीती हुई)।"
+        },
+        {
+          "id": "s2_040",
+          "kannada": "ಸ್ವಲ್ಪ ಇರಿ, ಬರ್ತೀನಿ",
+          "roman": "svalpa iri, barteeni",
+          "gloss": "ज़रा रुकिए, आ रहा हूँ",
+          "new_word": "iri",
+          "new_word_meaning": "रहिए / रुकिए (विनम्र आदेश)",
+          "grammar_note": "iri = रहिए / रुकिए (विनम्र)। svalpa iri = थोड़ा रुकिए। iru = base verb। iddini = मैं यहाँ हूँ। iri = आप रुकिए (विनम्र) — हिंदी 'रुकिए' जैसा।"
+        },
+        {
+          "id": "s2_041",
+          "kannada": "Auto ಎಲ್ಲಿ ಸಿಗತ್ತೆ?",
+          "roman": "auto elli sigatte?",
+          "gloss": "ऑटो कहाँ मिलेगा?",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "elli sigatte = कहाँ मिलेगा। जो भी ढूंढ रहे हों उस पर काम करता है। wifi elli sigatte? good coffee elli sigatte? auto elli sigatte?"
+        },
+        {
+          "id": "s2_042",
+          "kannada": "Signal-ಇಂದ straight ಹೋಗಿ",
+          "roman": "signal-inda straight hogi",
+          "gloss": "सिग्नल से सीधे जाइए",
+          "new_word": "-inda",
+          "new_word_meaning": "-inda = से / के द्वारा",
+          "grammar_note": "-inda = से (हिंदी 'से' जैसा)। signal-inda straight = सिग्नल से सीधे। mane-inda office = घर से ऑफिस। bus-inda = बस से (साधन के रूप में भी)।"
+        },
+        {
+          "id": "s2_043",
+          "kannada": "ಅಲ್ಲಿ right ತಗೊಳ್ಳಿ",
+          "roman": "alli right tagoli",
+          "gloss": "वहाँ दाईं तरफ़ मुड़िए",
+          "new_word": "tagoli",
+          "new_word_meaning": "लीजिए / मोड़िए (विनम्र आदेश)",
+          "grammar_note": "tago = लो (सामान्य)। tagoli = लीजिए (विनम्र)। alli right tagoli = वहाँ दाईं तरफ़ मुड़िए। alli left tagoli = वहाँ बाईं तरफ़ मुड़िए।"
+        },
+        {
+          "id": "s2_044",
+          "kannada": "Indiranagar ಎಷ್ಟು ದೂರ?",
+          "roman": "Indiranagar eshtu doora?",
+          "gloss": "इंदिरानगर कितना दूर है?",
+          "new_word": "doora",
+          "new_word_meaning": "दूर / दूरी",
+          "grammar_note": "eshtu doora = कितना दूर। doora ide = दूर है। hatra ide = पास है / नज़दीक है। tumbaa doora alla = बहुत दूर नहीं।"
+        },
+        {
+          "id": "s2_045",
+          "kannada": "ಅಲ್ಲಿ park ಮಾಡಬಹುದಾ?",
+          "roman": "alli park maadabohuduaa?",
+          "gloss": "क्या वहाँ पार्क कर सकते हैं?",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "maadabohudu = कर सकते हैं / अनुमति है। park maadabohuduaa? = पार्क कर सकते हैं? U-turn maadabohuduaa? = U-टर्न ले सकते हैं? कोई भी अंग्रेज़ी action + maadabohuduaa।"
+        },
+        {
+          "id": "s2_046",
+          "kannada": "ನನ್ನ ಹತ್ರ cash ಇಲ್ಲ",
+          "roman": "nanna hatra cash illa",
+          "gloss": "मेरे पास कैश नहीं है",
+          "new_word": "nanna",
+          "new_word_meaning": "मेरा / मेरी / मेरे",
+          "grammar_note": "nanna = मेरा। nimma = आपका (विनम्र)। avara = उनका (आदरपूर्वक)। nanna hatra = मेरे पास। nimma hatra = आपके पास — हिंदी 'के पास' जैसा।"
+        },
+        {
+          "id": "s2_047",
+          "kannada": "UPI ಆಗತ್ತಾ?",
+          "roman": "UPI aagattaa?",
+          "gloss": "UPI चलेगा? / UPI से होगा?",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "aagattaa = होगा / चलेगा? Card aagattaa? = कार्ड चलेगा? Cash beda, UPI aagattaa? = कैश नहीं, UPI होगा? बैंगलोर में payment का universal सवाल।"
+        },
+        {
+          "id": "s2_048",
+          "kannada": "Phone-ಇಂದ pay ಮಾಡ್ತೀನಿ",
+          "roman": "phone-inda pay maadteeni",
+          "gloss": "फ़ोन से pay करूँगा",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "-inda = से / के ज़रिए। phone-inda = फ़ोन से। app-inda = ऐप से। हिंदी में जहाँ 'से' लगाते हैं (साधन के लिए), वहाँ -inda।"
+        },
+        {
+          "id": "s2_049",
+          "kannada": "Receipt ಬೇಕು",
+          "roman": "receipt beku",
+          "gloss": "रसीद चाहिए",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "कोई भी noun + beku = विनम्र अनुरोध। receipt beku। bill beku। change beku। bag beku। कोई अतिरिक्त शब्द नहीं चाहिए — जैसे हिंदी में सिर्फ 'रसीद चाहिए'।"
+        },
+        {
+          "id": "s2_050",
+          "kannada": "ಸ್ವಲ್ಪ discount ಇದ್ಯಾ?",
+          "roman": "svalpa discount iddyaa?",
+          "gloss": "कोई discount है?",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "svalpa किसी भी अनुरोध को नरम करता है — जैसे हिंदी में 'ज़रा'। svalpa kammi maadi = ज़रा कम करिए। svalpa discount iddyaa = कोई discount है? svalpa iri = ज़रा रुकिए।"
+        },
+        {
+          "id": "s2_051",
+          "kannada": "ಇದು ಎಷ್ಟು?",
+          "roman": "idu eshtu?",
+          "gloss": "यह कितने का है?",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "सबसे छोटा price सवाल। idu = यह। eshtu = कितना। दो शब्द, पूरा वाक्य। बाज़ार, मेनू, cab fare — कहीं भी काम करता है।"
+        },
+        {
+          "id": "s2_052",
+          "kannada": "ನೂರು ರೂಪಾಯಿ ಆಗತ್ತೆ",
+          "roman": "nooru roopaayi aagatte",
+          "gloss": "सौ रुपए होंगे",
+          "new_word": "roopaayi",
+          "new_word_meaning": "रुपया",
+          "grammar_note": "nooru = 100। nooru roopaayi = 100 रुपए। aagatte = होगा (दाम के लिए)। eshtu roopaayi aagatte? = कितने रुपए होंगे?"
+        },
+        {
+          "id": "s2_053",
+          "kannada": "ತುಂಬಾ ಜಾಸ್ತಿ ಆಯ್ತು",
+          "roman": "tumbaa jaasti aaytu",
+          "gloss": "बहुत ज़्यादा हो गया",
+          "new_word": "jaasti",
+          "new_word_meaning": "ज़्यादा / अधिक / बहुत ज़्यादा",
+          "grammar_note": "jaasti = ज़्यादा। kammi = कम। jaasti aaytu = ज़्यादा हो गया। jaasti beda = इतना नहीं चाहिए। kammi kodu = कम दो।"
+        },
+        {
+          "id": "s2_054",
+          "kannada": "ಕಮ್ಮಿ ಮಾಡಿ, please",
+          "roman": "kammi maadi, plees",
+          "gloss": "कम करिए, please",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "kammi maadi = कम करिए। दाम, मसाला, मात्रा, आवाज़ — सबके लिए। plees अंत में और नरम करता है। बहुत स्वाभाविक मोलभाव का वाक्य।"
+        },
+        {
+          "id": "s2_055",
+          "kannada": "Change ಇದ್ಯಾ?",
+          "roman": "change iddyaa?",
+          "gloss": "छुट्टे हैं?",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "iddyaa = है? / क्या है? (ide का प्रश्नवाचक रूप)। change iddyaa = छुट्टे हैं? time iddyaa = समय है? stock iddyaa = stock में है?"
+        },
+        {
+          "id": "s2_056",
+          "kannada": "ಇದು fresh ಆ?",
+          "roman": "idu fresh aa?",
+          "gloss": "यह ताज़ा है?",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "अंग्रेज़ी विशेषण + aa = हाँ/नहीं का सवाल। fresh aa? = ताज़ा है? good quality aa? = अच्छी quality है? original aa? = असली है?"
+        },
+        {
+          "id": "s2_057",
+          "kannada": "ಬೇರೆ color ಇದ್ಯಾ?",
+          "roman": "bere color iddyaa?",
+          "gloss": "कोई दूसरा रंग है?",
+          "new_word": "bere",
+          "new_word_meaning": "दूसरा / अलग / और",
+          "grammar_note": "bere = दूसरा / अलग। bere color = दूसरा रंग। bere size = दूसरा size। bere option iddyaa = कोई दूसरा option है? बहुत उपयोगी शब्द।"
+        },
+        {
+          "id": "s2_058",
+          "kannada": "ಇದು ನಂಗೆ ಬೇಡ",
+          "roman": "idu nange beda",
+          "gloss": "यह मुझे नहीं चाहिए",
+          "new_word": "nange",
+          "new_word_meaning": "मुझे / मेरे लिए",
+          "grammar_note": "nange = मुझे (हिंदी 'मुझे' जैसा)। nanage पूरा रूप है, nange बोलचाल में। nange beku = मुझे चाहिए। nange beda = मुझे नहीं चाहिए।"
+        },
+        {
+          "id": "s2_059",
+          "kannada": "ಅದು ತಗೊಳ್ತೀನಿ",
+          "roman": "adu tagolteeni",
+          "gloss": "वो लूँगा",
+          "new_word": "tagolteeni",
+          "new_word_meaning": "मैं ले रहा हूँ / लूँगा",
+          "grammar_note": "tagolteeni = मैं ले रहा हूँ। idu tagolteeni = यह लूँगा। adu beda, idu tagolteeni = वो नहीं चाहिए, यह लूँगा।"
+        },
+        {
+          "id": "s2_060",
+          "kannada": "Bag ಕೊಡಿ",
+          "roman": "bag kodi",
+          "gloss": "थैला दीजिए",
+          "new_word": "kodi",
+          "new_word_meaning": "दीजिए (विनम्र आदेश)",
+          "grammar_note": "kodi = दीजिए (विनम्र)। kodu = दो (सामान्य)। nimage kodu = आपको देना। bag kodi = थैला दीजिए। receipt kodi = रसीद दीजिए।"
+        },
+        {
+          "id": "s2_061",
+          "kannada": "ಏನು ಮಾಡ್ತೀರಿ, ಚೆನ್ನಾಗಿದ್ದೀರಾ?",
+          "roman": "enu maadteeri, chennaagiddeera?",
+          "gloss": "क्या कर रहे हैं, ठीक हैं?",
+          "new_word": "chennaagiddeera",
+          "new_word_meaning": "ठीक हैं / अच्छे हैं (आदरपूर्वक)",
+          "grammar_note": "chennaagiddeera = आप ठीक हैं (विनम्र)। chennaagiddini = मैं ठीक हूँ। बैंगलोर कन्नड़ में पूरा greeting exchange। हिंदी 'कैसे हैं?' जैसा।"
+        },
+        {
+          "id": "s2_062",
+          "kannada": "ತುಂಬಾ ದಿನ ಆಯ್ತು",
+          "roman": "tumbaa dina aaytu",
+          "gloss": "बहुत दिन हो गए",
+          "new_word": "dina",
+          "new_word_meaning": "दिन",
+          "grammar_note": "dina = दिन। tumbaa dina aaytu = बहुत दिन हो गए (शाब्दिक: बहुत दिन बन गए)। eshtu dina aaytu = कितने दिन हो गए।"
+        },
+        {
+          "id": "s2_063",
+          "kannada": "Scene ಏನು?",
+          "roman": "scene enu?",
+          "gloss": "क्या चल रहा है? / क्या माजरा है?",
+          "new_word": "scene",
+          "new_word_meaning": "स्थिति / माहौल / क्या हो रहा है",
+          "grammar_note": "scene बैंगलोर slang है — हिंदी के 'क्या चल रहा है' जैसा। scene enu = क्या हो रहा है। scene illa = नहीं हो रहा / नहीं बनेगा। good scene ide = अच्छा माहौल है।"
+        },
+        {
+          "id": "s2_064",
+          "kannada": "ನಾನು full busy ಇದ್ದೀನಿ",
+          "roman": "naanu full busy iddini",
+          "gloss": "मैं पूरी तरह व्यस्त हूँ",
+          "new_word": "full",
+          "new_word_meaning": "पूरी तरह / एकदम (बैंगलोर intensifier)",
+          "grammar_note": "full बैंगलोर का intensifier है — हिंदी 'एकदम' जैसा। full busy = एकदम व्यस्त। full traffic ide = पूरी तरह जाम। full tired aagiddini = पूरी तरह थक गया।"
+        },
+        {
+          "id": "s2_065",
+          "kannada": "Coffee ಕುಡಿಯೋಣ",
+          "roman": "coffee kudiyona",
+          "gloss": "कॉफ़ी पीते हैं",
+          "new_word": "kudiyona",
+          "new_word_meaning": "चलो पीते हैं",
+          "grammar_note": "kudi = पीना। kudiyona = चलो पीते हैं। oota maadona = चलो खाते हैं। samje coffee kudiyona = शाम को कॉफ़ी पीते हैं।"
+        },
+        {
+          "id": "s2_066",
+          "kannada": "ನಾಳೆ ಸಿಗೋಣ",
+          "roman": "naale sigona",
+          "gloss": "कल मिलते हैं",
+          "new_word": "sigona",
+          "new_word_meaning": "चलो मिलते हैं",
+          "grammar_note": "sigu = मिलना / ढूंढना। sigona = चलो मिलते हैं। naale sigona = कल मिलते हैं। office-alli sigona = ऑफिस में मिलते हैं।"
+        },
+        {
+          "id": "s2_067",
+          "kannada": "Mast ಆಯ್ತು",
+          "roman": "mast aaytu",
+          "gloss": "बढ़िया रहा / मस्त था",
+          "new_word": "mast",
+          "new_word_meaning": "मस्त / बढ़िया / शानदार (बैंगलोर slang)",
+          "grammar_note": "mast हिंदी 'मस्त' से आया है और बैंगलोर कन्नड़ में पूरी तरह घुल-मिल गया है। mast aaytu = बढ़िया रहा। mast ide = मस्त है। सबसे बैंगलोर-वाली तारीफ़।"
+        },
+        {
+          "id": "s2_068",
+          "kannada": "Tension ಮಾಡ್ಕೋಬೇಡಿ",
+          "roman": "tension maadkobeedi",
+          "gloss": "tension मत लीजिए / चिंता मत करिए",
+          "new_word": "maadkobeedi",
+          "new_word_meaning": "खुद से मत करिए (विनम्र)",
+          "grammar_note": "maadkobeda = खुद से मत करो (सामान्य)। maadkobeedi = मत करिए (विनम्र)। tension maadkobeda = tension मत लो। worry maadkobeda = चिंता मत करो।"
+        },
+        {
+          "id": "s2_069",
+          "kannada": "Adjust ಮಾಡ್ಕೋಳ್ಳಿ",
+          "roman": "adjust maadkolli",
+          "gloss": "adjust कर लीजिए / manage कर लीजिए",
+          "new_word": "adjust maadkolli",
+          "new_word_meaning": "कृपया adjust करें / manage करें",
+          "grammar_note": "adjust maadkolli बैंगलोर का महान वाक्यांश है — हिंदी के 'काम चला लो' जैसा। कहता है: लचीले रहो, situation के साथ चलो। जब चीज़ें perfect नहीं पर काम चल सकता है।"
+        },
+        {
+          "id": "s2_070",
+          "kannada": "ಸರಿ, ನಮಸ್ಕಾರ",
+          "roman": "sari, namaskaara",
+          "gloss": "ठीक है, नमस्कार",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "namaskaara हिंदी 'नमस्ते' की तरह hello और goodbye दोनों के लिए। sari, namaskaara = ठीक है, नमस्कार। aaytu, namaskaara = हो गया, नमस्कार। बैंगलोर कन्नड़ में सबसे स्वाभाविक विदाई।"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Social Fluency",
+      "tagline": "Mostly Kannada, English where Kannada has no word",
+      "description": "परिवार, स्वास्थ्य, बाज़ार, भावनाएँ। नेविगेशन से परे वो बातचीत जो मायने रखती है। यहाँ से Bangalore-specific शब्द आने लगते हैं — mast, full, scene। एक Hindi बोलने वाले के लिए यह stage काफी natural लगेगी।",
+      "color": "stage-3",
+      "sentences": [
+        {
+          "id": "s3_001",
+          "kannada": "ನಮ್ಮ ಮನೆಯಲ್ಲಿ ಐದು ಜನ ಇದ್ದಾರೆ",
+          "roman": "namma mane-alli aidu jana iddaare",
+          "gloss": "हमारे घर में पाँच लोग हैं",
+          "new_word": "jana",
+          "new_word_meaning": "व्यक्ति / लोग",
+          "grammar_note": "jana = व्यक्ति। aidu jana = पाँच लोग। iddaare = हैं (polite third person, बड़ों/सम्मानित लोगों के लिए)। namma = हमारा।"
+        },
+        {
+          "id": "s3_002",
+          "kannada": "ಅಪ್ಪ ಈಗ ಮನೆಯಲ್ಲಿ ಇದ್ದಾರೆ",
+          "roman": "appa eega mane-alli iddaare",
+          "gloss": "पिताजी अभी घर पर हैं",
+          "new_word": "appa",
+          "new_word_meaning": "पिताजी / पापा",
+          "grammar_note": "appa = पिताजी। amma = माँ। iddaare = हैं (Hindi में बड़ों के लिए 'हैं')। अपने माता-पिता के लिए कभी ide मत बोलिए — iddaare बोलिए। बिल्कुल Hindi जैसा: 'पिताजी घर पर हैं।'"
+        },
+        {
+          "id": "s3_003",
+          "kannada": "ಅಮ್ಮ ಅಡಿಗೆ ಮಾಡ್ತಾ ಇದ್ದಾರೆ",
+          "roman": "amma adige maadtaa iddaare",
+          "gloss": "माँ खाना बना रही हैं",
+          "new_word": "adige",
+          "new_word_meaning": "खाना बनाना / रसोई",
+          "grammar_note": "adige = खाना बनाना या रसोई। adige maadu = खाना बनाना (literally: करना खाना)। maadtaa iddaare = कर रही हैं (polite, बड़ों के लिए)। Hindi में: 'माँ खाना बना रही हैं।'"
+        },
+        {
+          "id": "s3_004",
+          "kannada": "ಅಣ್ಣ Bengaluru-ಅಲ್ಲಿ ಕೆಲಸ ಮಾಡ್ತಾ ಇದ್ದಾನೆ",
+          "roman": "anna Bengalooru-alli kelasa maadtaa iddaane",
+          "gloss": "बड़े भाई Bengaluru में काम कर रहे हैं",
+          "new_word": "anna",
+          "new_word_meaning": "बड़े भाई",
+          "grammar_note": "anna = बड़े भाई। akka = बड़ी बहन। iddaane = है (casual, peers के लिए — Hindi में 'है')। iddaare = हैं (polite, elders के लिए)। यही Hindi का 'है' vs 'हैं' वाला फर्क है।"
+        },
+        {
+          "id": "s3_005",
+          "kannada": "ಅಕ್ಕನ ಮದುವೆ ಮುಂದಿನ ತಿಂಗಳು",
+          "roman": "akkana maduve mundina tingalu",
+          "gloss": "बड़ी बहन की शादी अगले महीने है",
+          "new_word": "maduve",
+          "new_word_meaning": "शादी / विवाह",
+          "grammar_note": "maduve = शादी। mundina tingalu = अगले महीने। akkana = बड़ी बहन का/की। Kannada में possessive के लिए -na/-a suffix लगता है, Hindi के 'का/की/के' जैसा।"
+        },
+        {
+          "id": "s3_006",
+          "kannada": "ಮಗು ಶಾಲೆಗೆ ಹೋಗ್ತಿದೆ",
+          "roman": "magu shaale-ge hoogtide",
+          "gloss": "बच्चा स्कूल जा रहा है",
+          "new_word": "magu",
+          "new_word_meaning": "बच्चा / छोटा बच्चा",
+          "grammar_note": "magu = छोटा बच्चा। makkalu = बच्चे (plural)। maga = बेटा। magaLu = बेटी। shaale-ge = स्कूल को (-ge suffix = Hindi का 'को/के लिए')।"
+        },
+        {
+          "id": "s3_007",
+          "kannada": "ನಮ್ಮ ಊರಿನಿಂದ ಬಂದಿದ್ದೀನಿ",
+          "roman": "namma ooru-ninda bandiddini",
+          "gloss": "अपने गाँव/शहर से आया/आई हूँ",
+          "new_word": "ooru",
+          "new_word_meaning": "गाँव / शहर / पैतृक स्थान",
+          "grammar_note": "ooru = गाँव या पैतृक शहर (Hindi का 'गाँव' भी और 'शहर' भी)। namma ooru = हमारा गाँव। -ninda = से (from postposition, Hindi के 'से' जैसा)।"
+        },
+        {
+          "id": "s3_008",
+          "kannada": "ಅಪ್ಪ ರಿಟೈರ್ ಆಗಿದ್ದಾರೆ",
+          "roman": "appa retire aagiddaare",
+          "gloss": "पिताजी retire हो गए हैं",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "English verb + aagiddaare = वो उस अवस्था में आ गए हैं (polite, elders के लिए)। retire aagiddaare = retire हो गए हैं। transfer aagiddaare = transfer हो गए हैं। Hindi के 'हो गए हैं' जैसा।"
+        },
+        {
+          "id": "s3_009",
+          "kannada": "ಅಮ್ಮ ಬೆಳಿಗ್ಗೆ ಬೇಗ ಎದ್ದು ಅಡಿಗೆ ಮಾಡ್ತಾರೆ",
+          "roman": "amma beligge bega eddu adige maadtaare",
+          "gloss": "माँ सुबह जल्दी उठकर खाना बनाती हैं",
+          "new_word": "eddu",
+          "new_word_meaning": "उठकर / उठने के बाद (verb connector)",
+          "grammar_note": "eddu = उठकर (verb connector, Hindi में 'उठकर' जैसा)। eddu adige maadu = उठकर खाना बनाना। Kannada में दो क्रियाएँ जोड़ने के लिए verb+du/i connector होता है — बिल्कुल Hindi 'उठकर', 'करके' जैसा।"
+        },
+        {
+          "id": "s3_010",
+          "kannada": "ನಾವು ರಾತ್ರಿ ಎಲ್ಲಾ ಒಟ್ಟಿಗೆ ಊಟ ಮಾಡ್ತೀವಿ",
+          "roman": "naavu raatri ellaa ottige oota maadteevi",
+          "gloss": "हम रात को सब मिलकर खाना खाते हैं",
+          "new_word": "ottige",
+          "new_word_meaning": "साथ में / मिलकर",
+          "grammar_note": "ottige = साथ में। ellaa ottige = सब साथ में। naavu = हम। maadteevi = हम करते हैं (-teevi = हम + रहे हैं, first person plural ending)। Hindi में: 'हम साथ खाते हैं।'"
+        },
+        {
+          "id": "s3_011",
+          "kannada": "ನನಗೆ ಜ್ವರ ಇದೆ",
+          "roman": "nanage jvara ide",
+          "gloss": "मुझे बुखार है",
+          "new_word": "jvara",
+          "new_word_meaning": "बुखार",
+          "grammar_note": "nanage X ide = मुझे X है — Hindi possession जैसा। nanage jvara ide = मुझे बुखार है। nanage novu ide = मुझे दर्द है। बिल्कुल Hindi 'मुझे बुखार है' जैसी structure।"
+        },
+        {
+          "id": "s3_012",
+          "kannada": "ತಲೆ ನೋವು ಇದೆ",
+          "roman": "tale novu ide",
+          "gloss": "सिरदर्द है",
+          "new_word": "novu",
+          "new_word_meaning": "दर्द / पीड़ा",
+          "grammar_note": "novu = दर्द। tale novu = सिरदर्द (literally: सिर-दर्द)। hotte novu = पेट दर्द। kai novu = हाथ का दर्द। elli novu ide? = दर्द कहाँ है? Hindi की body-part + दर्द structure वाली pattern।"
+        },
+        {
+          "id": "s3_013",
+          "kannada": "ಡಾಕ್ಟರ್ ಹತ್ರ ಹೋಗ್ಬೇಕು",
+          "roman": "daaktar hatra hogbeku",
+          "gloss": "डॉक्टर के पास जाना है",
+          "new_word": "hogbeku",
+          "new_word_meaning": "जाना होगा / जाना ज़रूरी है",
+          "grammar_note": "hog + beku = जाना होगा / जाना ज़रूरी है। maad + beku = करना होगा। tinn + beku = खाना होगा। Verb root + beku = Hindi का 'करना होगा / पड़ेगा' — बहुत काम का construction।"
+        },
+        {
+          "id": "s3_014",
+          "kannada": "ಮಾತ್ರೆ ತಗೊಂಡ್ರೆ ಆಗತ್ತೆ",
+          "roman": "maatre tagondre aagatte",
+          "gloss": "गोली लेने से ठीक हो जाएगा",
+          "new_word": "maatre",
+          "new_word_meaning": "गोली / दवाई (tablet)",
+          "grammar_note": "maatre = गोली / tablet। tagondre = अगर लें तो। verb + ndre = अगर करें तो (Hindi 'अगर...तो' जैसा conditional)। hogondre aagatte = अगर जाएँ तो ठीक हो जाएगा।"
+        },
+        {
+          "id": "s3_015",
+          "kannada": "ಆಸ್ಪತ್ರೆ ಇಲ್ಲಿಂದ ಹತ್ರ ಇದೆ",
+          "roman": "aspatre illinda hatra ide",
+          "gloss": "अस्पताल यहाँ से पास है",
+          "new_word": "aspatre",
+          "new_word_meaning": "अस्पताल",
+          "grammar_note": "aspatre = अस्पताल। illinda = यहाँ से। hatra ide = पास है। illinda hatra ide = यहाँ से पास है। doora illa = दूर नहीं है (same meaning, different phrasing)।"
+        },
+        {
+          "id": "s3_016",
+          "kannada": "ಈ ಕಡೆ ಕೈ ನೋವು ಇದೆ",
+          "roman": "ee kade kai novu ide",
+          "gloss": "इस तरफ हाथ में दर्द है",
+          "new_word": "kade",
+          "new_word_meaning": "तरफ / दिशा / ओर",
+          "grammar_note": "kade = तरफ या दिशा (Hindi का 'तरफ')। ee kade = इस तरफ। aa kade = उस तरफ। शरीर का कोई हिस्सा या दिशा बताने के लिए — market kade = बाज़ार की तरफ।"
+        },
+        {
+          "id": "s3_017",
+          "kannada": "ಜ್ವರ ಇಳಿದಿದೆ, ಈಗ ಚೆನ್ನಾಗಿದ್ದೀನಿ",
+          "roman": "jvara ilidide, eega chennaagiddini",
+          "gloss": "बुखार उतर गया है, अब ठीक हूँ",
+          "new_word": "ilidide",
+          "new_word_meaning": "उतर गया है / कम हो गया है",
+          "grammar_note": "ilidu = उतरना / कम होना। jvara ilidide = बुखार उतर गया है। rate ilidide = कीमत कम हो गई है। Hindi में: 'बुखार उतर गया' — same structure।"
+        },
+        {
+          "id": "s3_018",
+          "kannada": "ಡಾಕ್ಟರ್ ಎರಡು ದಿನ rest ಹೇಳಿದ್ದಾರೆ",
+          "roman": "daaktar eradu dina rest heliddaare",
+          "gloss": "डॉक्टर ने दो दिन rest बोला है",
+          "new_word": "heliddaare",
+          "new_word_meaning": "बोला है / कहा है (polite)",
+          "grammar_note": "helu = कहना। heliddaare = कहा है (polite, डॉक्टर जैसे बड़ों के लिए)। heliddini = मैंने कहा है। Hindi में: 'डॉक्टर ने कहा है' — polite past tense।"
+        },
+        {
+          "id": "s3_019",
+          "kannada": "ನನ್ನ ಹೊಟ್ಟೆ ಸರಿ ಇಲ್ಲ",
+          "roman": "nanna hotte sari illa",
+          "gloss": "मेरा पेट ठीक नहीं है",
+          "new_word": "hotte",
+          "new_word_meaning": "पेट / पेटी",
+          "grammar_note": "hotte = पेट। hotte novu = पेट दर्द। hotte thumba ide = पेट भरा है। hotte sari illa = पेट ठीक नहीं है (upset stomach कहने का polite तरीका)।"
+        },
+        {
+          "id": "s3_020",
+          "kannada": "ಆರೋಗ್ಯ ಚೆನ್ನಾಗಿ ನೋಡ್ಕೋಳ್ಳಿ",
+          "roman": "aarogya chennaagi noodkolli",
+          "gloss": "अपनी सेहत का अच्छे से ख्याल रखिए",
+          "new_word": "aarogya",
+          "new_word_meaning": "स्वास्थ्य / सेहत",
+          "grammar_note": "aarogya = स्वास्थ्य। noodkolli = ख्याल रखिए (literally: खुद देखिए — polite command)। noodkobeku = ख्याल रखना होगा। जाते वक्त कहने का warm तरीका।"
+        },
+        {
+          "id": "s3_021",
+          "kannada": "ತುಂಬಾ ಖುಷಿ ಆಯ್ತು",
+          "roman": "tumbaa khushi aaytu",
+          "gloss": "बहुत खुशी हुई",
+          "new_word": "khushi",
+          "new_word_meaning": "खुश / खुशी",
+          "grammar_note": "khushi aaytu = खुशी हुई / खुश हो गया। khushi ide = खुश है। tumbaa khushi = बहुत खुश। Hindi/Urdu से आया है, Bangalore Kannada में पूरी तरह घुल-मिल गया है।"
+        },
+        {
+          "id": "s3_022",
+          "kannada": "ಅದು ಕೇಳಿ ದುಃಖ ಆಯ್ತು",
+          "roman": "adu keli dukha aaytu",
+          "gloss": "वो सुनकर दुख हुआ",
+          "new_word": "dukha",
+          "new_word_meaning": "दुख / उदासी",
+          "grammar_note": "dukha aaytu = दुख हुआ। keli = सुनकर (verb + i = 'सुनकर', Hindi जैसा connector)। adu keli = वो सुनकर। Verb+i से दो क्रियाएँ जोड़ी जाती हैं — बिल्कुल 'सुनकर दुख हुआ' जैसा।"
+        },
+        {
+          "id": "s3_023",
+          "kannada": "ನನಗೆ ತುಂಬಾ tension ಆಗ್ತಿದೆ",
+          "roman": "nanage tumbaa tension aagide",
+          "gloss": "मुझे बहुत stress/tension हो रहा है",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "nanage tension aagide = मुझे tension हो रहा है। nanage X aagide = मुझे X हो रहा है — Hindi possession pattern। tension maadkobeda = खुद को tension मत दो।"
+        },
+        {
+          "id": "s3_024",
+          "kannada": "ಅವನಿಗೆ ತುಂಬಾ ಕೋಪ ಬಂತು",
+          "roman": "avanige tumbaa kopa bantu",
+          "gloss": "उसे बहुत गुस्सा आया",
+          "new_word": "kopa",
+          "new_word_meaning": "गुस्सा / क्रोध",
+          "grammar_note": "kopa bantu = गुस्सा आया। avanige = उसे (casual, peer के लिए)। nanage kopa barutte = मुझे गुस्सा आएगा। Hindi में 'गुस्सा आना' — same idiom: emotion 'आती' है, 'होती' नहीं।"
+        },
+        {
+          "id": "s3_025",
+          "kannada": "ಭಯ ಪಡ್ಬೇಡಿ",
+          "roman": "bhaya padbedi",
+          "gloss": "डरिए मत",
+          "new_word": "bhaya",
+          "new_word_meaning": "डर / भय",
+          "grammar_note": "bhaya = डर (Hindi 'भय' जैसा ही)। bhaya padteeni = मुझे डर लग रहा है। padbeda = मत डरो (casual)। padbedi = मत डरिए (polite)। bhaya padkobeedi = खुद डरो मत।"
+        },
+        {
+          "id": "s3_026",
+          "kannada": "ಇದನ್ನ ನೋಡಿ ಆಶ್ಚರ್ಯ ಆಯ್ತು",
+          "roman": "idanna nodi aashcharya aaytu",
+          "gloss": "यह देखकर हैरानी हुई",
+          "new_word": "aashcharya",
+          "new_word_meaning": "हैरानी / आश्चर्य",
+          "grammar_note": "aashcharya aaytu = आश्चर्य हुआ। idanna nodi = यह देखकर (nodi = देखकर, verb connector)। -anna object marker: idanna = इसे (object), adanna = उसे। Hindi 'देखकर हैरानी हुई' जैसी structure।"
+        },
+        {
+          "id": "s3_027",
+          "kannada": "ನಿಜವಾಗ್ಲೂ ತುಂಬಾ ಚೆನ್ನಾಗಿದೆ",
+          "roman": "nijavaagluu tumbaa chennaagide",
+          "gloss": "सच में बहुत अच्छा है",
+          "new_word": "nijavaagluu",
+          "new_word_meaning": "सच में / वाकई / सच्चाई से",
+          "grammar_note": "nijavaagi = सच में। nijavaagluu = सच में ही (emphatic, -uu suffix जोड़ता है ज़ोर)। Hindi में 'वाकई बहुत अच्छा है' — sincerity express करने के लिए, सिर्फ politeness नहीं।"
+        },
+        {
+          "id": "s3_028",
+          "kannada": "ಸಾಕು, ಇನ್ನು ಬೇಡ",
+          "roman": "saaku, innu beda",
+          "gloss": "बस, अब नहीं चाहिए",
+          "new_word": "saaku",
+          "new_word_meaning": "बस / काफी है / पर्याप्त है",
+          "grammar_note": "saaku = बस / काफी। innu beda = अब और नहीं। innu = और / अभी भी। saaku, innu beda = बस, और नहीं — खाना decline करने का natural तरीका।"
+        },
+        {
+          "id": "s3_029",
+          "kannada": "ಇನ್ನೂ ಸ್ವಲ್ಪ ಕೊಡಿ",
+          "roman": "innoo svalpa kodi",
+          "gloss": "थोड़ा और दीजिए",
+          "new_word": "innoo",
+          "new_word_meaning": "और / अभी भी / और भी",
+          "grammar_note": "innoo = और / अभी भी (Hindi का 'और भी' या 'थोड़ा और')। innoo beku = और चाहिए। innoo illa = अभी भी नहीं है। innoo svalpa = थोड़ा और।"
+        },
+        {
+          "id": "s3_030",
+          "kannada": "ಇನ್ನು ಸಾಕಾಗಿದೆ",
+          "roman": "innu saakagide",
+          "gloss": "अब बस हो गया / काफी हो गया",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "saakagide = काफी हो गया है। innu saakagide = अब बस हो गया। खाना, काम, या कोई बातचीत politely खत्म करने के लिए — Hindi 'अब बस' जैसा।"
+        },
+        {
+          "id": "s3_031",
+          "kannada": "ಅಂದ್ರೆ ಏನು?",
+          "roman": "amdre enu?",
+          "gloss": "मतलब क्या? / आप क्या कह रहे हैं?",
+          "new_word": "amdre",
+          "new_word_meaning": "मतलब / यानी / बोले तो",
+          "grammar_note": "amdre = मतलब / यानी। adu amdre enu? = उसका मतलब क्या है? amdre naanu hogbeku = यानी मुझे जाना होगा। Kannada का सबसे ज़रूरी discourse word — Hindi का 'मतलब' या 'यानी'।"
+        },
+        {
+          "id": "s3_032",
+          "kannada": "ಅಂದ್ರೆ ನಾಳೆ ಬರಲ್ಲ ಅಂತ?",
+          "roman": "amdre naale baralla anta?",
+          "gloss": "मतलब कल नहीं आएँगे?",
+          "new_word": "anta",
+          "new_word_meaning": "कि / बोल रहे हो / यानी",
+          "grammar_note": "anta = कि (quotative marker, reported speech के लिए)। baralla anta? = नहीं आएँगे कि? heliddaare anta = उन्होंने कहा कि। Hindi में indirect speech में 'कि' जोड़ते हैं, Kannada में anta।"
+        },
+        {
+          "id": "s3_033",
+          "kannada": "ಅದು ಮಾತ್ರ ಬೇಡ",
+          "roman": "adu maatra beda",
+          "gloss": "बस वो नहीं चाहिए",
+          "new_word": "maatra",
+          "new_word_meaning": "सिर्फ / केवल / बस",
+          "grammar_note": "maatra = सिर्फ / केवल (Hindi का 'सिर्फ')। adu maatra beda = सिर्फ वो नहीं चाहिए (बाकी सब ठीक है)। naanu maatra hogteeni = सिर्फ मैं जा रहा हूँ। Precise emphasis।"
+        },
+        {
+          "id": "s3_034",
+          "kannada": "ಬೇರೆ ಯಾರಾದ್ರೂ ಬರ್ತಾರಾ?",
+          "roman": "bere yaaraadru barttaraa?",
+          "gloss": "कोई और आएगा?",
+          "new_word": "yaaraadru",
+          "new_word_meaning": "कोई भी / कोई",
+          "grammar_note": "yaaru = कौन। yaaraadru = कोई भी। enu + aadru = enaadru = कुछ भी। elli + aadru = ellaadru = कहीं भी। -aadru suffix से open/indefinite meaning बनती है — Hindi का 'भी' जैसा।"
+        },
+        {
+          "id": "s3_035",
+          "kannada": "ಇದು ಬೇರೆ ತರ ಇದೆ",
+          "roman": "idu bere tara ide",
+          "gloss": "यह अलग किस्म का है",
+          "new_word": "tara",
+          "new_word_meaning": "तरह / किस्म / तरीका",
+          "grammar_note": "tara = तरह / किस्म (Hindi का 'तरह')। bere tara = दूसरी तरह। aa tara = उस तरह। hege tara maadteeri? = किस तरह करते हैं? बिल्कुल Hindi 'इस तरह, उस तरह' जैसा।"
+        },
+        {
+          "id": "s3_036",
+          "kannada": "ಹಾಗಾದ್ರೆ ನಾನು ಹೋಗ್ತೀನಿ",
+          "roman": "haagaadre naanu hogteeni",
+          "gloss": "तो फिर मैं जाता/जाती हूँ",
+          "new_word": "haagaadre",
+          "new_word_meaning": "तो फिर / अगर ऐसा है तो",
+          "grammar_note": "haagaadre = तो फिर / अगर ऐसा है तो (Hindi 'तो फिर' जैसा)। haage = ऐसे / इस तरह। haagaadre conditional conclusions के लिए pivot word है।"
+        },
+        {
+          "id": "s3_037",
+          "kannada": "ಆದ್ರೂ ಸರಿ, ಹೋಗ್ತೀನಿ",
+          "roman": "aadroo sari, hogteeni",
+          "gloss": "फिर भी ठीक है, जाता/जाती हूँ",
+          "new_word": "aadroo",
+          "new_word_meaning": "फिर भी / तब भी / चाहे जो हो",
+          "grammar_note": "aadroo = फिर भी / nevertheless (Hindi का 'फिर भी')। aadre = लेकिन/अगर। aadroo sari = फिर भी ठीक है। late aadroo sari = देर हो जाए, फिर भी ठीक है। Strong acceptance।"
+        },
+        {
+          "id": "s3_038",
+          "kannada": "ನನ್ನ ಪ್ರಕಾರ ಸರಿ ಇಲ್ಲ",
+          "roman": "nanna prakaara sari illa",
+          "gloss": "मेरे हिसाब से ठीक नहीं है",
+          "new_word": "prakaara",
+          "new_word_meaning": "हिसाब से / अनुसार",
+          "grammar_note": "nanna prakaara = मेरे हिसाब से / मेरी राय में। nimma prakaara = आपके हिसाब से। avara prakaara = उनके हिसाब से। Hindi का 'मेरे अनुसार' / 'मेरे हिसाब से' — politely disagree करने का तरीका।"
+        },
+        {
+          "id": "s3_039",
+          "kannada": "ಅದೇ ತಾನೆ ಹೇಳ್ತಾ ಇದ್ದೀನಿ",
+          "roman": "ade taane heltaa iddini",
+          "gloss": "यही तो कह रहा/रही हूँ",
+          "new_word": "taane",
+          "new_word_meaning": "ही / बस यही / तो",
+          "grammar_note": "taane = ही / emphasizing particle (Hindi का 'ही')। ade taane = यही। naane = मैं ही। ninage taane = तुम्हें ही। Hindi में 'यही तो कह रहा हूँ' — taane वही emphasis देता है।"
+        },
+        {
+          "id": "s3_040",
+          "kannada": "ನೀವು ಹೇಳಿದ್ದು ಸರಿ ಅಲ್ವಾ",
+          "roman": "neevu helliddu sari alvaa",
+          "gloss": "आपने जो कहा वो सही है ना",
+          "new_word": "helliddu",
+          "new_word_meaning": "जो कहा / कही हुई बात",
+          "grammar_note": "verb + iddu = वो काम जो हुआ। helliddu = जो कहा गया। maadiddu = जो किया गया। neevu helliddu = आपने जो कहा। Verb को noun बना देता है — Hindi 'कही हुई बात' जैसा।"
+        },
+        {
+          "id": "s3_041",
+          "kannada": "ತರಕಾರಿ ಇವತ್ತು fresh ಆಗಿದೆ",
+          "roman": "tarakaari ivattu fresh aagide",
+          "gloss": "सब्ज़ी आज ताज़ी है",
+          "new_word": "tarakaari",
+          "new_word_meaning": "सब्ज़ी / तरकारी",
+          "grammar_note": "tarakaari = सब्ज़ी (Hindi का 'तरकारी' ही है)। fresh aagide = ताज़ी हो गई है / ताज़ी है। ivattu = आज।"
+        },
+        {
+          "id": "s3_042",
+          "kannada": "ಒಂದು ಕೆಜಿ ಟೊಮ್ಯಾಟೊ ಕೊಡಿ",
+          "roman": "ondu keji tamaato kodi",
+          "gloss": "एक किलो टमाटर दीजिए",
+          "new_word": "keji",
+          "new_word_meaning": "किलोग्राम / किलो",
+          "grammar_note": "keji = किलो। eradu keji = दो किलो। aadu keji = आधा किलो। tooka = वज़न। tooka maadi = वज़न करो। रोज़मर्रा की बाज़ार भाषा।"
+        },
+        {
+          "id": "s3_043",
+          "kannada": "ಈರುಳ್ಳಿ ರೇಟ್ ಎಷ್ಟು?",
+          "roman": "eerulli ret eshtu?",
+          "gloss": "प्याज़ का रेट क्या है?",
+          "new_word": "eerulli",
+          "new_word_meaning": "प्याज़",
+          "grammar_note": "eerulli = प्याज़ (Kannada का specific word, रोज़ बोला जाता है)। ret = रेट/दाम। eerulli ret jaasti aaytu = प्याज़ का दाम बढ़ गया। Bangalore बाज़ार में आम शिकायत।"
+        },
+        {
+          "id": "s3_044",
+          "kannada": "ಇದು ತಾಜಾ ಇದ್ಯಾ?",
+          "roman": "idu taaja iddyaa?",
+          "gloss": "यह ताज़ा है?",
+          "new_word": "taaja",
+          "new_word_meaning": "ताज़ा (सब्ज़ी/खाने के लिए)",
+          "grammar_note": "taaja = ताज़ा (Hindi/Urdu से आया, सब्ज़ी और खाने के लिए)। fresh और taaja दोनों Bangalore में चलते हैं। taaja haalu = ताज़ा दूध।"
+        },
+        {
+          "id": "s3_045",
+          "kannada": "ತೂಕ ಸರಿಯಾಗಿ ಹಾಕಿ",
+          "roman": "tooka sariyaagi haaki",
+          "gloss": "वज़न सही से डालिए",
+          "new_word": "tooka",
+          "new_word_meaning": "वज़न / तुलाई",
+          "grammar_note": "tooka = वज़न। tooka haaku = वज़न करना। sariyaagi = सही से। tooka sari illa = वज़न ठीक नहीं है। जब कम तुलाई का शक हो तब useful।"
+        },
+        {
+          "id": "s3_046",
+          "kannada": "ಒಂದು ಕಟ್ಟು ಕೊತ್ತಂಬ್ರಿ ಬೇಕು",
+          "roman": "ondu kattu kottambri beku",
+          "gloss": "एक गट्ठर धनिया चाहिए",
+          "new_word": "kattu",
+          "new_word_meaning": "गट्ठर / बंडल / गुच्छा",
+          "grammar_note": "kattu = गट्ठर या bundle। ondu kattu = एक गट्ठर। eradu kattu = दो गट्ठर। saasive kattu = सरसों का गट्ठर। kattu का मतलब बाँधना भी है।"
+        },
+        {
+          "id": "s3_047",
+          "kannada": "ಇದು ಇಷ್ಟು ತುಟ್ಟಿ ಯಾಕೆ?",
+          "roman": "idu ishtu tutti yaake?",
+          "gloss": "यह इतना महँगा क्यों है?",
+          "new_word": "tutti",
+          "new_word_meaning": "महँगा / costly",
+          "grammar_note": "tutti = महँगा। cheepu = सस्ता। tutti aaytu = महँगा हो गया। eshtu tutti = कितना महँगा। ishtu tutti = इतना महँगा (ishtu = इतना)।"
+        },
+        {
+          "id": "s3_048",
+          "kannada": "ಇದ್ನ exchange ಮಾಡ್ಬಹುದಾ?",
+          "roman": "idna exchange maadabohudaa?",
+          "gloss": "क्या यह exchange हो सकता है?",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "idna = idanna का short form = इसे (object)। exchange maadabohuduaa = exchange हो सकता है? return maadabohuduaa = return हो सकता है? -na object marker बोलचाल में छोटा हो जाता है।"
+        },
+        {
+          "id": "s3_049",
+          "kannada": "ಅಳತೆ ಸರಿ ಇಲ್ಲ, ಬೇರೆ ಕೊಡಿ",
+          "roman": "alate sari illa, bere kodi",
+          "gloss": "साइज़ ठीक नहीं, दूसरा दीजिए",
+          "new_word": "alate",
+          "new_word_meaning": "साइज़ / नाप / माप",
+          "grammar_note": "alate = साइज़ या नाप। alate sari illa = साइज़ ठीक नहीं। alate nodi kodu = नाप देखकर दो। Bangalore दुकानों में size और alate दोनों चलते हैं।"
+        },
+        {
+          "id": "s3_050",
+          "kannada": "ನಿಮ್ ಹತ್ರ ಚಿಲ್ಲರೆ ಇದ್ಯಾ?",
+          "roman": "nimma hatra chillare iddyaa?",
+          "gloss": "आपके पास छुट्टे हैं?",
+          "new_word": "chillare",
+          "new_word_meaning": "छुट्टे / सिक्के / रेज़गारी",
+          "grammar_note": "chillare = छुट्टे / रेज़गारी। change भी चलता है, लेकिन chillare Kannada का अपना word है। chillare illa = छुट्टे नहीं हैं। chillare kodu = छुट्टे दो।"
+        },
+        {
+          "id": "s3_051",
+          "kannada": "ನಿಮ್ ಹೆಸ್ರೇನು?",
+          "roman": "nimma hesrenu?",
+          "gloss": "आपका नाम क्या है?",
+          "new_word": "hesaru",
+          "new_word_meaning": "नाम",
+          "grammar_note": "hesaru = नाम। nimma hesrenu = आपका नाम क्या है (बोलचाल में short form)। nimma hesru enu? full form है लेकिन hesrenu ही actually बोला जाता है। nanna hesru ___ = मेरा नाम ___ है।"
+        },
+        {
+          "id": "s3_052",
+          "kannada": "ನೀವು ಯಾವ ಊರಿನವರು?",
+          "roman": "neevu yaava ooru-inavaru?",
+          "gloss": "आप कहाँ के हैं?",
+          "new_word": "oorinavaru",
+          "new_word_meaning": "किसी जगह का व्यक्ति / मूल निवासी",
+          "grammar_note": "ooru + inavaru = उस जगह का व्यक्ति। yaava ooru-inavaru = किस जगह के हैं। Bengalooru-inavaru = Bangalore का व्यक्ति। Hindi 'कहाँ के हैं?' — किसी की background समझने का friendly तरीका।"
+        },
+        {
+          "id": "s3_053",
+          "kannada": "ನನಗೆ ಕನ್ನಡ ಸ್ವಲ್ಪ ಸ್ವಲ್ಪ ಗೊತ್ತು",
+          "roman": "nanage kannada svalpa svalpa gottu",
+          "gloss": "मुझे थोड़ा-थोड़ा Kannada आता है",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "svalpa svalpa = थोड़ा-थोड़ा (repetition से कम करता है)। gottu = आता है / पता है। nanage kannada svalpa svalpa gottu = मुझे Kannada थोड़ा-थोड़ा आता है। Humble और endearing तरीका।"
+        },
+        {
+          "id": "s3_054",
+          "kannada": "ಕಲೀತಾ ಇದ್ದೀನಿ",
+          "roman": "kaleetaa iddini",
+          "gloss": "सीख रहा/रही हूँ",
+          "new_word": "kaleetaa iddini",
+          "new_word_meaning": "सीख रहा/रही हूँ (ongoing process)",
+          "grammar_note": "kali = सीखना। kaleetaa iddini = सीख रहा हूँ (ongoing, process में)। maadtaa iddini = कर रहा हूँ। -taa iddini form बताता है कि काम जारी है — Hindi 'सीख रहा हूँ' जैसा।"
+        },
+        {
+          "id": "s3_055",
+          "kannada": "ನಿಮ್ಮ ಸಹಾಯ ಬೇಕು",
+          "roman": "nimma sahaaya beku",
+          "gloss": "आपकी मदद चाहिए",
+          "new_word": "sahaaya",
+          "new_word_meaning": "मदद / सहायता",
+          "grammar_note": "sahaaya = मदद / सहायता (Hindi 'सहायता' जैसा ही)। sahaaya beku = मदद चाहिए। sahaaya maadi = कृपया मदद करें। nimma sahaaya beku = आपकी मदद चाहिए।"
+        },
+        {
+          "id": "s3_056",
+          "kannada": "ಒಂದು ಕೆಲಸ ಇತ್ತು",
+          "roman": "ondu kelasa ittu",
+          "gloss": "एक काम था / एक बात पूछनी थी",
+          "new_word": "ittu",
+          "new_word_meaning": "था / थी (ide का past tense)",
+          "grammar_note": "ittu = था / थी (ide का past)। ondu kelasa ittu = एक काम था। बातचीत शुरू करने का common तरीका — Hindi 'एक काम था' या 'एक बात पूछनी थी' जैसा।"
+        },
+        {
+          "id": "s3_057",
+          "kannada": "ನಿಮ್ಮ ಜೊತೆ ಮಾತಾಡ್ಬೇಕಿತ್ತು",
+          "roman": "nimma jote maataadbekittu",
+          "gloss": "आपसे बात करनी थी",
+          "new_word": "jote",
+          "new_word_meaning": "साथ / के साथ (लोगों के लिए)",
+          "grammar_note": "jote = साथ (लोगों के लिए)। nimma jote = आपके साथ। avara jote = उनके साथ। hatra = पास/साथ (चीज़ों के लिए)। jote = लोगों के साथ किसी काम के लिए।"
+        },
+        {
+          "id": "s3_058",
+          "kannada": "ಸಮಯ ಸಿಕ್ಕಿದ್ರೆ ಒಮ್ಮೆ ಬನ್ನಿ",
+          "roman": "samaya sikkidre omme banni",
+          "gloss": "वक्त मिले तो एक बार आइएगा",
+          "new_word": "omme",
+          "new_word_meaning": "एक बार / एक दफा",
+          "grammar_note": "omme = एक बार। eradu omme = दो बार। sikkidre = अगर मिले तो (conditional)। samaya sikkidre = वक्त मिले तो। Low-pressure, warm invitation — Hindi 'वक्त मिले तो आना' जैसा।"
+        },
+        {
+          "id": "s3_059",
+          "kannada": "ನಿಮ್ಮ ನಂಬರ್ ಕೊಡ್ತೀರಾ?",
+          "roman": "nimma number kodteera?",
+          "gloss": "आपका नंबर देंगे?",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "kodteera? = देंगे? kodu = देना। kodteeni = दूँगा। kodteera = देंगे (polite)। nimma number kodu = अपना नंबर दो (direct)। kodteera = देंगे? (softer way)।"
+        },
+        {
+          "id": "s3_060",
+          "kannada": "ಮತ್ತೆ ಸಿಗೋಣ",
+          "roman": "matte sigona",
+          "gloss": "फिर मिलते हैं",
+          "new_word": "matte",
+          "new_word_meaning": "फिर / दोबारा",
+          "grammar_note": "matte = फिर / दोबारा। matte banni = फिर आइएगा। matte maadi = फिर से कीजिए। matte sigona = फिर मिलते हैं। विदाई का warm तरीका — दरवाज़ा खुला रखता है।"
+        },
+        {
+          "id": "s3_061",
+          "kannada": "ಊಟ ಮಾಡಿದ್ರಾ?",
+          "roman": "oota maadidra?",
+          "gloss": "खाना खाया?",
+          "new_word": "maadidra",
+          "new_word_meaning": "क्या आपने किया / क्या खाया (polite)",
+          "grammar_note": "maadidra = क्या आपने किया (polite past question)। maadidini = मैंने किया। maadiddaare = उन्होंने किया है। Kannada में 'खाना खाया?' एक standard greeting है — Hindi में भी 'खाना खाया?' आम है।"
+        },
+        {
+          "id": "s3_062",
+          "kannada": "ಮನೆಯಲ್ಲಿ ಅಡಿಗೆ ಇದೆ",
+          "roman": "mane-alli adige ide",
+          "gloss": "घर में खाना बना है",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "adige = पका हुआ खाना या खाना बनाना। mane-alli adige ide = घर में खाना है (meaning: बना हुआ खाना तैयार है)। hotel-ge hogbeda = बाहर जाने की ज़रूरत नहीं।"
+        },
+        {
+          "id": "s3_063",
+          "kannada": "ಅನ್ನ, ಸಾರು, ಪಲ್ಯ ಇದೆ",
+          "roman": "anna, saaru, palya ide",
+          "gloss": "चावल, रसम, और सूखी सब्ज़ी है",
+          "new_word": "saaru",
+          "new_word_meaning": "रसम / पतला मसालेदार शोरबा",
+          "grammar_note": "anna = पका हुआ चावल। saaru = रसम (पतला spiced soup)। palya = dry सब्ज़ी stir-fry। Karnataka का core meal। sambaar = thicker lentil-vegetable curry।"
+        },
+        {
+          "id": "s3_064",
+          "kannada": "ತುಪ್ಪ ಹಾಕ್ಲಾ?",
+          "roman": "tuppa haaklaa?",
+          "gloss": "घी डालूँ?",
+          "new_word": "tuppa",
+          "new_word_meaning": "घी / clarified butter",
+          "grammar_note": "tuppa = घी। haaklaa = डालूँ? (haaku + laa = 'shall I put?')। neeru haakla = पानी डालूँ? Hosting का warm question — Hindi में भी 'घी डालूँ?' आम है।"
+        },
+        {
+          "id": "s3_065",
+          "kannada": "ಸಾಕಾಯ್ತು, ತುಂಬಾ ಆಯ್ತು",
+          "roman": "saakaaytu, tumbaa aaytu",
+          "gloss": "बस हो गया, बहुत हो गया",
+          "new_word": "saakaaytu",
+          "new_word_meaning": "बस हो गया / पेट भर गया",
+          "grammar_note": "saakaaytu = saaku + aaytu = काफी हो गया है। खाना और लेने से politely मना करने के लिए। अकेले saaku से ज़्यादा strong। Host के यहाँ हमेशा appreciate होता है।"
+        },
+        {
+          "id": "s3_066",
+          "kannada": "ಇನ್ನು ಸ್ವಲ್ಪ ತಿನ್ನಿ",
+          "roman": "innu svalpa tinni",
+          "gloss": "थोड़ा और खाइए",
+          "new_word": "tinni",
+          "new_word_meaning": "खाइए (polite command)",
+          "grammar_note": "tinnu = खाना (verb)। tinni = खाइए (polite command)। tinnbeedi = मत खाइए (polite)। innu svalpa tinni = थोड़ा और खाइए। Host का persistent hospitality phrase — Hindi 'थोड़ा और खाइए' जैसा।"
+        },
+        {
+          "id": "s3_067",
+          "kannada": "ಸಿಹಿ ತಿಂದ್ರಾ?",
+          "roman": "sihi tindra?",
+          "gloss": "मीठा खाया?",
+          "new_word": "sihi",
+          "new_word_meaning": "मीठा / मिठास",
+          "grammar_note": "sihi = मीठा (taste)। khaara = तीखा। huli = खट्टा। uppu = नमकीन। sihi tindi = मिठाई / sweet snack। sihi tindra = मीठा खाया? (खाने के बाद)।"
+        },
+        {
+          "id": "s3_068",
+          "kannada": "ಕಾಫಿ ಇಲ್ಲದೇ ನನಗೆ ಆಗಲ್ಲ",
+          "roman": "kaaphi illade nanage aagalla",
+          "gloss": "coffee के बिना मेरा काम नहीं चलता",
+          "new_word": "illade",
+          "new_word_meaning": "बिना / अभाव में",
+          "grammar_note": "illade = बिना (literally: न होते हुए)। kaaphi illade = coffee के बिना। neevu illade = आपके बिना। illade aagalla = बिना इसके नहीं हो सकता। Hindi 'बिना...के' जैसी structure।"
+        },
+        {
+          "id": "s3_069",
+          "kannada": "ಒಂದು ಲೋಟ ನೀರು ಕೊಡ್ತೀರಾ?",
+          "roman": "ondu lota neeru kodteera?",
+          "gloss": "एक गिलास पानी देंगे?",
+          "new_word": "lota",
+          "new_word_meaning": "गिलास (पीने का बर्तन)",
+          "grammar_note": "lota = गिलास (पीने के लिए, आमतौर पर stainless steel)। cup भी चलता है। ondu lota neeru = एक गिलास पानी। eradu cup coffee = दो cup coffee।"
+        },
+        {
+          "id": "s3_070",
+          "kannada": "ಊಟ ಚೆನ್ನಾಗಿ ಆಯ್ತು, ಧನ್ಯವಾದ",
+          "roman": "oota chennaagi aaytu, dhanyavaada",
+          "gloss": "खाना बहुत अच्छा बना, शुक्रिया",
+          "new_word": "dhanyavaada",
+          "new_word_meaning": "धन्यवाद / शुक्रिया (formal)",
+          "grammar_note": "dhanyavaada = धन्यवाद (formal, respectful — Hindi 'धन्यवाद' जैसा ही)। thanks भी common है। swalpa tondare aaytu = थोड़ी तकलीफ दी (जाते वक्त कहते हैं)।"
+        },
+        {
+          "id": "s3_071",
+          "kannada": "ಅವನು ತುಂಬಾ ಒಳ್ಳೆ ಮನುಷ್ಯ",
+          "roman": "avanu tumbaa olle manushya",
+          "gloss": "वो बहुत अच्छा इंसान है",
+          "new_word": "manushya",
+          "new_word_meaning": "इंसान / मनुष्य",
+          "grammar_note": "manushya = इंसान (character पर focus, Hindi 'मनुष्य' जैसा)। olle manushya = अच्छा इंसान। manasa olle manushya = अच्छे दिल वाला इंसान। jana = लोग (count करने के लिए)।"
+        },
+        {
+          "id": "s3_072",
+          "kannada": "ಅವಳು ತುಂಬಾ ಚಾಲಾಕಿ",
+          "roman": "avalu tumbaa chalaaki",
+          "gloss": "वो बहुत चालाक / होशियार है",
+          "new_word": "chalaaki",
+          "new_word_meaning": "चालाक / होशियार / sharp",
+          "grammar_note": "chalaaki = चालाक (Hindi 'चालाक' से ही आया है)। avalu chalaaki = वो smart है। chalaaki maadu = किसी चीज़ में होशियारी दिखाना। अक्सर admiration के साथ कहा जाता है।"
+        },
+        {
+          "id": "s3_073",
+          "kannada": "ಅವರು ತುಂಬಾ helpful ಆಗಿದ್ದಾರೆ",
+          "roman": "avaru tumbaa helpful aagiddaare",
+          "gloss": "वो बहुत helpful रहे हैं",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "English adjective + aagiddaare = वो उस तरह रहे हैं / हो गए हैं (polite, sustained state)। helpful aagiddaare। supportive aagiddaare। strict aagiddaare। किसी के बारे में बताने का natural तरीका।"
+        },
+        {
+          "id": "s3_074",
+          "kannada": "ಅವನಿಗೆ ಕನ್ನಡ ತುಂಬಾ ಚೆನ್ನಾಗಿ ಬರತ್ತೆ",
+          "roman": "avanige kannada tumbaa chennaagi baratte",
+          "gloss": "उसे Kannada बहुत अच्छी आती है",
+          "new_word": "baratte",
+          "new_word_meaning": "आता है / आ जाता है (skill के लिए)",
+          "grammar_note": "baratte = आता है (skill के लिए — 'उसे आता है')। kannada baratte = Kannada आती है। khaana maadodu baratte = खाना बनाना आता है। Hindi में 'उसे Kannada आती है' — बिल्कुल same idiom।"
+        },
+        {
+          "id": "s3_075",
+          "kannada": "ನನಗೆ ಈಜು ಬರಲ್ಲ",
+          "roman": "nanage eeju baralla",
+          "gloss": "मुझे तैरना नहीं आता",
+          "new_word": "eeju",
+          "new_word_meaning": "तैरना / तैराकी",
+          "grammar_note": "eeju = तैराकी। eeju baralla = तैरना नहीं आता। drive baratte = गाड़ी चलाना आता है। baratte/baralla = skill का can/cannot pair — Hindi 'आता है / नहीं आता' जैसा।"
+        },
+        {
+          "id": "s3_076",
+          "kannada": "ಸ್ವಲ್ಪ ಸ್ವಲ್ಪ ಕಲೀಬೇಕು",
+          "roman": "svalpa svalpa kaLibeku",
+          "gloss": "थोड़ा-थोड़ा सीखते रहना चाहिए",
+          "new_word": "kali",
+          "new_word_meaning": "सीखना",
+          "grammar_note": "kali = सीखना। kalibeku = सीखना होगा / सीखना चाहिए। kaleetaiddini = सीख रहा हूँ। kalitini = सीख लिया। svalpa svalpa kali = थोड़ा-थोड़ा सीखो। किसी भी learning journey के लिए encouragement।"
+        },
+        {
+          "id": "s3_077",
+          "kannada": "ಅದು ನನಗೆ ಗೊತ್ತಿರಲಿಲ್ಲ",
+          "roman": "adu nanage gottirallilla",
+          "gloss": "वो मुझे पता नहीं था",
+          "new_word": "gottirallilla",
+          "new_word_meaning": "पता नहीं था (past negative)",
+          "grammar_note": "gottu = पता है। gottilla = पता नहीं है (present)। gottirallilla = पता नहीं था (past)। Past negative में -irallilla लगता है। Hindi 'मुझे पता नहीं था' — same structure।"
+        },
+        {
+          "id": "s3_078",
+          "kannada": "ಈಗ ಗೊತ್ತಾಯ್ತು",
+          "roman": "eega gottaaytu",
+          "gloss": "अब समझ आया",
+          "new_word": "gottaaytu",
+          "new_word_meaning": "समझ गया / पता चल गया",
+          "grammar_note": "gottaaytu = पता चल गया = समझ गया। eega gottaaytu = अब समझ आया। gottu + aaytu = understanding achieved। जब कोई explain करे तब natural response — Hindi 'अब समझ में आया' जैसा।"
+        },
+        {
+          "id": "s3_079",
+          "kannada": "ಮತ್ತೊಮ್ಮೆ ಹೇಳ್ತೀರಾ?",
+          "roman": "mattomme helteeraa?",
+          "gloss": "एक बार और बोलेंगे?",
+          "new_word": "mattomme",
+          "new_word_meaning": "एक बार और / दोबारा",
+          "grammar_note": "matte + omme = mattomme = एक बार और। mattomme helu = दोबारा बोलो। mattomme maadu = दोबारा करो। समझ न आए तो politely पूछने का तरीका।"
+        },
+        {
+          "id": "s3_080",
+          "kannada": "ನಿಧಾನವಾಗಿ ಮಾತಾಡಿ",
+          "roman": "nidhaanavaagi maataadi",
+          "gloss": "धीरे-धीरे बोलिए",
+          "new_word": "nidhaanavaagi",
+          "new_word_meaning": "धीरे से / आराम से / बिना जल्दी के",
+          "grammar_note": "nidhaana = धीमा / careful। nidhaanavaagi = धीरे से। bega = जल्दी। nidhaanavaagi maataadi = धीरे बोलिए। nidhaanavaagi hogi = धीरे जाइए / सावधानी से चलाइए।"
+        },
+        {
+          "id": "s3_081",
+          "kannada": "ಇವತ್ತು ಮಳೆ ಬರತ್ತೆ ಅಂತ ಕಾಣತ್ತೆ",
+          "roman": "ivattu male baratte anta kaanatte",
+          "gloss": "आज बारिश आएगी लगता है",
+          "new_word": "male",
+          "new_word_meaning": "बारिश",
+          "grammar_note": "male = बारिश। male baratte = बारिश आएगी। male bantu = बारिश आई। kaanatte = लगता है / दिखता है। anta kaanatte = ऐसा लगता है। Bangalore weather small talk।"
+        },
+        {
+          "id": "s3_082",
+          "kannada": "ಮಳೆ ನಿಂತಿದೆ",
+          "roman": "male nintide",
+          "gloss": "बारिश रुक गई है",
+          "new_word": "nintide",
+          "new_word_meaning": "रुक गया है / खड़ा है (past, current result)",
+          "grammar_note": "nillu = रुकना / खड़ा होना। nintide = रुक गया है (अभी भी उसी state में)। male nintide = बारिश रुक गई है (तो अब निकल सकते हैं)। bus nintide = बस रुकी है।"
+        },
+        {
+          "id": "s3_083",
+          "kannada": "ಬಿಸಿಲು ತುಂಬಾ ಜಾಸ್ತಿ ಇದೆ",
+          "roman": "bisilu tumbaa jaasti ide",
+          "gloss": "धूप/गर्मी बहुत तेज़ है",
+          "new_word": "bisilu",
+          "new_word_meaning": "धूप / सूरज की तपन",
+          "grammar_note": "bisilu = धूप या सूरज की गर्मी। bisi = गर्म (temperature)। bisilu = खासतौर पर सूरज की तपन। bisilu tumbaa ide = बाहर बहुत गर्मी है। nimala tagoli = छाता लो।"
+        },
+        {
+          "id": "s3_084",
+          "kannada": "ಛಳಿ ತುಂಬಾ ಇದೆ ಇವತ್ತು",
+          "roman": "chali tumbaa ide ivattu",
+          "gloss": "आज बहुत ठंड है",
+          "new_word": "chali",
+          "new_word_meaning": "ठंड / सर्दी",
+          "grammar_note": "chali = ठंड। bisilu = धूप/गर्मी। male = बारिश। chali tumbaa ide = बहुत ठंड है। chali aagide = ठंड हो गई है। sweater haakoli = स्वेटर पहनिए।"
+        },
+        {
+          "id": "s3_085",
+          "kannada": "ಗಾಳಿ ತುಂಬಾ ಬೀಸ್ತಿದೆ",
+          "roman": "gaali tumbaa beestide",
+          "gloss": "हवा बहुत तेज़ चल रही है",
+          "new_word": "gaali",
+          "new_word_meaning": "हवा / पवन / वायु",
+          "grammar_note": "gaali = हवा। gaali beesu = हवा चलना। beestide = चल रही है। gaali tumbaa beestide = हवा बहुत तेज़ चल रही है। fresh gaali ide = ताज़ी हवा है।"
+        },
+        {
+          "id": "s3_086",
+          "kannada": "ನಾಡಿದ್ದು ರಜೆ ಇದೆ",
+          "roman": "naadiddu raje ide",
+          "gloss": "परसों छुट्टी है",
+          "new_word": "naadiddu",
+          "new_word_meaning": "परसों",
+          "grammar_note": "ivattu = आज। naale = कल। naadiddu = परसों। ninne = कल (बीता)। monnine = नसों पहले। raje = छुट्टी। Hindi में इन time words का exact parallel है।"
+        },
+        {
+          "id": "s3_087",
+          "kannada": "ಈ ವಾರ ತುಂಬಾ ಕೆಲಸ ಇತ್ತು",
+          "roman": "ee vaara tumbaa kelasa ittu",
+          "gloss": "इस हफ्ते बहुत काम था",
+          "new_word": "ee vaara",
+          "new_word_meaning": "इस हफ्ते",
+          "grammar_note": "ee vaara = इस हफ्ते। mundina vaara = अगले हफ्ते। hinde vaara = पिछले हफ्ते। ee vaara tumbaa kelasa ittu = इस हफ्ते बहुत काम था। ittu = था (past of ide)।"
+        },
+        {
+          "id": "s3_088",
+          "kannada": "ತಿಂಗಳ ಕೊನೆಗೆ ಸಂಬಳ ಬರತ್ತೆ",
+          "roman": "tingala konege sambala baratte",
+          "gloss": "महीने के अंत में तनख्वाह आती है",
+          "new_word": "sambala",
+          "new_word_meaning": "तनख्वाह / वेतन",
+          "grammar_note": "sambala = तनख्वाह / salary। tingala konege = महीने के अंत में। sambala baratte = salary आएगी। sambala aaytu = salary आ गई। महीने का सबसे anticipated sentence।"
+        },
+        {
+          "id": "s3_089",
+          "kannada": "ಸ್ವಲ್ಪ loan ತಗೊಬೇಕಿದೆ",
+          "roman": "svalpa loan tagobbekide",
+          "gloss": "थोड़ा loan लेना है",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "tagobbekide = लेना ज़रूरी है (tagо + beku + ide = लेना है)। Need construction में ide जोड़ने से meaning soft और tentative हो जाती है। Uncertain plans के लिए useful।"
+        },
+        {
+          "id": "s3_090",
+          "kannada": "ಈ ತಿಂಗಳು ಖರ್ಚು ತುಂಬಾ ಆಯ್ತು",
+          "roman": "ee tingalu kharchu tumbaa aaytu",
+          "gloss": "इस महीने खर्च बहुत हो गया",
+          "new_word": "kharchu",
+          "new_word_meaning": "खर्च / व्यय",
+          "grammar_note": "kharchu = खर्च (Urdu/Hindi से आया, Bangalore Kannada में common)। kharchu jaasti aaytu = खर्च बढ़ गया। kharchu kammi maadbekuu = खर्च कम करना होगा। ee tingalu kharchu tumbaa aaytu = इस महीने बहुत खर्च हो गया।"
+        },
+        {
+          "id": "s3_091",
+          "kannada": "ಬೆಂಗಳೂರು ತುಂಬಾ ಬದಲಾಗಿದೆ",
+          "roman": "Bengalooru tumbaa badalaagide",
+          "gloss": "Bengaluru बहुत बदल गया है",
+          "new_word": "badalaagide",
+          "new_word_meaning": "बदल गया है",
+          "grammar_note": "badalaaagu = बदलना। badalaagide = बदल गया है। Bengalooru tumbaa badalaagide = Bengaluru बहुत बदल गया है। शहर के बदलाव के बारे में किसी भी बातचीत का standard opening।"
+        },
+        {
+          "id": "s3_092",
+          "kannada": "ಮೊದಲು ಹೀಗಿರಲಿಲ್ಲ",
+          "roman": "modalu heegirallilla",
+          "gloss": "पहले ऐसा नहीं था",
+          "new_word": "modalu",
+          "new_word_meaning": "पहले / पहले से",
+          "grammar_note": "modalu = पहले। modalu heegittu = पहले ऐसा था। modalu heegirallilla = पहले ऐसा नहीं था। Bangalore के तेज़ बदलाव के बारे में बात करते वक्त अक्सर सुनाई देता है।"
+        },
+        {
+          "id": "s3_093",
+          "kannada": "ಈಗ ತುಂಬಾ ಜನ ಆಗಿದ್ದಾರೆ",
+          "roman": "eega tumbaa jana aagiddaare",
+          "gloss": "अब बहुत लोग आ गए हैं",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "jana aagiddaare = लोग हो गए हैं = population बढ़ गई है। tumbaa jana aagiddaare = बहुत लोग आ गए हैं। Bangaloreans इस तरह population growth comment करते हैं।"
+        },
+        {
+          "id": "s3_094",
+          "kannada": "ನೀವು ಎಷ್ಟು ವರ್ಷದಿಂದ ಇಲ್ಲಿದ್ದೀರಿ?",
+          "roman": "neevu eshtu varsha-dinda illiddiri?",
+          "gloss": "आप कितने सालों से यहाँ हैं?",
+          "new_word": "varsha",
+          "new_word_meaning": "साल / वर्ष",
+          "grammar_note": "varsha = साल। eshtu varsha = कितने साल। varsha-dinda = सालों से। illiddiri = आप यहाँ रहे हैं (polite)। Hindi 'कितने सालों से Bangalore में हैं?' — बिल्कुल same।"
+        },
+        {
+          "id": "s3_095",
+          "kannada": "ಹತ್ತು ವರ್ಷ ಆಯ್ತು ಬಂದು",
+          "roman": "hattu varsha aaytu bandu",
+          "gloss": "दस साल हो गए आए हुए",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "hattu varsha aaytu bandu = दस साल हो गए आए हुए। bandu = आकर (connector)। Pattern: time + aaytu + having-done। Hindi 'दस साल हो गए यहाँ आए हुए' जैसी structure।"
+        },
+        {
+          "id": "s3_096",
+          "kannada": "ಈಗ ಅಭ್ಯಾಸ ಆಗಿದೆ",
+          "roman": "eega abhyaasa aagide",
+          "gloss": "अब आदत पड़ गई है",
+          "new_word": "abhyaasa",
+          "new_word_meaning": "आदत / अभ्यास / आदी होना",
+          "grammar_note": "abhyaasa aagide = आदत पड़ गई है (Hindi 'अभ्यास' जैसा ही)। abhyaasa aagilla = अभी आदत नहीं पड़ी। Bengalooru-ge abhyaasa aaytu = Bangalore की आदत पड़ गई।"
+        },
+        {
+          "id": "s3_097",
+          "kannada": "ನಿಮ್ಮ ಊರು ಯಾವುದು?",
+          "roman": "nimma ooru yaavudu?",
+          "gloss": "आपका गाँव/शहर कौन सा है?",
+          "new_word": "yaavudu",
+          "new_word_meaning": "कौन सा (किसी set में से)",
+          "grammar_note": "yaavudu = कौन सा। yaava = कौन सा (noun से पहले)। nimma ooru yaavudu = आपका गाँव कौन सा है। nimma ooru yaava = आपका कौन सा गाँव (noun से पहले)।"
+        },
+        {
+          "id": "s3_098",
+          "kannada": "ನಾನು Mysuru ಕಡೆಯವನು",
+          "roman": "naanu Mysuru kadeyavanu",
+          "gloss": "मैं Mysuru की तरफ का हूँ",
+          "new_word": "kadeyavanu",
+          "new_word_meaning": "उस तरफ का व्यक्ति / उस इलाके का",
+          "grammar_note": "kade = तरफ/दिशा। kadeyavanu = उस तरफ का व्यक्ति। Mysuru kadeyavanu = Mysore region का। अपनी origin बताने का casual तरीका — exact शहर बताने से कम specific।"
+        },
+        {
+          "id": "s3_099",
+          "kannada": "ನಮ್ಮ ಕನ್ನಡ ಬೇರೆ ಬೇರೆ ಇರತ್ತೆ",
+          "roman": "namma kannada bere bere iratte",
+          "gloss": "हमारी Kannada अलग-अलग जगह अलग होती है",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "bere bere = अलग-अलग। Mysuru Kannada, Dharwad Kannada, Mangalore Kannada काफी different हैं। Bengaluru Kannada एक blend है। जैसे Hindi में UP की Hindi, Bihar की Hindi, Delhi की Hindi अलग है।"
+        },
+        {
+          "id": "s3_100",
+          "kannada": "ಆದ್ರೆ ಅರ್ಥ ಆಗತ್ತೆ ಅಲ್ವಾ",
+          "roman": "aadre artha aagatte alvaa",
+          "gloss": "लेकिन समझ में आता है ना",
+          "new_word": "artha",
+          "new_word_meaning": "अर्थ / समझ / मतलब",
+          "grammar_note": "artha = अर्थ / मतलब (Hindi 'अर्थ' जैसा ही)। artha aagatte = समझ में आएगा। artha aagalla = समझ नहीं आता। adu amdre enu, artha aagalla = उसका मतलब क्या, समझ नहीं आया।"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Naturalistic Bangalore",
+      "tagline": "Naturalistic Bangalore",
+      "description": "यही असली Bangalore है — लोग यहाँ ऐसे ही बोलते हैं, चाहे background कोई भी हो। Code-switching यहाँ जानबूझकर है — आप जानते हैं कि English word कब ज़्यादा सही लगता है और Kannada word कब।",
+      "color": "stage-4",
+      "sentences": [
+        {
+          "id": "s4_001",
+          "kannada": "ಹೌದು, Silk Board ಹತ್ರ ಅಲ್ವಾ? Daily ಅದೇ ಕಥೆ",
+          "roman": "haudu, Silk Board hatra alvaa? daily ade kathe",
+          "gloss": "हाँ, Silk Board के पास है ना? रोज़ वही कहानी",
+          "new_word": "kathe",
+          "new_word_meaning": "कहानी / वही पुरानी situation",
+          "grammar_note": "ade kathe = same story = वही कहानी (Hindi speakers will relate instantly). 'ade' means 'same' — ade kathe is Bangalore's version of 'phir wohi dhanda.' Silk Board is a notorious traffic signal — knowing this sentence makes you a real Bangalorean."
+        },
+        {
+          "id": "s4_002",
+          "kannada": "Outer Ring Road-ನಲ್ಲಿ traffic ತುಂಬಾ bad ಆಗಿದೆ, ಒಂದು ಗಂಟೆ ತಡ ಆಯ್ತು",
+          "roman": "Outer Ring Road-nalli traffic tumbaa bad aagide, ondu gamte tada aaytu",
+          "gloss": "Outer Ring Road पर traffic बहुत बुरा है, एक घंटा late हो गया",
+          "new_word": "tada",
+          "new_word_meaning": "देर / late",
+          "grammar_note": "tada = देर (delay). 'tada aaytu' = देर हो गई — same as Hindi 'der ho gayi.' Both Hindi speakers and Kannada speakers use 'late' interchangeably with tada. tumbaa = बहुत, and bad aagide = बुरा हो गया है."
+        },
+        {
+          "id": "s4_003",
+          "kannada": "Metro-ಅಲ್ಲಿ ಹೋಗೋದೇ ವಾಸಿ, traffic-ಅಲ್ಲಿ ಸಿಕ್ಕಿ ಹಾಕ್ಕೊಳ್ಳೋದು ಬೇಡ",
+          "roman": "metro-alli hogode vaasi, traffic-alli sikki haakkolodu beda",
+          "gloss": "Metro से जाना ही बेहतर है, traffic में फँसने का कोई फ़ायदा नहीं",
+          "new_word": "vaasi",
+          "new_word_meaning": "बेहतर / सही रहेगा",
+          "grammar_note": "vaasi = बेहतर — Hindi speakers say 'behtar hai' where Kannadigas say 'vaasi.' sikki haakkolodu = खुद को फँसाना — Hinglish equivalent: 'traffic mein phansna.' beda = मत करो / no need."
+        },
+        {
+          "id": "s4_004",
+          "kannada": "ಇವತ್ತು traffic ತುಂಬಾ ಇತ್ತು, ಒಂದು ಗಂಟೆ late ಆಯ್ತು",
+          "roman": "ivattu traffic tumbaa ittu, ondu gamte late aaytu",
+          "gloss": "आज traffic बहुत था, एक घंटा late हो गया",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "ittu = था (past of ide). 'traffic tumbaa ittu' = traffic बहुत था। Hindi-Kannada parallel: 'aaj bahut traffic tha, ek ghante ki der ho gayi' maps almost word-for-word. late is used as-is, just like Hinglish."
+        },
+        {
+          "id": "s4_005",
+          "kannada": "Auto-ಅವನು meter ಹಾಕ್ತಾ ಇಲ್ಲ, extra ಕೇಳ್ತಾ ಇದ್ದಾನೆ",
+          "roman": "auto-avanu meter haaktaa illa, extra keltaa iddaane",
+          "gloss": "Auto वाला meter नहीं चला रहा, extra माँग रहा है",
+          "new_word": "avanu",
+          "new_word_meaning": "वो / वो बंदा (casual, same age)",
+          "grammar_note": "auto-avanu = auto वाला — '-avanu' किसी noun के साथ लगाने से 'वाला' बन जाता है, जैसे Hindi में। iddaane = है (casual male)। Hindi speakers use '-wala' the same way — bus-wala, auto-wala."
+        },
+        {
+          "id": "s4_006",
+          "kannada": "Namma Metro purple line-ಅಲ್ಲಿ ಹೋದ್ರೆ direct ಆಗತ್ತೆ",
+          "roman": "Namma Metro purple line-alli hodre direct aagatte",
+          "gloss": "Namma Metro purple line से जाओ तो direct हो जाएगा",
+          "new_word": "hodre",
+          "new_word_meaning": "अगर जाओ तो",
+          "grammar_note": "hodre = अगर जाओ तो। -dre is the 'if' suffix — 'maadidre' = अगर करो, 'nodidre' = अगर देखो। Hindi equivalent: '-ne par' or 'agar jao to.' direct aagatte = direct हो जाएगा।"
+        },
+        {
+          "id": "s4_007",
+          "kannada": "ಅಲ್ಲಿ right ತಗೊಂಡು ಸ್ವಲ್ಪ ಹೋದ್ರೆ ಕಾಣ್ತದೆ",
+          "roman": "alli right tagomdu svalpa hodre kaantade",
+          "gloss": "वहाँ right लो, थोड़ा आगे जाओ, दिख जाएगा",
+          "new_word": "kaantade",
+          "new_word_meaning": "दिखेगा / नज़र आएगा",
+          "grammar_note": "kaantade = दिख जाएगा (will become visible). Hindi directions end with 'dikh jayega' — Bangalore Kannada ends with 'kaantade.' right tagomdu = right लेकर। Directions in Bangalore blend English turns with Kannada connectors."
+        },
+        {
+          "id": "s4_008",
+          "kannada": "Maps ಮೇಲೆ ಒಂದು pin drop ಮಾಡಿ, ನಾನು ಬರ್ತೀನಿ",
+          "roman": "Maps mele omdu pin drop maadi, naanu barteeni",
+          "gloss": "Maps पर एक pin drop करो, मैं आ जाता/जाती हूँ",
+          "new_word": "mele",
+          "new_word_meaning": "पर / ऊपर",
+          "grammar_note": "mele = पर/ऊपर — Maps mele = Maps पर। Hindi 'par' maps directly to Kannada 'mele' for surfaces. '-alli' = में (inside), 'mele' = पर (on top/on). barteeni = मैं आ रहा/रही हूँ।"
+        },
+        {
+          "id": "s4_009",
+          "kannada": "ಇಲ್ಲಿಂದ 5 minutes ಆದ್ರೆ Indiranagar metro station",
+          "roman": "illinda 5 minutes aadre Indiranagar metro station",
+          "gloss": "यहाँ से 5 minutes में Indiranagar metro station",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "illinda = यहाँ से (from here). 'illinda X aadre' = यहाँ से X दूरी पर। Hindi parallel: 'yahan se 5 minute mein' — same structure, no verb needed in either language when the context is clear."
+        },
+        {
+          "id": "s4_010",
+          "kannada": "Excuse me, MG Road-ಗೆ ಯಾವ line ತಗೋಬೇಕು?",
+          "roman": "Excuse me, MG Road-ge yaava line tagobeku?",
+          "gloss": "Excuse me, MG Road के लिए कौन सी line लेनी चाहिए?",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "yaava line tagobeku = कौन सी line लेनी है। tagobeku = लेना है/लेनी चाहिए। Hindi 'konsi line leni hai?' maps directly. -ge after a place = के लिए (destination marker)."
+        },
+        {
+          "id": "s4_011",
+          "kannada": "ಅಣ್ಣ, ಒಂದು masala dose, ಒಂದು filter coffee",
+          "roman": "anna, omdu masaale dose, omdu philtar kaaphi",
+          "gloss": "भाई, एक masala dosa, एक filter coffee",
+          "new_word": "philtar kaaphi",
+          "new_word_meaning": "filter coffee (South Indian drip coffee)",
+          "grammar_note": "anna = भाई (दुकान में किसी को बुलाने के लिए) — Hindi speakers say 'bhai' or 'bhaiya,' Kannadigas say 'anna.' दोनों का मतलब एक ही है। No 'beku' needed — रेस्तराँ में order समझा जाता है।"
+        },
+        {
+          "id": "s4_012",
+          "kannada": "ಸ್ವಲ್ಪ ಕಮ್ಮಿ ಮಾಡಿ ಅಣ್ಣ, ಅಲ್ಲಿ ಮೂವತ್ತಕ್ಕೆ ಕೊಡ್ತಾರೆ",
+          "roman": "svalpa kammi maadi anna, alli moovattakke kodtaare",
+          "gloss": "थोड़ा कम करो भाई, वहाँ तीस में देते हैं",
+          "new_word": "kodtaare",
+          "new_word_meaning": "वो देते हैं / वो बेचते हैं",
+          "grammar_note": "kodtaare = वो देते हैं। -takke = के लिए (price marker) — moovattakke = तीस में। Bargaining works the same way in both Hindi and Bangalore Kannada: point to competitor price, soften with 'svalpa' (थोड़ा)।"
+        },
+        {
+          "id": "s4_013",
+          "kannada": "ಇದು fresh ಆ? ಇವತ್ತು ಬೆಳಿಗ್ಗೆ ಬಂದಿದ್ದಾ?",
+          "roman": "idu fresh aa? ivattu beligge bandiddaa?",
+          "gloss": "यह fresh है? आज सुबह आया था?",
+          "new_word": "bandiddaa",
+          "new_word_meaning": "क्या आया था / क्या आया है",
+          "grammar_note": "bandiddaa = क्या आया? (bandu + idda + aa = question form)। बाज़ार में सब्ज़ी देखते हुए double question करना Bangalore और Hindi दोनों में natural है — 'fresh hai? aaj subah aaya?'"
+        },
+        {
+          "id": "s4_014",
+          "kannada": "ಹೌದು, ಎರಡೂ ಕೊಡಿ, ಸ್ವಲ್ಪ ಖಾರ ಕಮ್ಮಿ ಮಾಡಿ",
+          "roman": "haudu, eradoo kodi, svalpa khaara kammi maadi",
+          "gloss": "हाँ, दोनों दो, ज़रा तीखा कम करो",
+          "new_word": "eradoo",
+          "new_word_meaning": "दोनों",
+          "grammar_note": "eradoo = दोनों (eradu = दो + oo = दोनों)। Hindi 'dono' works the same way. khaara = तीखा/मसालेदार। 'svalpa khaara kammi' = थोड़ा कम मसाला — बिल्कुल वैसे जैसे Hindi में कहते हैं।"
+        },
+        {
+          "id": "s4_015",
+          "kannada": "ಈ food-ನ pack ಮಾಡಿ, ಮನೆಗೆ ತಗೊಂಡು ಹೋಗ್ತೀನಿ",
+          "roman": "ee food-na pack maadi, manege tagomdu hogteeni",
+          "gloss": "यह खाना pack करो, घर ले जाऊँगा/जाऊँगी",
+          "new_word": "tagomdu hogteeni",
+          "new_word_meaning": "ले जाऊँगा/जाऊँगी",
+          "grammar_note": "tagomdu hogteeni = लेकर जाऊँगा। Hinglish parallel: 'le jata hoon' — Kannada uses 'tagomdu hogi' the same way. '-na' after a noun is the object marker (को)। manege = घर को / घर के लिए।"
+        },
+        {
+          "id": "s4_016",
+          "kannada": "Pharmacy night 9 o'clock ವರೆಗೂ open ಇರತ್ತೆ",
+          "roman": "pharmacy night 9 o'clock varegoo open iratte",
+          "gloss": "Pharmacy रात 9 बजे तक open रहेगी",
+          "new_word": "varegoo",
+          "new_word_meaning": "तक (inclusive)",
+          "grammar_note": "varegoo = तक (varegoo adds emphasis — 'even until'). Hindi 'tak' maps directly to Kannada 'varegu/varegoo.' raatri varegoo = रात तक। Planning करते समय यह word बहुत काम आता है।"
+        },
+        {
+          "id": "s4_017",
+          "kannada": "Food ಮೊದಲು ತಗೋಬೇಕಾ, ನಂತರ ತಗೋಬೇಕಾ?",
+          "roman": "food modalu tagobekaa, namtara tagobekaa?",
+          "gloss": "खाने से पहले लेना है या बाद में?",
+          "new_word": "namtara",
+          "new_word_meaning": "बाद में / बाद",
+          "grammar_note": "modalu = पहले, namtara = बाद में। Hindi 'pehle/baad mein' maps directly. दवाई लेने का यह सवाल — 'खाने से पहले या बाद में' — दोनों भाषाओं में same structure है।"
+        },
+        {
+          "id": "s4_018",
+          "kannada": "ಇದು fit ಆಗ್ತಿಲ್ಲ ಅಂದ್ರೆ return ಮಾಡಬಹುದಾ?",
+          "roman": "idu fit aagtilla amdre return maadabohudaa?",
+          "gloss": "अगर यह fit नहीं हुआ तो return कर सकते हैं?",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "amdre = अगर/तो (condition marker)। 'fit aagtilla amdre' = अगर fit नहीं हुआ। return maadabohuduaa = क्या return हो सकता है? Hindi 'agar... toh wapas kar sakte hain?' वाली structure यहाँ exactly match करती है।"
+        },
+        {
+          "id": "s4_019",
+          "kannada": "ಅದು ತುಂಬಾ expensive ಆಗಿದೆ, ಸ್ವಲ್ಪ cheaper ಏನಾದ್ರೂ ತೋರಿಸಿ",
+          "roman": "adu tumbaa expensive aagide, svalpa cheaper enaadroo torisi",
+          "gloss": "वो बहुत expensive है, ज़रा कुछ सस्ता दिखाओ",
+          "new_word": "torisi",
+          "new_word_meaning": "दिखाओ (polite)",
+          "grammar_note": "torisi = दिखाओ (polite command)। enaadroo = कुछ भी (any-something)। 'svalpa cheaper enaadroo torisi' = थोड़ा सस्ता कुछ दिखाओ — बिल्कुल वैसे जैसे Hindi में shopping पर कहते हैं।"
+        },
+        {
+          "id": "s4_020",
+          "kannada": "ನೋಡಿ, ಬೇರೆ ಕಡೆ ಇದಕ್ಕಿಂತ ಕಮ್ಮಿಗೆ ಸಿಗತ್ತೆ",
+          "roman": "nodi, bere kade idakkinta kammige sigatte",
+          "gloss": "देखो, दूसरी जगह इससे कम में मिल जाता है",
+          "new_word": "idakkinta",
+          "new_word_meaning": "इससे / इसकी तुलना में",
+          "grammar_note": "idakkinta = इससे (comparison marker — 'than this')। Hindi 'isse kam' maps to 'idakkinta kammi.' kammige = कम में (for less)। sigatte = मिल जाता है। Bargaining sentence — fully parallel to Hindi दुकानदारी।"
+        },
+        {
+          "id": "s4_021",
+          "kannada": "ತುಂಬಾ ಚೆನ್ನಾಗಿದೆ! ಆದ್ರೆ ಕನ್ನಡ ಗೊತ್ತಿಲ್ಲ, ಸ್ವಲ್ಪ ಸ್ವಲ್ಪ ಕಲೀತಿದ್ದೀನಿ",
+          "roman": "tumbaa chennaagide! aadre kannada gottilla, svalpa svalpa kaleetiddeeni",
+          "gloss": "बहुत अच्छा है! लेकिन Kannada नहीं आती, थोड़ी थोड़ी सीख रहा/रही हूँ",
+          "new_word": "kaleetiddeeni",
+          "new_word_meaning": "मैं सीख रहा/रही हूँ (process जारी है)",
+          "grammar_note": "kaleetiddeeni = सीख रहा हूँ (ongoing process)। Hindi 'seekh raha hoon' maps exactly. gottilla = पता नहीं / नहीं आती। यह sentence किसी भी Kannada learner की पहचान है — और Kannadigas इसे warm response के साथ receive करते हैं।"
+        },
+        {
+          "id": "s4_022",
+          "kannada": "ನಿಮ್ಮ ಕನ್ನಡ ತುಂಬಾ ಚೆನ್ನಾಗಿದೆ, ಎಲ್ಲಿ ಕಲಿತ್ರಿ?",
+          "roman": "nimma kannada tumbaa chennaagide, elli kalitri?",
+          "gloss": "आपकी Kannada बहुत अच्छी है, कहाँ से सीखी?",
+          "new_word": "kalitri",
+          "new_word_meaning": "कहाँ सीखी (polite past)",
+          "grammar_note": "kalitri = कहाँ सीखी? (kali + tiri, polite past question)। यह compliment सुनना किसी भी Kannada learner के लिए सबसे बड़ी खुशी है। nimma = आपकी/तुम्हारी।"
+        },
+        {
+          "id": "s4_023",
+          "kannada": "ತಪ್ಪು ಆಯ್ತ ನನ್ನ ಕನ್ನಡ ಅಲ್ವಾ?",
+          "roman": "tappu aayta nanna kannada alvaa?",
+          "gloss": "मेरी Kannada में गलतियाँ थीं ना?",
+          "new_word": "tappu",
+          "new_word_meaning": "गलती / ग़लत",
+          "grammar_note": "tappu = गलती। 'tappu aaytu' = गलती हो गई — Hindi 'galti ho gayi' वाला exact parallel। alvaa = ना? (tag question)। Self-deprecatingly बोलने पर Kannadigas usually warmly reassure करते हैं।"
+        },
+        {
+          "id": "s4_024",
+          "kannada": "ಇನ್ನೊಂದು ವರ್ಷ ಆದ್ರೆ fluent ಆಗ್ತೀನಿ",
+          "roman": "innomdu varsha aadre fluent aagteeni",
+          "gloss": "एक साल और होगा तो fluent हो जाऊँगा/जाऊँगी",
+          "new_word": "innomdu",
+          "new_word_meaning": "एक और / एक ज़्यादा",
+          "grammar_note": "innomdu = एक और (innu + ondu)। Hindi 'ek aur saal' maps directly। fluent aagteeni = fluent हो जाऊँगा — '-aagteeni' किसी भी English adjective के साथ काम करता है: fluent, strong, better।"
+        },
+        {
+          "id": "s4_025",
+          "kannada": "Kannada-ಅಲ್ಲಿ ಮಾತಾಡೋದು ಕಷ್ಟ ಆಗ್ತಿದೆ, ಆದ್ರೆ try ಮಾಡ್ತೀನಿ",
+          "roman": "Kannada-alli maataadodu kashta aagide, aadre try maadteeni",
+          "gloss": "Kannada में बोलना मुश्किल हो रहा है, लेकिन try करूँगा/करूँगी",
+          "new_word": "kashta",
+          "new_word_meaning": "मुश्किल / तकलीफ़",
+          "grammar_note": "kashta = मुश्किल (from Sanskrit, used in Hindi too — 'kasht')। kashta aagide = मुश्किल हो रहा है। 'aadre try maadteeni' = लेकिन try करूँगा — aadre is Hindi का 'lekin/magar।'"
+        },
+        {
+          "id": "s4_026",
+          "kannada": "Halli Kannada aadre nange artha aagalla",
+          "roman": "halli Kannada aadre nange artha aagalla",
+          "gloss": "देहाती Kannada हो तो मुझे समझ नहीं आती",
+          "new_word": "halli",
+          "new_word_meaning": "गाँव / देहात",
+          "grammar_note": "halli = गाँव — Hindi 'gaon' का Kannada equivalent। artha aagalla = समझ नहीं आता (meaning does not come)। यह distinction — 'Bengalooru Kannada' vs 'halli Kannada' — Hindi speakers के लिए familiar है, जैसे Delhi Hindi vs village Hindi।"
+        },
+        {
+          "id": "s4_027",
+          "kannada": "ನಿಮ್ಮ ಉಚ್ಚಾರ ತುಂಬಾ ಚೆನ್ನಾಗಿದೆ, ಹೇಗೆ ಕಲಿತ್ರಿ?",
+          "roman": "nimma uchchaara tumbaa chennaagide, hege kalitri?",
+          "gloss": "आपका उच्चारण बहुत अच्छा है, कैसे सीखा?",
+          "new_word": "uchchaara",
+          "new_word_meaning": "उच्चारण",
+          "grammar_note": "uchchaara = उच्चारण — यह word Sanskrit से आया है, Hindi और Kannada दोनों में same है। hege = कैसे। 'hege kalitri' = कैसे सीखा? (polite past)।"
+        },
+        {
+          "id": "s4_028",
+          "kannada": "ನಾನು ಅಲ್ಲೇ ಇದ್ದೆ, ಅದಕ್ಕೆ ಸ್ವಲ್ಪ ಗೊತ್ತಾಯ್ತು",
+          "roman": "naanu alle idde, adakke svalpa gottaaytu",
+          "gloss": "मैं वहीं था/थी, इसलिए थोड़ा समझ आया",
+          "new_word": "adakke",
+          "new_word_meaning": "इसलिए / उसकी वजह से",
+          "grammar_note": "adakke = इसलिए (adu + ke = उसके लिए = इसलिए)। Hindi 'isliye' maps exactly। gottaaytu = समझ आया / पता चला। एक common causal structure जो Hindi और Kannada में same logic follow करती है।"
+        },
+        {
+          "id": "s4_029",
+          "kannada": "Context ಇದ್ದ್ರೆ artha ಆಗತ್ತೆ, ಇಲ್ಲ ಅಂದ್ರೆ ಕಷ್ಟ",
+          "roman": "context iddre artha aagatte, illa amdre kashta",
+          "gloss": "Context हो तो समझ आएगा, नहीं तो मुश्किल है",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "iddre = अगर हो। 'illa amdre' = अगर नहीं/वरना। artha aagatte = समझ आएगा। Hindi 'agar context ho to samajh aayega, warna mushkil hai' — structure हूबहू same। Language learning के बारे में real Bangalore बातचीत।"
+        },
+        {
+          "id": "s4_030",
+          "kannada": "ಒಂದು ಸಾರಿ ಕೇಳ್ಬೇಕಿತ್ತು, ಸರಿ ಹೋಗ್ತಿತ್ತು",
+          "roman": "omdu saari kelbekittu, sari hogteetu",
+          "gloss": "एक बार पूछना चाहिए था, ठीक हो जाता",
+          "new_word": "saari",
+          "new_word_meaning": "बार / दफ़ा",
+          "grammar_note": "saari = बार (omdu saari = एक बार)। bekittu = करना चाहिए था (should have done)। Hindi 'ek baar poochh lena chahiye tha, sahi ho jaata' — exact parallel। यह regret construction Bangalore में बहुत common है।"
+        },
+        {
+          "id": "s4_031",
+          "kannada": "Meeting cancel ಆಯ್ತು, ಮನೆಯಿಂದಲೇ work ಮಾಡ್ತೀನಿ",
+          "roman": "meeting cancel aaytu, maneyindalle work maadteeni",
+          "gloss": "Meeting cancel हो गई, घर से ही काम करूँगा/करूँगी",
+          "new_word": "indalle",
+          "new_word_meaning": "यहीं से / वहीं से (emphatic)",
+          "grammar_note": "maneyindalle = घर से ही (-le suffix adds 'hi' emphasis, like Hindi का 'hi')। cancel aaytu = cancel हो गया। Hinglish parallel: 'meeting cancel ho gayi, ghar se hi kaam kar loon' — structure same।"
+        },
+        {
+          "id": "s4_032",
+          "kannada": "ನಾನು ಇವತ್ತು WFH, ಮನೆಯಿಂದ join ಮಾಡ್ತೀನಿ",
+          "roman": "naanu ivattu WFH, maneyinda join maadteeni",
+          "gloss": "मैं आज WFH हूँ, घर से join करूँगा/करूँगी",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "WFH पूरी तरह absorb हो चुका है — Bangalore tech culture में। 'join maadteeni' = join करूँगा। Hindi Bangalore tech workers भी exactly यही sentence use करते हैं, बस verb Kannada होता है।"
+        },
+        {
+          "id": "s4_033",
+          "kannada": "Link send ಮಾಡ್ತೀನಿ, join ಮಾಡ್ಕೊಳ್ಳಿ",
+          "roman": "link send maadteeni, join maadkolli",
+          "gloss": "Link भेजता/भेजती हूँ, join कर लो",
+          "new_word": "maadkolli",
+          "new_word_meaning": "करो (polite, अपने लिए)",
+          "grammar_note": "maadkolli = कर लो (polite self-directed command)। 'join maadkolli' = join कर लो। Hindi 'kar lo' and Kannada 'maadkolli' carry the same gentle instruction. Online meetings में यह sentence हर रोज़ सुनाई देता है।"
+        },
+        {
+          "id": "s4_034",
+          "kannada": "Call mute ಮಾಡ್ಕೊಂಡಿದ್ದೀರಾ, ಏನೂ ಕೇಳ್ತಿಲ್ಲ",
+          "roman": "call mute maadkondiddeeraa, enu keltilla",
+          "gloss": "Call mute पर है क्या, कुछ सुनाई नहीं दे रहा",
+          "new_word": "keltilla",
+          "new_word_meaning": "सुनाई नहीं दे रहा",
+          "grammar_note": "keltilla = सुनाई नहीं दे रहा (kelu = सुनना, negative present)। maadkondiddeeraa = कर रखा है क्या? Hinglish equivalent: 'mute pe ho kya, kuch sun nahi raha' — शायद Bangalore का सबसे contemporary sentence।"
+        },
+        {
+          "id": "s4_035",
+          "kannada": "Deadline naale ide, aadre kelasa inda aagilla",
+          "roman": "deadline naale ide, aadre kelasa inda aagilla",
+          "gloss": "Deadline कल है, लेकिन काम हो नहीं रहा",
+          "new_word": "inda aagilla",
+          "new_word_meaning": "हो नहीं रहा / नहीं बन रहा",
+          "grammar_note": "inda aagilla = हो नहीं रहा (literally: from this side, it is not happening)। aaytu = हो गया। aagilla = नहीं हुआ। Deadline के pressure में यही sentence निकलता है — Hindi 'kaam ho nahi raha' का Kannada twin।"
+        },
+        {
+          "id": "s4_036",
+          "kannada": "ನಾನು ಇದನ್ನ evening-ಒಳಗೆ finish ಮಾಡ್ತೀನಿ",
+          "roman": "naanu idanna evening-olage finish maadteeni",
+          "gloss": "मैं इसे शाम तक finish कर दूँगा/दूँगी",
+          "new_word": "olage",
+          "new_word_meaning": "के अंदर / तक (time/space)",
+          "grammar_note": "olage = के अंदर/तक। 'evening-olage' = शाम तक। Hindi 'shaam tak' maps to 'evening-olage।' idanna = इसको (object marker -na)। Deadline commitment sentence — every Bangalore tech worker knows this one।"
+        },
+        {
+          "id": "s4_037",
+          "kannada": "Review ಮಾಡಿ ಕಳಿಸ್ತೀನಿ, ಸ್ವಲ್ಪ time ಕೊಡಿ",
+          "roman": "review maadi kalistini, svalpa time kodi",
+          "gloss": "Review करके भेजता/भेजती हूँ, थोड़ा time दो",
+          "new_word": "kalistini",
+          "new_word_meaning": "भेजूँगा/भेजूँगी",
+          "grammar_note": "kalistini = भेजूँगा (kalisu = भेजना, not to be confused with kali = सीखना)। 'maadi kalistini' = करके भेजूँगा। svalpa time kodi = थोड़ा time दो। Professional Bangalore में daily सुनाई देने वाला sentence।"
+        },
+        {
+          "id": "s4_038",
+          "kannada": "ನಿಮ್ಮ comment ಸರಿ ಇದೆ, ಆದ್ರೆ ಒಂದ್ ಸಾರಿ ನೋಡ್ಕೊಳ್ಳಿ",
+          "roman": "nimma comment sari ide, aadre ondu saari noodkolli",
+          "gloss": "आपका comment सही है, लेकिन एक बार देख लो",
+          "new_word": "noodkolli",
+          "new_word_meaning": "देख लो / check कर लो (खुद)",
+          "grammar_note": "noodkolli = देख लो (खुद के लिए)। Hindi 'ek baar dekh lo' वाला exact tone — polite but nudging। Code review में यह phrase बहुत सुनाई देता है।"
+        },
+        {
+          "id": "s4_039",
+          "kannada": "ಅದು ನನ್ನ mistake, ನಾನೇ fix ಮಾಡ್ತೀನಿ",
+          "roman": "adu nanna mistake, naane fix maadteeni",
+          "gloss": "वो मेरी गलती है, मैं खुद fix करूँगा/करूँगी",
+          "new_word": "naane",
+          "new_word_meaning": "मैं खुद / मैं ही",
+          "grammar_note": "naane = मैं खुद/मैं ही (emphatic 'I')। Hindi 'main khud karoonga' maps directly। '-e' suffix adds emphasis — naane = मैं ही, neeve = आप ही। Ownership लेने का यह clean way Bangalore culture में appreciate होता है।"
+        },
+        {
+          "id": "s4_040",
+          "kannada": "Sprint-ಅಲ್ಲಿ ತುಂಬಾ story ಇದೆ, priority set ಮಾಡ್ಬೇಕು",
+          "roman": "sprint-alli tumbaa story ide, priority set maadbekuu",
+          "gloss": "Sprint में बहुत सारी stories हैं, priority set करनी होगी",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "पूरा Bangalore tech sentence — सभी nouns English, grammar Kannada। maadbekuu = करना होगा (beku + emphatic uu)। Hinglish में भी ऐसे ही बोलते हैं — 'sprint mein bahut stories hain, priority set karna hoga।'"
+        },
+        {
+          "id": "s4_041",
+          "kannada": "ನಾವು ಇಲ್ಲಿ small function ಮಾಡ್ತಾ ಇದ್ದೀವಿ, ಬನ್ನಿ",
+          "roman": "naavu illi small function maadtaa iddeevi, banni",
+          "gloss": "हम यहाँ छोटा function कर रहे हैं, आइए",
+          "new_word": "iddeevi",
+          "new_word_meaning": "हम हैं / हम कर रहे हैं",
+          "grammar_note": "maadtaa iddeevi = हम कर रहे हैं (ongoing, plural)। banni = आइए (polite invitation)। Hindi 'aayiye' = banni। छोटे घर के events पर ऐसे invite करना — दोनों cultures में same warmth।"
+        },
+        {
+          "id": "s4_042",
+          "kannada": "ಮನೆ ಹಾಸಿಗೆ ಸಮಾರಂಭ ಇದೆ, ಬನ್ನಿ ಊಟ ಮಾಡ್ಕೊಂಡು ಹೋಗಿ",
+          "roman": "mane haasige samaarambha ide, banni oota maadkondu hogi",
+          "gloss": "गृह प्रवेश है, आओ खाना खाकर जाओ",
+          "new_word": "samaarambha",
+          "new_word_meaning": "समारोह / function / ceremony",
+          "grammar_note": "samaarambha = समारोह (Sanskrit — Hindi में same word 'samaroha')। 'oota maadkondu hogi' = खाना खाकर जाओ। Kannada hospitality में यह phrase बहुत warm है — Hindi 'khaana khaakar jaana' वाला exact feeling।"
+        },
+        {
+          "id": "s4_043",
+          "kannada": "ಇವ್ರು ನನ್ ಕಾಲೇಜ್ ಫ್ರೆಂಡ್, ಇಲ್ಲೇ ಕೆಲ್ಸ ಮಾಡ್ತಾರೆ",
+          "roman": "ivru nan college friend, ille kelsa maadtaare",
+          "gloss": "ये मेरे college friend हैं, यहीं काम करते हैं",
+          "new_word": "ivru",
+          "new_word_meaning": "ये / यह बंदा (informal, पास में)",
+          "grammar_note": "ivru = ये (informal, near speaker)। avru = वो (informal, farther)। Hindi 'ye' और 'vo' का Kannada parallel। ille kelsa maadtaare = यहीं काम करते हैं। casual introduction में यही सुनाई देता है।"
+        },
+        {
+          "id": "s4_044",
+          "kannada": "ಅವನ ಜೊತೆ ಮಾತಾಡ್ತೀನಿ, ಅವನು ಹೇಳ್ತಾನೆ ಅಂದ್ರೆ ಸರಿ",
+          "roman": "avana jote maataadteeni, avanu heltaane amdre sari",
+          "gloss": "उससे बात करूँगा/करूँगी, अगर वो हाँ कहे तो ठीक है",
+          "new_word": "heltaane",
+          "new_word_meaning": "वो कहता है (casual)",
+          "grammar_note": "heltaane = वो कहता है (casual, same generation)। heltaare = वो कहते हैं (polite)। 'avanu heltaane amdre sari' = अगर वो कहे तो ठीक है। indirect decision-making — Hindi और Kannada दोनों में same।"
+        },
+        {
+          "id": "s4_045",
+          "kannada": "ಅವಳು ತುಂಬಾ busy ಇರ್ತಾಳೆ, ಮೊದ್ಲು ಕೇಳ್ಕೊಂಡು ಹೋಗಿ",
+          "roman": "avalu tumbaa busy irtaale, modlu kelkondu hogi",
+          "gloss": "वो बहुत busy रहती है, पहले पूछकर जाना",
+          "new_word": "irtaale",
+          "new_word_meaning": "वो रहती है / आदतन ऐसी है (female)",
+          "grammar_note": "irtaale = रहती है (habitual, casual female)। irtaane = रहता है (male)। irtaare = रहते हैं (polite)। Hindi 'rehti hai' का Kannada equivalent। 'modlu kelkondu hogi' = पहले पूछकर जाना।"
+        },
+        {
+          "id": "s4_046",
+          "kannada": "Weekend plan ಏನು? Outing ಹೋಗ್ತೀರಾ?",
+          "roman": "weekend plan enu? outing hogteeraa?",
+          "gloss": "Weekend का plan क्या है? Outing पर जा रहे हो?",
+          "new_word": "outing",
+          "new_word_meaning": "outing / बाहर घूमने जाना",
+          "grammar_note": "outing fully absorbed है Bangalore speech में — जैसे Hinglish में। 'plan enu' = plan क्या है? hogteeraa = जा रहे हो? यह Friday का classic Bangalore सवाल है।"
+        },
+        {
+          "id": "s4_047",
+          "kannada": "ಏನೂ plan ಇಲ್ಲ, ಮನೇಲೇ ಇರ್ತೀನಿ",
+          "roman": "enu plan illa, manele irtini",
+          "gloss": "कोई plan नहीं, घर पर ही रहूँगा/रहूँगी",
+          "new_word": "manele",
+          "new_word_meaning": "घर पर ही (emphatic location)",
+          "grammar_note": "manele = घर पर ही (-le = 'hi' emphasis)। Hindi 'ghar par hi rahoonga' maps directly। enu plan illa = कोई plan नहीं। Weekend relaxation का honest Bangalore जवाब।"
+        },
+        {
+          "id": "s4_048",
+          "kannada": "Cubbon Park-ಗೆ ಹೋಗ್ಬೇಕು, ತುಂಬಾ ದಿನ ಆಯ್ತು ಹೋಗಿ",
+          "roman": "Cubbon Park-ge hogbeku, tumbaa dina aaytu hogi",
+          "gloss": "Cubbon Park जाना है, जाए हुए बहुत दिन हो गए",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "tumbaa dina aaytu hogi = जाए हुए बहुत दिन हो गए। 'hogi' = having gone (connector)। Hindi 'gaye hue bahut din ho gaye' — same structure। Bangalore के parks जानें का यह laziness-mixed-longing वाला tone।"
+        },
+        {
+          "id": "s4_049",
+          "kannada": "Nandi Hills early morning ಹೋಗಿ ಬಂದ್ರೆ ತುಂಬಾ ಚೆನ್ನಾಗಿರತ್ತೆ",
+          "roman": "Nandi Hills early morning hogi bandre tumbaa chennaagiratte",
+          "gloss": "Nandi Hills early morning जाकर आओ तो बहुत अच्छा लगेगा",
+          "new_word": "chennaagiratte",
+          "new_word_meaning": "अच्छा लगेगा / अच्छा रहेगा",
+          "grammar_note": "chennaagiratte = अच्छा रहेगा (future/conditional)। 'hogi bandre' = जाकर आओ तो। Hindi 'jaake aaoge to bahut achha lagega' — same flow। Bangalore का Sunday trip recommendation।"
+        },
+        {
+          "id": "s4_050",
+          "kannada": "Sakleshpur trip plan ಮಾಡ್ತಾ ಇದ್ದೀವಿ, ನೀವೂ ಬರ್ತೀರಾ?",
+          "roman": "Sakleshpur trip plan maadtaa iddeevi, neevoo barteera?",
+          "gloss": "Sakleshpur trip plan कर रहे हैं, आप भी आओगे?",
+          "new_word": "neevoo",
+          "new_word_meaning": "आप भी / तुम भी",
+          "grammar_note": "neevoo = आप भी (neevu + oo)। 'naanoo' = मैं भी। '-oo' suffix = 'भी' (also/too)। Hindi 'aap bhi aayenge?' maps exactly। Bangalore weekends में ऐसे spontaneous trip invitations आम हैं।"
+        },
+        {
+          "id": "s4_051",
+          "kannada": "ಅವನಿಗೆ ಹೇಳಿದ್ದೆ, ಆದ್ರೆ ಅವನು ಕೇಳಲ್ಲ",
+          "roman": "avanige hellidde, aadre avanu kelalla",
+          "gloss": "उसे बताया था, लेकिन वो मानता नहीं",
+          "new_word": "hellidde",
+          "new_word_meaning": "मैंने बताया था / मैंने कहा था",
+          "grammar_note": "hellidde = मैंने कहा था (past perfect, first person)। kelalla = नहीं सुनता/मानता। Hindi 'bataya tha, lekin maanta nahi' — exact parallel। frustration of giving ignored advice — universal।"
+        },
+        {
+          "id": "s4_052",
+          "kannada": "ಅವಳು ಹೇಳ್ದ್ದು ನಿಜ ಅಂತ ಈಗ ಗೊತ್ತಾಯ್ತು",
+          "roman": "avalu helddu nija anta eega gottaaytu",
+          "gloss": "जो उसने कहा था वो सच था, अब पता चला",
+          "new_word": "helddu",
+          "new_word_meaning": "जो कहा / कही हुई बात",
+          "grammar_note": "helddu = जो कहा (verb nominalized with -ddu)। 'avalu helddu' = उसने जो कहा। gottaaytu = पता चला/समझ आया। Hindi 'ab pata chala' = gottaaytu। Late realization का यह pattern दोनों भाषाओं में same है।"
+        },
+        {
+          "id": "s4_053",
+          "kannada": "ಆ ಸಾರಿ ನಾನು ಹೋಗಬಾರದಿತ್ತು",
+          "roman": "aa saari naanu hogabaradittu",
+          "gloss": "उस बार मुझे जाना नहीं चाहिए था",
+          "new_word": "hogabaradittu",
+          "new_word_meaning": "नहीं जाना चाहिए था (past negative obligation)",
+          "grammar_note": "hogabaaradu = नहीं जाना चाहिए। hogabaradittu = नहीं जाना चाहिए था। Hindi 'jaana nahi chahiye tha' वाला exact regret construction। aa saari = उस बार। Regret और hindsight को express करने का Bangalore तरीका।"
+        },
+        {
+          "id": "s4_054",
+          "kannada": "ಮೊದ್ಲೇ ಹೇಳ್ಬೇಕಿತ್ತು ಅಲ್ವಾ",
+          "roman": "modlе helbekittu alvaa",
+          "gloss": "पहले ही बता देना चाहिए था ना",
+          "new_word": "modlе",
+          "new_word_meaning": "पहले (spoken short form)",
+          "grammar_note": "modalu = पहले, spoken as modle। helbekittu = बताना चाहिए था। Hindi 'pehle hi bata dena chahiye tha' — same gentle reproach। alvaa = ना? (tag question)। इसका tone Hindi के 'tha na' जैसा ही है।"
+        },
+        {
+          "id": "s4_055",
+          "kannada": "ಅದು ಅವನ ತಪ್ಪಲ್ಲ, situation ಹಾಗಿತ್ತು",
+          "roman": "adu avana tapalla, situation haagittu",
+          "gloss": "वो उसकी गलती नहीं थी, situation ऐसी थी",
+          "new_word": "tapalla",
+          "new_word_meaning": "गलती नहीं (negation of tappu)",
+          "grammar_note": "tappu + alla = tapalla = गलती नहीं। Hindi 'uski galti nahi thi, situation hi aisi thi' — exact parallel। haagittu = ऐसा था (past of haage + ittu)। किसी का बचाव करने का यह Bangalore formula।"
+        },
+        {
+          "id": "s4_056",
+          "kannada": "ನಾನು ಅವ್ರ ಜಾಗದಲ್ಲಿ ಇದ್ದಿದ್ರೆ ನಾನೂ ಹಾಗೇ ಮಾಡ್ತಿದ್ದೆ",
+          "roman": "naanu avra jaagadalli iddidre naanoo haage maadtidde",
+          "gloss": "अगर मैं उनकी जगह होता/होती तो मैं भी वही करता/करती",
+          "new_word": "jaaga",
+          "new_word_meaning": "जगह / position",
+          "grammar_note": "jaaga = जगह — Hindi 'jagah' से directly related (Sanskrit मूल)। 'avra jaagadalli' = उनकी जगह पर। 'iddidre' = अगर होता। Hindi 'agar main unki jagah hota, to main bhi yahi karta' — perfect mirror।"
+        },
+        {
+          "id": "s4_057",
+          "kannada": "ಅವ್ರಿಗೆ ಕಷ್ಟ ಆಗಿದೆ, ನಾವು ಸ್ವಲ್ಪ help ಮಾಡ್ಬೇಕು",
+          "roman": "avrige kashta aagide, naavu svalpa help maadbekuu",
+          "gloss": "उन्हें तकलीफ़ है, हमें थोड़ी help करनी चाहिए",
+          "new_word": "avrige",
+          "new_word_meaning": "उन्हें / उनके लिए",
+          "grammar_note": "avrige = उन्हें (avarge का spoken form)। 'kashta aagide' = तकलीफ़ है। help maadbekuu = help करनी चाहिए। Hindi 'unhe takleef hai, hame thodi help karni chahiye' — same empathy-then-action structure।"
+        },
+        {
+          "id": "s4_058",
+          "kannada": "ಏನೂ ಆಗಲ್ಲ, ಸ್ವಲ್ಪ time ಕೊಡಿ, ಸರಿ ಆಗತ್ತೆ",
+          "roman": "enu aagalla, svalpa time kodi, sari aagatte",
+          "gloss": "कुछ नहीं होगा, थोड़ा time दो, ठीक हो जाएगा",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "enu aagalla = कुछ नहीं होगा = सब ठीक रहेगा। sari aagatte = ठीक हो जाएगा। Hindi reassurance formula 'kuch nahi hoga, time do, sahi ho jayega' — exact Bangalore equivalent। Three-part comfort structure।"
+        },
+        {
+          "id": "s4_059",
+          "kannada": "ನೀವು ಹೇಳಿದ್ದು ಸರಿ, ನಾನು ಯೋಚಿಸ್ತೀನಿ",
+          "roman": "neevu helliddu sari, naanu yochissteeni",
+          "gloss": "आपने जो कहा सही है, मैं सोचूँगा/सोचूँगी",
+          "new_word": "yochissteeni",
+          "new_word_meaning": "मैं सोचूँगा/सोचूँगी",
+          "grammar_note": "yochisu = सोचना। yochissteeni = मैं सोचूँगा। Hindi 'sochta hoon' maps here। यह polite non-committal response है — 'मैं सुनता हूँ, सोचूँगा' — दोनों cultures में यही tone।"
+        },
+        {
+          "id": "s4_060",
+          "kannada": "ಇದರ ಬಗ್ಗೆ ಮತ್ತೊಂದ್ ಸಾರಿ ಮಾತಾಡೋಣ",
+          "roman": "idara bagge mattomdu saari maataadona",
+          "gloss": "इस बारे में एक बार और बात करते हैं",
+          "new_word": "bagge",
+          "new_word_meaning": "के बारे में",
+          "grammar_note": "bagge = के बारे में। Hindi 'ke baare mein' maps directly। 'mattomdu saari' = एक बार और। maataadona = बात करते हैं (let us)। Hindi 'ek baar aur baat karte hain' — exact parallel।"
+        },
+        {
+          "id": "s4_061",
+          "kannada": "ನಿನ್ನೆ ಮಳೆ ತುಂಬಾ ಬಿದ್ದಿತ್ತು, ರಸ್ತೆ ಎಲ್ಲಾ flood ಆಗಿತ್ತು",
+          "roman": "ninne male tumbaa bidditu, raste ellaa flood aagittu",
+          "gloss": "कल बहुत बारिश हुई, सड़कें सब flood हो गई थीं",
+          "new_word": "bidditu",
+          "new_word_meaning": "गिरी / हुई (बारिश गिरना)",
+          "grammar_note": "bidditu = गिरी (past — बारिश के लिए 'गिरना' use करते हैं)। flood aagittu = flood हो गई थी। Hindi 'kal bahut baarish hui, sadkein flood ho gayi theen' — Bangalore monsoon complaint की यह universal language।"
+        },
+        {
+          "id": "s4_062",
+          "kannada": "ಮಳೆಗಾಲದಲ್ಲಿ Bengalooru traffic ಇನ್ನೂ ಕಷ್ಟ",
+          "roman": "malegaaladalli Bengalooru traffic innoo kashta",
+          "gloss": "बारिश के मौसम में Bengaluru का traffic और भी मुश्किल होता है",
+          "new_word": "malegaala",
+          "new_word_meaning": "बारिश का मौसम / monsoon",
+          "grammar_note": "male = बारिश, gaala = मौसम/वक्त। malegaala = बरसात का मौसम। innoo = और भी (even more)। Hindi 'barsaat ke mausam mein traffic aur bhi zyada hai' — same structure, same pain।"
+        },
+        {
+          "id": "s4_063",
+          "kannada": "Power cut ಆಗಿದೆ, UPS-ಅಲ್ಲಿ ಕೆಲಸ ಮಾಡ್ತಿದ್ದೀನಿ",
+          "roman": "power cut aagide, UPS-alli kelasa maadtiddeeni",
+          "gloss": "Power cut हो गई है, UPS पर काम कर रहा/रही हूँ",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "power cut aagide = power cut हो गई है। maadtiddeeni = कर रहा हूँ (continuous)। UPS-alli = UPS पर। यह बहुत Bangalore वाला sentence है — power cuts यहाँ shared experience हैं, Hindi speaker भी यही झेलता है।"
+        },
+        {
+          "id": "s4_064",
+          "kannada": "Water ಸಮಸ್ಯೆ ಇದೆ ಈ area-ಅಲ್ಲಿ, daily ಒಂದೇ ಗಂಟೆ ಬರತ್ತೆ",
+          "roman": "water samasye ide ee area-alli, daily omde gamte baratte",
+          "gloss": "इस area में पानी की समस्या है, रोज़ बस एक घंटे आता है",
+          "new_word": "samasye",
+          "new_word_meaning": "समस्या / परेशानी",
+          "grammar_note": "samasye = समस्या — same Sanskrit root, used identically in Hindi और Kannada। 'samasye ide' = समस्या है। omde = सिर्फ एक (emphatic one)। Bangalore infrastructure complaints — Hindi speakers यहाँ instantly relate कर सकते हैं।"
+        },
+        {
+          "id": "s4_065",
+          "kannada": "Rent ಪ್ರತಿ ವರ್ಷ ಹೆಚ್ಚಾಗ್ತಿದೆ, shift ಮಾಡ್ಬೇಕು ಅನ್ಸ್ತಿದೆ",
+          "roman": "rent prati varsha hecchaagide, shift maadbekuu ansttide",
+          "gloss": "Rent हर साल बढ़ रहा है, shift करना पड़ेगा लग रहा है",
+          "new_word": "ansttide",
+          "new_word_meaning": "लग रहा है / ऐसा feel हो रहा है",
+          "grammar_note": "ansttide = लग रहा है (annistu = feel होना)। Hindi 'lag raha hai' maps exactly। 'shift maadbekuu ansttide' = shift करना पड़ेगा लग रहा है। Tentative inner thought — Hinglish में भी ऐसे ही express होता है।"
+        },
+        {
+          "id": "s4_066",
+          "kannada": "ಈ locality ತುಂಬಾ ಚೆನ್ನಾಗಿದೆ, connectivity ಸಹ ಒಳ್ಳೆದಿದೆ",
+          "roman": "ee locality tumbaa chennaagide, connectivity saha olledigee",
+          "gloss": "यह locality बहुत अच्छी है, connectivity भी अच्छी है",
+          "new_word": "saha",
+          "new_word_meaning": "भी / साथ में",
+          "grammar_note": "saha = भी/साथ। Hindi 'bhi' maps directly। 'connectivity saha' = connectivity भी। kuda भी 'also' के लिए use होता है लेकिन saha थोड़ा formal है। Property discussion में Bangalore और Delhi दोनों में similar बातें होती हैं।"
+        },
+        {
+          "id": "s4_067",
+          "kannada": "2BHK, 25,000-ಗೆ ಸಿಗ್ತಿದೆ, ಪರವಾಗಿಲ್ಲ ಅಲ್ವಾ",
+          "roman": "2BHK, 25,000-ge sigttide, paravaagilla alvaa",
+          "gloss": "2BHK 25,000 में मिल रहा है, बुरा नहीं है ना",
+          "new_word": "paravaagilla",
+          "new_word_meaning": "बुरा नहीं / ठीक-ठाक है",
+          "grammar_note": "paravaagilla = कोई problem नहीं / बुरा नहीं। Hindi 'bura nahi hai' या 'theek-thaak hai' — same lukewarm approval। 'alvaa' = ना? (tag question)। Real estate देखते समय यह classic Bangalore phrase।"
+        },
+        {
+          "id": "s4_068",
+          "kannada": "ಇಲ್ಲಿ parking swalpa problem, ಅದೊಂದು ಬಿಟ್ರೆ ಮತ್ತೆಲ್ಲ ಚೆನ್ನಾಗಿದೆ",
+          "roman": "illi parking svalpa problem, adombdu bitre mattella chennaagide",
+          "gloss": "यहाँ parking थोड़ी problem है, बाकी सब अच्छा है",
+          "new_word": "bitre",
+          "new_word_meaning": "छोड़ दो तो / के अलावा",
+          "grammar_note": "bitre = के अलावा (bidu = छोड़ना + re = if you leave)। 'adombdu bitre' = उस एक चीज़ को छोड़कर। Hindi 'uske alawa sab theek hai' maps exactly। Property viewings में यह exactly ऐसे ही use होता है।"
+        },
+        {
+          "id": "s4_069",
+          "kannada": "ಸ್ಕೂಲ್ ಹತ್ರಾನೇ ಇದೆ, ಮಕ್ಕಳಿಗೆ ಅನುಕೂಲ",
+          "roman": "skool hatrane ide, makkаlige anukoola",
+          "gloss": "School पास में ही है, बच्चों के लिए convenient है",
+          "new_word": "anukoola",
+          "new_word_meaning": "सुविधाजनक / उपयोगी",
+          "grammar_note": "anukoola = अनुकूल (Sanskrit — Hindi में 'anukool' same word है)। 'hatrane' = पास में ही (-ne emphasis)। Hindi 'school paas hi hai, bacchon ke liye convenient hai' — दोनों भाषाओं में same concern।"
+        },
+        {
+          "id": "s4_070",
+          "kannada": "ಮೊದ್ಲು ನೋಡೋಣ, ಆಮೇಲೆ decide ಮಾಡ್ತೀವಿ",
+          "roman": "modlu nodona, aamele decide maadteevi",
+          "gloss": "पहले देखते हैं, बाद में decide करेंगे",
+          "new_word": "nodona",
+          "new_word_meaning": "देखते हैं / चलो देखें",
+          "grammar_note": "nodona = चलो देखते हैं (-ona = let us)। aamele = बाद में। Hindi 'pehle dekhte hain, baad mein decide karte hain' — exact Bangalore property viewing close। Classic 'wait and decide' approach।"
+        },
+        {
+          "id": "s4_071",
+          "kannada": "ಅದೇ ಯಾಕೆ ಯಾವಾಗ್ಲೂ ನಂಗೇ ಆಗತ್ತೆ",
+          "roman": "ade yaake yaavaagloo nange aagatte",
+          "gloss": "वही हमेशा मेरे साथ ही क्यों होता है",
+          "new_word": "yaavaagloo",
+          "new_word_meaning": "हमेशा / हर बार",
+          "grammar_note": "yaavaagloo = हमेशा (yaavaaga + oo = हर बार)। Hindi 'hamesha' maps directly। nange aagatte = मेरे साथ होता है। 'ade yaake nange' = वही क्यों मेरे साथ — universal bad luck complaint, बिल्कुल Hindi 'ye mujhe hi kyun hota hai' जैसा।"
+        },
+        {
+          "id": "s4_072",
+          "kannada": "Scene innu clear aaglilla, wait maadona",
+          "roman": "scene innu clear aaglilla, wait maadona",
+          "gloss": "Scene अभी clear नहीं हुई, wait करते हैं",
+          "new_word": "aaglilla",
+          "new_word_meaning": "नहीं हुआ अभी तक",
+          "grammar_note": "scene = situation/vibe (Bangalore slang — Hinglish में भी 'scene' यही मतलब में use होता है, जैसे 'kya scene hai?')। aaglilla = नहीं हुआ। innu = अभी भी। 'wait maadona' = wait करते हैं।"
+        },
+        {
+          "id": "s4_073",
+          "kannada": "Full confusion aagide, yaaru enu heltaaro gottilla",
+          "roman": "full confusion aagide, yaaru enu heltaaro gottilla",
+          "gloss": "पूरा confusion हो गया है, कौन क्या बोल रहा है पता नहीं",
+          "new_word": "heltaaro",
+          "new_word_meaning": "कौन कह रहा है (embedded question)",
+          "grammar_note": "full = पूरा/बिल्कुल (Bangalore intensifier — Hindi में 'full' Hinglish में same तरह use होता है: 'full pagal ho gaya')। heltaaro = कौन बोल रहा है (embedded question suffix -aaro)। gottilla = पता नहीं।"
+        },
+        {
+          "id": "s4_074",
+          "kannada": "ಅವ್ರು ಹೇಳ್ದ್ ಮಾತು ಕೇಳ್ಬೇಕಿತ್ತು",
+          "roman": "avru helddu maatu kelbëkittu",
+          "gloss": "उनकी बात मानी होती / सुनी होती तो अच्छा था",
+          "new_word": "maatu",
+          "new_word_meaning": "बात / कही हुई बात",
+          "grammar_note": "maatu = बात (spoken word)। 'maatu kelu' = बात सुनना = मानना। Hindi 'baat maanni chahiye thi' maps to 'maatu kelbëkittu'। kelbëkittu = सुनना/मानना चाहिए था। Regret of ignored advice।"
+        },
+        {
+          "id": "s4_075",
+          "kannada": "ಈಗ ಏನು ಮಾಡೋದು, ಆಗಿ ಹೋಯ್ತು",
+          "roman": "eega enu maadodu, aagi hoytu",
+          "gloss": "अब क्या करें, हो गया / हो चुका",
+          "new_word": "hoytu",
+          "new_word_meaning": "हो गया / जो हुआ सो हुआ",
+          "grammar_note": "hoytu = हो गया और चला भी गया (cannot be undone)। Hindi 'jo hua so hua' का closest equivalent। 'aagi hoytu' = हो गया। Acceptance after a mistake — Hindi 'ab kya karein' वाला exact resignation tone।"
+        },
+        {
+          "id": "s4_076",
+          "kannada": "Aadroo sari, experience siккitu",
+          "roman": "aadroo sari, experience sikkitu",
+          "gloss": "फिर भी ठीक है, experience तो मिला",
+          "new_word": "sikkitu",
+          "new_word_meaning": "मिला / मिल गया",
+          "grammar_note": "sikkitu = मिल गया (sigu = मिलना/पाना)। 'aadroo sari' = फिर भी ठीक है। Hindi 'phir bhi theek hai, experience to mila' — exact silver lining attitude। Bangalore में failure के बाद यही tone होता है।"
+        },
+        {
+          "id": "s4_077",
+          "kannada": "ಅಂಥ ಒಳ್ಳೆ ಅವಕಾಶ ಮತ್ತೆ ಸಿಗಲ್ಲ",
+          "roman": "antha olle avakasha matte sigalla",
+          "gloss": "ऐसा अच्छा मौका दोबारा नहीं मिलेगा",
+          "new_word": "avakasha",
+          "new_word_meaning": "मौका / अवसर",
+          "grammar_note": "avakasha = अवसर (Sanskrit — Hindi 'avsar' same root)। sigalla = नहीं मिलेगा। 'antha olle avakasha' = ऐसा अच्छा मौका। Hindi 'aisa achha mauka dobara nahi milega' — बिल्कुल same urgency।"
+        },
+        {
+          "id": "s4_078",
+          "kannada": "ಅವನು ತುಂಬಾ ಮುಂದೆ ಹೋಗ್ತಾನೆ, ಆ ಮನೆ ಇದೆ ಅವನಿಗೆ",
+          "roman": "avanu tumbaa munde hogtaane, aa mane ide avanige",
+          "gloss": "वो बहुत आगे जाएगा, उसमें वो बात है",
+          "new_word": "munde hogtaane",
+          "new_word_meaning": "आगे जाएगा / तरक्की करेगा",
+          "grammar_note": "munde hogu = आगे जाना = तरक्की करना। Hindi 'bahut aage jayega' maps exactly। 'aa mane ide avanige' = उसमें वो बात है (literally: that quality is in him)। किसी की potential को compliment करने का Bangalore तरीका।"
+        },
+        {
+          "id": "s4_079",
+          "kannada": "ಅವಳು ಬಿಟ್ಟು ಕೊಡಲ್ಲ, strong ಆಗಿದ್ದಾಳೆ",
+          "roman": "avalu bittu kodalla, strong aagiddaale",
+          "gloss": "वो हार नहीं मानेगी, वो strong है",
+          "new_word": "bittu kodalla",
+          "new_word_meaning": "हार नहीं मानेगी / नहीं छोड़ेगी",
+          "grammar_note": "bittu kodu = हार मानना/छोड़ देना। bittu kodalla = नहीं मानेगी। Hindi 'haar nahi manegi' maps directly। strong aagiddaale = strong हो गई है (sustained state, female, -aale ending)। Resilience के बारे में यह compliment।"
+        },
+        {
+          "id": "s4_080",
+          "kannada": "ಈ city-ಅಲ್ಲಿ survive ಮಾಡ್ಬೇಕಂದ್ರೆ ಸ್ವಲ್ಪ tough ಆಗ್ಬೇಕು",
+          "roman": "ee city-alli survive maadbekandre svalpa tough aagbeku",
+          "gloss": "इस city में survive करना है तो थोड़ा tough बनना पड़ेगा",
+          "new_word": "bekandre",
+          "new_word_meaning": "अगर करना है तो / करने के लिए",
+          "grammar_note": "bekandre = करने के लिए / अगर करना है। 'survive maadbekandre' = survive करना है तो। Hindi 'agar survive karna hai to' maps exactly। Bangalore की कड़वी सच्चाई का यह sentence — Hindi speakers और Kannadigas दोनों feel करते हैं।"
+        },
+        {
+          "id": "s4_081",
+          "kannada": "ಅವರ ಮನೆಯಲ್ಲಿ ಊಟ ಮಾಡಿದ್ದೆ, ತುಂಬಾ ಚೆನ್ನಾಗಿತ್ತು",
+          "roman": "avara maneyalli oota maadidde, tumbaa chennaagittu",
+          "gloss": "उनके घर खाना खाया था, बहुत अच्छा था",
+          "new_word": "maadidde",
+          "new_word_meaning": "मैंने किया था / मैं था (past, first person)",
+          "grammar_note": "maadidde = मैंने किया था (-idde = past first person)। chennaagittu = अच्छा था (past)। Hindi 'unke ghar khana khaya tha, bahut achha tha' — structure same। किसी के घर खाने का memory share करना।"
+        },
+        {
+          "id": "s4_082",
+          "kannada": "ಮತ್ತೆ ಅಲ್ಲಿ ಹೋಗ್ಬೇಕು ಅಂತ ಅನ್ನಿಸ್ತಿದೆ",
+          "roman": "matte alli hogbeku anta annisttide",
+          "gloss": "फिर वहाँ जाने का मन कर रहा है",
+          "new_word": "annisttide",
+          "new_word_meaning": "लग रहा है / मन कर रहा है",
+          "grammar_note": "annisttide = लग रहा है / feel हो रहा है। 'hogbeku anta annisttide' = जाने का मन है। Hindi 'jaane ka mann kar raha hai' — same softer, sensation-based desire expression। Direct 'I want' से softer।"
+        },
+        {
+          "id": "s4_083",
+          "kannada": "ಆ restaurant ಮುಚ್ಚಿ ಹೋಯ್ತು, ತುಂಬಾ miss ಆಗ್ತಿದೆ",
+          "roman": "aa restaurant mucchi hoytu, tumbaa miss aagide",
+          "gloss": "वो restaurant बंद हो गया, बहुत miss हो रहा है",
+          "new_word": "mucchi",
+          "new_word_meaning": "बंद होकर / बंद होने के बाद",
+          "grammar_note": "mucchi hoytu = बंद हो गया और चला गया (permanently shut)। miss aagide = miss हो रहा है। Bangalore में favourite restaurant का बंद होना एक common grief है — Hindi speakers भी 'wo restaurant band ho gaya, bahut miss karta hoon' बोलते हैं।"
+        },
+        {
+          "id": "s4_084",
+          "kannada": "ಮೊದಲು Bengalooru ತುಂಬಾ ಚೆನ್ನಾಗಿತ್ತು, pension ಪಡೆಯೋರ ಊರು ಅಂತ ಇತ್ತು",
+          "roman": "modalu Bengalooru tumbaa chennaagittu, pension padeyora ooru anta ittu",
+          "gloss": "पहले Bengaluru बहुत अच्छा था, pensioners का शहर कहलाता था",
+          "new_word": "padeyora",
+          "new_word_meaning": "पाने वाले / लेने वाले",
+          "grammar_note": "padeyu = पाना/लेना। padeyoru = लेने वाले। 'anta ittu' = ऐसा कहलाता था। Bangalore की nostalgia conversation में यह sentence classic है — tech boom से पहले का retirement city image।"
+        },
+        {
+          "id": "s4_085",
+          "kannada": "Garden City ಅಂತ ಇತ್ತು, ಈಗ Concrete Jungle ಆಗಿದೆ",
+          "roman": "Garden City anta ittu, eega Concrete Jungle aagide",
+          "gloss": "Garden City कहलाता था, अब Concrete Jungle बन गया है",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "'anta ittu' = ऐसा कहलाता था। 'aagide' = बन गया है। यह classic Bangalore nostalgia sentence किसी भी city की conversation में fit होता है — Delhi, Mumbai, Hyderabad वाले भी यही कहते हैं। Universal urban lament।"
+        },
+        {
+          "id": "s4_086",
+          "kannada": "ಆದ್ರೂ ಇಲ್ಲೇ ಇರ್ತೀನಿ, ಎಲ್ಲೂ ಹೋಗಲ್ಲ",
+          "roman": "aadroo ille irtini, elloo hogalla",
+          "gloss": "फिर भी यहीं रहूँगा/रहूँगी, कहीं नहीं जाऊँगा/जाऊँगी",
+          "new_word": "elloo",
+          "new_word_meaning": "कहीं भी / हर जगह (negative के साथ = कहीं नहीं)",
+          "grammar_note": "elloo = कहीं भी / हर जगह। negative verb के साथ = कहीं नहीं (जैसे Hindi 'kahin bhi nahi')। aadroo = फिर भी। 'ille irtini' = यहीं रहूँगा। Bangalorean का भला-बुरा सब जानकर भी यहाँ रहने का attitude।"
+        },
+        {
+          "id": "s4_087",
+          "kannada": "ಈ city ನನ್ನನ್ನ ಹೇಗೋ ಹಿಡ್ಕೊಂಡಿದೆ",
+          "roman": "ee city nannanna hego hidkonide",
+          "gloss": "इस city ने किसी तरह मुझे पकड़ रखा है",
+          "new_word": "hidkonide",
+          "new_word_meaning": "पकड़ रखा है / थामे हुए है",
+          "grammar_note": "hidkonide = पकड़ रखा है (hiddu = पकड़ना)। nannanna = मुझे (object)। hego = किसी तरह। Hindi 'is city ne kisi tarah pakad rakha hai' — वही magnetic feeling। Bangalore complaint करते हैं पर छोड़ नहीं पाते।"
+        },
+        {
+          "id": "s4_088",
+          "kannada": "Namma Bengalooru, adu adu thara iratte",
+          "roman": "namma Bengalooru, adu adu thara iratte",
+          "gloss": "हमारा Bengaluru, जैसा है वैसा ही रहेगा",
+          "new_word": "adu adu thara",
+          "new_word_meaning": "जैसा है वैसा / अपने तरीके से",
+          "grammar_note": "'adu adu thara iratte' = जैसा है वैसा ही रहेगा। Hindi 'jo hai so hai' वाली resigned acceptance। 'namma' = हमारा — यह ownership और affection दोनों है। Bangalore के chaos को प्यार से स्वीकारने का philosophical shrug।"
+        },
+        {
+          "id": "s4_089",
+          "kannada": "ಒಂದ್ ದಿನ ಇದೆಲ್ಲ ಸರಿ ಹೋಗತ್ತೆ ಅಂತ ನಂಬ್ಕೊಂಡಿದ್ದೀನಿ",
+          "roman": "ondu dina idella sari hogatte anta nambkoniddini",
+          "gloss": "मुझे यकीन है कि एक दिन यह सब ठीक हो जाएगा",
+          "new_word": "nambkoniddini",
+          "new_word_meaning": "मैं यकीन रखता/रखती हूँ",
+          "grammar_note": "nambkoniddini = यकीन रखता हूँ (nambu = believe + konu = for yourself + iddini = I am)। Hindi 'mujhe yakeen hai' maps here। idella = यह सब। sari hogatte = ठीक हो जाएगा। Bangalore optimist का faith sentence।"
+        },
+        {
+          "id": "s4_090",
+          "kannada": "Swalpa swalpa change aagatte, time kottu nodona",
+          "roman": "svalpa svalpa change aagatte, time kottu nodona",
+          "gloss": "धीरे धीरे बदलाव आएगा, time देकर देखते हैं",
+          "new_word": "kottu",
+          "new_word_meaning": "देकर / देने के बाद",
+          "grammar_note": "kottu = देकर (kodu = देना + ttu = connector)। 'time kottu nodona' = time देकर देखते हैं। Hindi 'time dekar dekhte hain' — same patient optimism। Bangalore की positive patience — city improvement और life दोनों के लिए।"
+        },
+        {
+          "id": "s4_091",
+          "kannada": "WhatsApp-ಅಲ್ಲಿ ಕಳಿಸ್ತೀನಿ, ಆಮೇಲೆ ಓದಿ",
+          "roman": "WhatsApp-alli kalistini, aamele odi",
+          "gloss": "WhatsApp पर भेजता/भेजती हूँ, बाद में पढ़ो",
+          "new_word": "odi",
+          "new_word_meaning": "पढ़ो (polite command)",
+          "grammar_note": "odi = पढ़ो (polite command — odu = पढ़ना)। kalistini = भेजूँगा। aamele = बाद में। Hindi 'WhatsApp par bhejta hoon, baad mein padh lena' — exact instruction। Bangalore में हर document इसी तरह share होता है।"
+        },
+        {
+          "id": "s4_092",
+          "kannada": "Call-ಅಲ್ಲಿ ಮಾತಾಡ್ಲಾ ಅಥವಾ message ಮಾಡ್ಲಾ?",
+          "roman": "call-alli maataadlaa athavaa message maadlaa?",
+          "gloss": "Call पर बात करूँ या message करूँ?",
+          "new_word": "maadlaa",
+          "new_word_meaning": "करूँ? / क्या करूँ? (first person offer)",
+          "grammar_note": "maadlaa = करूँ? (-laa suffix = shall I)। 'helilaa' = बताऊँ? 'hogulaa' = जाऊँ? Hindi में 'karoonga?' same way — offer या permission माँगना। 'athavaa' = या (Sanskrit — Hindi में 'athva' same)।"
+        },
+        {
+          "id": "s4_093",
+          "kannada": "ನಾನು ಈಗ busy, ಒಂದ್ ಗಂಟೆ ನಂತರ ಮಾತಾಡ್ಬಹುದಾ?",
+          "roman": "naanu eega busy, omdu gamte namtara maataadabohudaa?",
+          "gloss": "मैं अभी busy हूँ, एक घंटे बाद बात हो सकती है?",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "maataadabohuduaa = क्या बात हो सकती है? (-abohuduaa = can we)। 'hogabohuduaa' = क्या जा सकते हैं? Hindi 'ek ghante baad baat ho sakti hai?' वाला exact deferral। Professional और personal दोनों में।"
+        },
+        {
+          "id": "s4_094",
+          "kannada": "Location share ಮಾಡ್ತೀನಿ, ನೀವು track ಮಾಡ್ಕೊಳ್ಳಿ",
+          "roman": "location share maadteeni, neevu track maadkolli",
+          "gloss": "Location share करता/करती हूँ, आप track करो",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "share maadteeni = share करूँगा। track maadkolli = track करो (खुद के लिए)। Bangalore में meetup coordinate करने का यह standard exchange है — Hinglish में भी exactly यही होता है।"
+        },
+        {
+          "id": "s4_095",
+          "kannada": "Battery 10% ಇದೆ, charge ಆಗ್ತಿದೆ, ಸ್ವಲ್ಪ wait",
+          "roman": "battery 10% ide, charge aagtide, svalpa wait",
+          "gloss": "Battery 10% है, charge हो रही है, थोड़ा wait करो",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "charge aagtide = charge हो रही है (ongoing)। aaytu = हो गई। aagilla = नहीं हुई। Phone battery का यह sentence universal है — Bangalore हो या Delhi, sentence वही है, बस verb Kannada।"
+        },
+        {
+          "id": "s4_096",
+          "kannada": "ನೆಟ್ ಸ್ಲೋ ಆಗಿದೆ, video call ಕಷ್ಟ ಆಗ್ತಿದೆ",
+          "roman": "net slow aagide, video call kashta aagtide",
+          "gloss": "Net slow हो गया है, video call मुश्किल हो रहा है",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "net slow aagide = net slow हो गया है। kashta aagtide = मुश्किल हो रहा है। दो English adjectives, Kannada grammar — यही Bangalore code-switch है। Hinglish में भी exactly यही: 'net slow ho gaya, video call mushkil ho raha hai।'"
+        },
+        {
+          "id": "s4_097",
+          "kannada": "Reboot ಮಾಡು, ಸರಿ ಆಗ್ತಿದೆ ಸಾಮಾನ್ಯವಾಗಿ",
+          "roman": "reboot maadu, sari aagtide saamaanyavaagi",
+          "gloss": "Reboot करो, आमतौर पर ठीक हो जाता है",
+          "new_word": "saamaanyavaagi",
+          "new_word_meaning": "आमतौर पर / सामान्यतः",
+          "grammar_note": "saamaanyavaagi = आमतौर पर (saamaanya = सामान्य — Sanskrit, Hindi में same)। '-vaagi' suffix = तरह से/रूप में। 'sari aagtide saamaanyavaagi' = आमतौर पर ठीक हो जाता है। Tech troubleshooting advice in Bangalore।"
+        },
+        {
+          "id": "s4_098",
+          "kannada": "ಇದು install ಆಗ್ತಿಲ್ಲ, ಬೇರೆ version try ಮಾಡು",
+          "roman": "idu install aagtilla, bere version try maadu",
+          "gloss": "यह install नहीं हो रहा, दूसरा version try करो",
+          "new_word": null,
+          "new_word_meaning": null,
+          "grammar_note": "install aagtilla = install नहीं हो रहा। bere version = दूसरा version। try maadu = try करो। पूरा tech troubleshooting sentence — सभी nouns English, grammar Kannada। Hinglish में भी exactly यही sentence बोलते हैं।"
+        },
+        {
+          "id": "s4_099",
+          "kannada": "ನಿಮ್ಮ ಸಹಾಯ ಇಲ್ಲದೇ ಈ project ಮುಗಿಯೋದು ಕಷ್ಟ ಆಗ್ತಿತ್ತು",
+          "roman": "nimma sahaaya illade ee project mugiyodu kashta aagtittu",
+          "gloss": "आपकी help के बिना यह project complete करना मुश्किल होता",
+          "new_word": "mugiyodu",
+          "new_word_meaning": "complete करना / खत्म होना",
+          "grammar_note": "mugiyodu = खत्म होना/करना (nominalized verb)। illade = के बिना। aagtittu = हो जाता (past conditional)। Hindi 'aapki madad ke bina ye project mushkil hota' — exact gratitude sentence। sahaaya = सहायता (Sanskrit, same)।"
+        },
+        {
+          "id": "s4_100",
+          "kannada": "ನಾವು ಒಟ್ಟಿಗೆ ಮಾಡಿದ್ರೆ ಎಲ್ಲ ಆಗತ್ತೆ",
+          "roman": "naavu ottige maadidre ella aagatte",
+          "gloss": "मिलकर करें तो सब हो जाएगा",
+          "new_word": null,
+          "new_word_meaning": "",
+          "grammar_note": "ottige = मिलकर/साथ में। 'naavu ottige maadidre' = हम मिलकर करें तो। ella aagatte = सब हो जाएगा। Hindi 'milkar karein to sab ho jayega' — बिल्कुल same। Bangalore की collaborative spirit का यह final sentence, universal hope में खत्म होता है।"
+        }
+      ]
+    }
+  ]
+}

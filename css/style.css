@@ -86,6 +86,23 @@ h1, h2, h3 { font-family: var(--font-heading); font-weight: 400; line-height: 1.
   gap: 0.375rem;
 }
 .nav-back:hover { color: var(--text); }
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.lang-select {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 0.2rem 0.5rem;
+  cursor: pointer;
+}
+.lang-select:hover { color: var(--text); border-color: var(--sand); }
+.lang-select:focus { outline: none; border-color: var(--action); color: var(--text); }
 
 /* ── Hero ──────────────────────────────────────────────── */
 .hero {

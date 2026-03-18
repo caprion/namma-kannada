@@ -2,7 +2,9 @@
 // Schema: { stage_1: { completed: 12 }, stage_2: { completed: 0 }, ... }
 
 const Progress = (function () {
-  const KEY = 'namma_progress';
+  // English keeps the original key to preserve existing progress.
+  // Hindi gets its own key so the two learning paths are independent.
+  const KEY = (window.NAMMA_LANG === 'hi') ? 'namma_progress_hi' : 'namma_progress';
 
   function load() {
     try {

@@ -11,12 +11,18 @@
 <nav class="nav">
   <div class="nav-inner">
     <a href="index.html" class="nav-logo">Namma <span>Kannada</span></a>
-    <a href="index.html" class="nav-back">
-      <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-        <path d="M9 2L4 7l5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-      </svg>
-      All stages
-    </a>
+    <div class="nav-right">
+      <a href="index.html" class="nav-back" id="back-link">
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+          <path d="M9 2L4 7l5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        All stages
+      </a>
+      <select class="lang-select" id="lang-select" onchange="switchLang(this.value)">
+        <option value="en">English</option>
+        <option value="hi">Hindi</option>
+      </select>
+    </div>
   </div>
 </nav>
 
@@ -129,12 +135,26 @@
   let   current  = parseInt(params.get('sentence') || '0', 10);
   let   revealed = false;
 
-  const data     = window.NAMMA_DATA;
+  const LANG    = window.NAMMA_LANG || 'en';
+  const langQs  = LANG !== 'en' ? '&lang=' + LANG : '';
+
+  const data     = window.NAMMA_DATA || { program: {}, stages: [] };
   const stage    = data.stages.find(s => s.id === stageId);
   const sentences = stage ? stage.sentences : [];
 
+  function switchLang(lang) {
+    const p = new URLSearchParams(location.search);
+    if (lang === 'en') p.delete('lang');
+    else p.set('lang', lang);
+    const qs = p.toString();
+    location.href = location.pathname + (qs ? '?' + qs : '');
+  }
+
   // ── Init ────────────────────────────────────────────────
   function init() {
+    document.getElementById('lang-select').value = LANG;
+    document.getElementById('back-link').href = 'index.html' + (LANG !== 'en' ? '?lang=' + LANG : '');
+
     if (!stage || sentences.length === 0) {
       document.getElementById('card-area').innerHTML =
         '<p style="color:var(--text-muted);padding:2rem 0;">This stage has no sentences yet.</p>';
@@ -151,7 +171,7 @@
       const hasContent = s.sentences.length > 0;
       const cls = isCurrent ? 'crumb-item crumb-current' : 'crumb-item';
       if (!hasContent) return `<span class="${cls} crumb-empty">S${s.id}</span>`;
-      return `<a href="learn.html?stage=${s.id}" class="${cls}">S${s.id}</a>`;
+      return `<a href="learn.html?stage=${s.id}${langQs}" class="${cls}">S${s.id}</a>`;
     }).join('<span class="crumb-sep">›</span>');
 
     if (current >= sentences.length) current = sentences.length - 1;
@@ -201,7 +221,7 @@
     }
 
     // Update URL without reload
-    history.replaceState(null, '', `learn.html?stage=${stageId}&sentence=${current}`);
+    history.replaceState(null, '', `learn.html?stage=${stageId}&sentence=${current}${langQs}`);
   }
 
   // ── Audio ───────────────────────────────────────────────
@@ -308,12 +328,12 @@
     if (nextStage && nextStage.sentences.length > 0) {
       document.getElementById('complete-message').textContent =
         `You have learned the ${stage.name} patterns. Stage ${nextStage.id} — ${nextStage.name} — is now unlocked.`;
-      nextBtn.href = `learn.html?stage=${nextStage.id}`;
+      nextBtn.href = `learn.html?stage=${nextStage.id}${langQs}`;
       nextBtn.textContent = `Start Stage ${nextStage.id}`;
     } else {
       document.getElementById('complete-message').textContent =
         `You have completed Stage ${stageId}. More stages are being written.`;
-      nextBtn.href = 'index.html';
+      nextBtn.href = 'index.html' + (LANG !== 'en' ? '?lang=' + LANG : '');
       nextBtn.textContent = 'Back to program';
     }
   }
