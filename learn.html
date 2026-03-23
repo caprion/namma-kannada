@@ -83,19 +83,31 @@
       </div>
 
       <!-- Navigation -->
-      <div class="card-nav" id="card-nav" style="display: none;">
+      <div class="card-nav" id="card-nav">
         <button class="btn btn-ghost" id="prev-btn" onclick="prevSentence()">
           <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
             <path d="M9 2L4 7l5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
           Previous
         </button>
-        <button class="btn btn-primary" id="next-btn" onclick="nextSentence()">
+        <button class="btn btn-primary" id="next-btn" onclick="nextSentence()" style="display: none;">
           Next
           <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
             <path d="M5 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
         </button>
+      </div>
+
+      <!-- Feedback -->
+      <div class="feedback-area" id="feedback-area">
+        <a id="feedback-link" class="feedback-link" target="_blank" rel="noopener">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+            <circle cx="7" cy="7" r="6" stroke="currentColor" stroke-width="1.2"/>
+            <path d="M7 4v1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M7 6.5V10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+          Report an issue with this sentence
+        </a>
       </div>
     </div>
 
@@ -201,7 +213,7 @@
     // Hide reveal
     document.getElementById('card-reveal').classList.remove('visible');
     document.getElementById('show-btn-area').style.display = 'flex';
-    document.getElementById('card-nav').style.display = 'none';
+    document.getElementById('next-btn').style.display = 'none';
 
     // Progress
     const pct = Math.round((current / sentences.length) * 100);
@@ -211,6 +223,13 @@
 
     // Prev button state
     document.getElementById('prev-btn').disabled = current === 0;
+
+    // Feedback link
+    const feedbackLink = document.getElementById('feedback-link');
+    const issueTitle = encodeURIComponent(`Sentence feedback: ${s.id}`);
+    const issueBody = encodeURIComponent(
+      `**Sentence ID:** ${s.id}\n**Kannada:** ${s.kannada}\n**Roman:** ${s.roman}\n**Gloss:** ${s.gloss}\n\n**What\'s wrong?**\n\n`);
+    feedbackLink.href = `https://github.com/caprion/namma-kannada/issues/new?title=${issueTitle}&body=${issueBody}&labels=feedback`;
 
     // Update next button label for last sentence
     const nextBtn = document.getElementById('next-btn');
@@ -231,7 +250,7 @@
     revealed = true;
     document.getElementById('card-reveal').classList.add('visible');
     document.getElementById('show-btn-area').style.display = 'none';
-    document.getElementById('card-nav').style.display = 'flex';
+    document.getElementById('next-btn').style.display = '';
 
     // Show audio button — check if file exists
     const s = sentences[current];
