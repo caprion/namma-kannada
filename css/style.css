@@ -398,18 +398,24 @@ h1, h2, h3 { font-family: var(--font-heading); font-weight: 400; line-height: 1.
   justify-content: center;
   margin-top: 1.25rem;
 }
-.feedback-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.35rem;
+.feedback-label {
   font-size: 0.78rem;
   color: var(--text-muted);
+}
+.feedback-link {
+  font-size: 0.78rem;
+  color: var(--action);
   text-decoration: none;
   cursor: pointer;
-  transition: color 0.15s;
+  transition: opacity 0.15s;
 }
 .feedback-link:hover {
-  color: var(--action);
+  opacity: 0.75;
+  text-decoration: underline;
+}
+.feedback-sep {
+  font-size: 0.75rem;
+  color: var(--text-muted);
 }
 
 /* ── Audio button ──────────────────────────────────────── */

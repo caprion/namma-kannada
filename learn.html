@@ -100,14 +100,12 @@
 
       <!-- Feedback -->
       <div class="feedback-area" id="feedback-area">
-        <a id="feedback-link" class="feedback-link" target="_blank" rel="noopener">
-          <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-            <circle cx="7" cy="7" r="6" stroke="currentColor" stroke-width="1.2"/>
-            <path d="M7 4v1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-            <path d="M7 6.5V10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-          </svg>
-          Report an issue with this sentence
-        </a>
+        <span class="feedback-label">Something wrong?</span>
+        <a id="feedback-gh" class="feedback-link" target="_blank" rel="noopener">GitHub</a>
+        <span class="feedback-sep">&middot;</span>
+        <a id="feedback-tweet" class="feedback-link" target="_blank" rel="noopener">Tweet it</a>
+        <span class="feedback-sep">&middot;</span>
+        <a id="feedback-email" class="feedback-link">Email</a>
       </div>
     </div>
 
@@ -224,12 +222,23 @@
     // Prev button state
     document.getElementById('prev-btn').disabled = current === 0;
 
-    // Feedback link
-    const feedbackLink = document.getElementById('feedback-link');
+    // Feedback links
     const issueTitle = encodeURIComponent(`Sentence feedback: ${s.id}`);
     const issueBody = encodeURIComponent(
       `**Sentence ID:** ${s.id}\n**Kannada:** ${s.kannada}\n**Roman:** ${s.roman}\n**Gloss:** ${s.gloss}\n\n**What\'s wrong?**\n\n`);
-    feedbackLink.href = `https://github.com/caprion/namma-kannada/issues/new?title=${issueTitle}&body=${issueBody}&labels=feedback`;
+    document.getElementById('feedback-gh').href =
+      `https://github.com/caprion/namma-kannada/issues/new?title=${issueTitle}&body=${issueBody}&labels=feedback`;
+
+    const tweetText = encodeURIComponent(
+      `Learning Bangalore Kannada with Namma Kannada \u{1F1EE}\u{1F1F3}\nFound something off with: "${s.roman}" (${s.gloss})\n\nCheck it out \u2192 namma-kannada.pages.dev`);
+    document.getElementById('feedback-tweet').href =
+      `https://x.com/intent/tweet?text=${tweetText}`;
+
+    const mailSubject = encodeURIComponent(`Feedback: ${s.id}`);
+    const mailBody = encodeURIComponent(
+      `Sentence ID: ${s.id}\nKannada: ${s.kannada}\nRoman: ${s.roman}\nGloss: ${s.gloss}\n\nWhat\'s wrong:\n\n`);
+    document.getElementById('feedback-email').href =
+      `mailto:st.garg19@gmail.com?subject=${mailSubject}&body=${mailBody}`;
 
     // Update next button label for last sentence
     const nextBtn = document.getElementById('next-btn');
