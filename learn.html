@@ -223,21 +223,14 @@
     // Prev button state
     document.getElementById('prev-btn').disabled = current === 0;
 
-    // Feedback links
-    const issueTitle = encodeURIComponent(`Sentence feedback: ${s.id}`);
-    const issueBody = encodeURIComponent(
-      `**Sentence ID:** ${s.id}\n**Kannada:** ${s.kannada}\n**Roman:** ${s.roman}\n**Gloss:** ${s.gloss}\n\n**What\'s wrong?**\n\n`);
-    document.getElementById('feedback-gh').href =
-      `https://github.com/caprion/namma-kannada/issues/new?title=${issueTitle}&body=${issueBody}&labels=feedback`;
-
-    const tweetText = encodeURIComponent(
-      `Hey @gargsumit — learning Bangalore Kannada on Namma Kannada \u{1F1EE}\u{1F1F3}\nFound something off with: "${s.roman}" (${s.gloss})\n\nCheck it out \u2192 namma-kannada.pages.dev`);
-    document.getElementById('feedback-tweet').href =
-      `https://x.com/intent/tweet?text=${tweetText}`;
-
+    // Feedback email
     const mailSubject = encodeURIComponent(`Feedback: ${s.id}`);
     const mailBody = encodeURIComponent(
-      `Sentence ID: ${s.id}\nKannada: ${s.kannada}\nRoman: ${s.roman}\nGloss: ${s.gloss}\n\nWhat\'s wrong:\n\n`);
+      `Sentence: ${s.id} (${current + 1}/${sentences.length}, Stage ${stageId})\n` +
+      `Kannada: ${s.kannada}\n` +
+      `Roman: ${s.roman}\n` +
+      `Gloss: ${s.gloss}\n\n` +
+      `What\'s wrong:\n\n`);
     document.getElementById('feedback-email').href =
       `mailto:st.garg19@gmail.com?subject=${mailSubject}&body=${mailBody}`;
 
